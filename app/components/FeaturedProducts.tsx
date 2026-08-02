@@ -17,9 +17,9 @@ export default function FeaturedProducts() {
         "Professional formal shirts for offices, institutions and executives.",
     },
     {
-      title: "Industrial Uniforms",
-      category: "Workwear",
-      image: "/products/industrial.jpg",
+  title: "Industrial Uniforms",
+  category: "Workwear",
+  image: "/products/uniform.jpg",
       description:
         "Durable industrial uniforms designed for manufacturing and engineering teams.",
     },
