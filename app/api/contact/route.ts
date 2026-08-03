@@ -71,7 +71,7 @@ export async function POST(req: Request) {
 
           <p><strong>TES APPARELS</strong></p>
 
-          <p>📞 +91 9972548910</p>
+          <p>📞 +91 9972548910 | +91 9880038910
 
           <p>✉ chidanand@tesapparels.com</p>
         </div>

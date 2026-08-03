@@ -22,9 +22,9 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center gap-2">
-              <Phone size={14} />
-              <span>+91 9972548910</span>
-            </div>
+  <Phone size={14} />
+  <span>+91 9972548910 | +91 9880038910</span>
+</div>
           </div>
         </div>
       </div>

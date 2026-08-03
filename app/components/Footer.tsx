@@ -93,7 +93,7 @@ export default function Footer() {
                 href="tel:+919972548910"
                 className="hover:text-[#C49A00]"
               >
-                +91 9972548910
+                +91 9972548910 | +91 9880038910
               </a>
             </div>
 

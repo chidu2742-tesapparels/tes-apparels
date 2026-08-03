@@ -90,7 +90,7 @@ export default function Contact() {
             </p>
 
             <p className="text-sm text-gray-700 mb-2">
-              📞 +91 9972548910
+              📞 +91 9972548910 | +91 9880038910
             </p>
 
             <p className="text-sm text-gray-700 mb-3">
