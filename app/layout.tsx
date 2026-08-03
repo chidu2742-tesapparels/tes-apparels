@@ -1,59 +1,38 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TES Apparels | Premium Corporate Uniform Manufacturer",
-
-  description:
-    "TES Apparels is a leading corporate uniform manufacturer in Bengaluru offering premium uniforms, polo T-shirts, jackets, bags, caps, embroidery, screen printing and PAN India delivery.",
-
-  keywords: [
-    "Corporate Uniforms",
-    "Corporate Uniform Manufacturer",
-    "Uniform Supplier Bengaluru",
-    "Polo T Shirts",
-    "Industrial Uniforms",
-    "Hospital Uniforms",
-    "Hotel Uniforms",
-    "Corporate Apparel",
-    "Uniform Manufacturer India",
-    "TES Apparels",
-  ],
-
-  authors: [
-    {
-      name: "TES Apparels",
-    },
-  ],
-
-  creator: "TES Apparels",
-
-  metadataBase: new URL("https://tesapparels.com"),
-
-  openGraph: {
-    title: "TES Apparels",
-
-    description:
-      "Premium Corporate Uniform Manufacturer",
-
-    url: "https://tesapparels.com",
-
-    siteName: "TES Apparels",
-
-    locale: "en_IN",
-
-    type: "website",
-  },
+  title: "TES Apparels",
+  description: "Premium Corporate Uniform Manufacturer | PAN India Delivery",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YY25EWRKRX"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YY25EWRKRX');
+          `}
+        </Script>
+      </head>
+
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
