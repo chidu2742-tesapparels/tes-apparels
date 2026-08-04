@@ -32,19 +32,19 @@ export default function Navbar() {
       {/* Navbar */}
 
       <nav className="sticky top-0 z-50 bg-white shadow-md">
-        <div className="max-w-[1400px] mx-auto px-6 h-16 flex justify-between items-center">
+        <div className="max-w-[1400px] mx-auto px-6 h-20 flex justify-between items-center">
 
           {/* Logo */}
 
           <div className="flex items-center">
             <Image
-              src="/logo-horizontal.png"
-              alt="TES Apparels"
-              width={340}
-              height={80}
-              priority
-              className="h-16 w-auto object-contain"
-            />
+  src="/logo-horizontal.png"
+  alt="TES Apparels"
+  width={300}
+  height={70}
+  priority
+  className="h-12 w-auto object-contain py-1"
+/>
           </div>
 
           {/* Desktop Menu */}
