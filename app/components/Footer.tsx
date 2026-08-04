@@ -12,12 +12,12 @@ export default function Footer() {
         <div>
 
           <Image
-            src="/logo-horizontal.png"
-            alt="TES Apparels"
-            width={260}
-            height={70}
-            className="mb-3  h-14 w-auto object-contain"
-          />
+  src="/logo-white.png"
+  alt="TES Apparels"
+  width={220}
+  height={60}
+  className="h-10 w-auto object-contain"
+/>
 
           <p className="text-sm text-gray-300 leading-6">
             Premium Corporate Uniform Manufacturer offering
