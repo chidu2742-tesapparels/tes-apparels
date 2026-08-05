@@ -6,92 +6,224 @@ export async function POST(req: Request) {
     const apiKey = process.env.RESEND_API_KEY;
 
     if (!apiKey) {
-      console.error("RESEND_API_KEY is missing");
+      console.error("❌ RESEND_API_KEY is missing");
 
       return NextResponse.json(
         {
           success: false,
-          error: "Server configuration error",
+          message: "Server configuration error.",
         },
-        {
-          status: 500,
-        }
+        { status: 500 }
       );
     }
 
     const resend = new Resend(apiKey);
 
-    const { name, company, email, phone, message } = await req.json();
+    const body = await req.json();
 
-    const result = await resend.emails.send({
-      from: "TES Apparels <onboarding@resend.dev>",
-      to: "chidu2742@gmail.com",
-      subject: `New Quote Request from ${name}`,
-      html: `
-        <h2>New Quote Request</h2>
+    const {
+      fullName,
+      companyName,
+      email,
+      mobile,
+      city,
+      state,
+      product,
+      quantity,
+      message,
+    } = body;
 
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Company:</strong> ${company}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
+    // Validate required fields
+    if (
+      !fullName?.trim() ||
+      !email?.trim() ||
+      !mobile?.trim() ||
+      !city?.trim() ||
+      !state?.trim() ||
+      !product?.trim() ||
+      !quantity?.trim() ||
+      !message?.trim()
+    ) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Please fill in all required fields.",
+        },
+        { status: 400 }
+      );
+    }
 
-        <p><strong>Requirement:</strong></p>
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        <p>${message}</p>
-      `,
-    });
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Invalid email address.",
+        },
+        { status: 400 }
+      );
+    }
 
-    if (result.error) {
-      console.error(result.error);
+    const businessEmail = process.env.CONTACT_EMAIL;
+
+    if (!businessEmail) {
+      console.error("❌ CONTACT_EMAIL is missing");
 
       return NextResponse.json(
         {
           success: false,
-          error: result.error,
+          message: "Business email is not configured.",
         },
-        {
-          status: 500,
-        }
+        { status: 500 }
       );
     }
 
-    await resend.emails.send({
+    // Generate Reference ID
+    const now = new Date();
+
+    const referenceId = `TES-${now.getFullYear()}${String(
+      now.getMonth() + 1
+    ).padStart(2, "0")}${String(now.getDate()).padStart(
+      2,
+      "0"
+    )}-${Math.floor(1000 + Math.random() * 9000)}`;
+
+    const { error } = await resend.emails.send({
       from: "TES Apparels <onboarding@resend.dev>",
-      to: email,
-      subject: "Thank you for contacting TES Apparels",
+
+      to: businessEmail,
+
+      replyTo: email,
+
+      subject: `New Enquiry | ${product} | ${referenceId}`,
+
+      text: `
+Reference ID : ${referenceId}
+
+Name         : ${fullName}
+Company      : ${companyName || "-"}
+Email        : ${email}
+Mobile       : ${mobile}
+City         : ${city}
+State        : ${state}
+Product      : ${product}
+Quantity     : ${quantity}
+
+Message
+------------------------------------------------
+
+${message}
+      `,
+
       html: `
-        <div style="font-family:Arial,sans-serif;">
-          <h2>Thank You ${name}!</h2>
+      <div style="font-family:Arial,sans-serif;max-width:700px;margin:auto">
 
-          <p>We have received your enquiry.</p>
+        <h2 style="color:#0B2341">
+          New Website Enquiry
+        </h2>
 
-          <p>Our team will contact you shortly.</p>
+        <p>
+          A new enquiry has been received from the TES Apparels website.
+        </p>
 
-          <hr>
+        <table
+          cellpadding="10"
+          cellspacing="0"
+          style="border-collapse:collapse;width:100%;border:1px solid #ddd;"
+        >
+          <tr>
+            <td><strong>Reference ID</strong></td>
+            <td>${referenceId}</td>
+          </tr>
 
-          <p><strong>TES APPARELS</strong></p>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>${fullName}</td>
+          </tr>
 
-          <p>📞 +91 9972548910 | +91 9880038910
+          <tr>
+            <td><strong>Company</strong></td>
+            <td>${companyName || "-"}</td>
+          </tr>
 
-          <p>✉ chidanand@tesapparels.com</p>
+          <tr>
+            <td><strong>Email</strong></td>
+            <td>${email}</td>
+          </tr>
+
+          <tr>
+            <td><strong>Mobile</strong></td>
+            <td>${mobile}</td>
+          </tr>
+
+          <tr>
+            <td><strong>City</strong></td>
+            <td>${city}</td>
+          </tr>
+
+          <tr>
+            <td><strong>State</strong></td>
+            <td>${state}</td>
+          </tr>
+
+          <tr>
+            <td><strong>Product</strong></td>
+            <td>${product}</td>
+          </tr>
+
+          <tr>
+            <td><strong>Estimated Quantity</strong></td>
+            <td>${quantity}</td>
+          </tr>
+        </table>
+
+        <h3 style="margin-top:30px;color:#0B2341">
+          Customer Message
+        </h3>
+
+        <div
+          style="
+            background:#f7f7f7;
+            padding:15px;
+            border-left:4px solid #C49A00;
+            white-space:pre-wrap;
+          "
+        >
+${message}
         </div>
+
+      </div>
       `,
     });
 
+    if (error) {
+      console.error("❌ Resend Error:", error);
+
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Unable to send enquiry.",
+        },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json({
       success: true,
+      message: "Enquiry submitted successfully.",
+      referenceId,
     });
-
   } catch (error) {
-    console.error(error);
+    console.error("❌ Contact API Error:", error);
 
     return NextResponse.json(
       {
         success: false,
+        message: "Something went wrong.",
       },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
   }
 }
