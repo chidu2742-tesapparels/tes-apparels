@@ -4,8 +4,10 @@ import LandingPage from "../components/landing/LandingPage";
 export const metadata: Metadata = {
   title:
     "T-Shirt Manufacturer | Corporate, Polo, Dri-Fit & Custom T-Shirts | TES Apparels",
+
   description:
     "TES Apparels is a leading T-Shirt Manufacturer in India specializing in premium corporate T-shirts, polo T-shirts, Dri-Fit sportswear, promotional apparel, customized uniforms and bulk garment manufacturing with PAN India delivery.",
+
   keywords: [
     "T-Shirt Manufacturer",
     "T-Shirt Manufacturer in Bangalore",
@@ -18,6 +20,31 @@ export const metadata: Metadata = {
     "Sports T-Shirt Manufacturer",
     "Promotional T-Shirt Manufacturer",
   ],
+
+  alternates: {
+    canonical: "/t-shirt-manufacturer",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title:
+      "T-Shirt Manufacturer | Corporate, Polo, Dri-Fit & Custom T-Shirts | TES Apparels",
+
+    description:
+      "TES Apparels manufactures premium corporate T-shirts, polo T-shirts, Dri-Fit sportswear, promotional apparel, customized uniforms and bulk garments across India.",
+
+    url: "https://tesapparels.com/t-shirt-manufacturer",
+
+    siteName: "TES Apparels",
+
+    type: "website",
+
+    locale: "en_IN",
+  },
 };
 
 export default function Page() {
