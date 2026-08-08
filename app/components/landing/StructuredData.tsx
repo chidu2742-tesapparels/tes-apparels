@@ -6,6 +6,7 @@ export default function StructuredData() {
     "@id": `${siteUrl}/#organization`,
     name: "TES Apparels",
     url: siteUrl,
+    image: `${siteUrl}/logo.png`,
     telephone: "+919880038910",
     email: "chidanand@tesapparels.com",
     description:
