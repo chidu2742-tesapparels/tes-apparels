@@ -66,6 +66,7 @@ export async function POST(req: Request) {
       );
     }
 
+    // Business email
     const businessEmail = process.env.CONTACT_EMAIL;
 
     if (!businessEmail) {
@@ -90,6 +91,7 @@ export async function POST(req: Request) {
       "0"
     )}-${Math.floor(1000 + Math.random() * 9000)}`;
 
+    // Send email
     const { error } = await resend.emails.send({
       from: "TES Apparels <onboarding@resend.dev>",
 
@@ -112,89 +114,246 @@ Product      : ${product}
 Quantity     : ${quantity}
 
 Message
-------------------------------------------------
-
+-------
 ${message}
       `,
 
       html: `
-      <div style="font-family:Arial,sans-serif;max-width:700px;margin:auto">
-
-        <h2 style="color:#0B2341">
-          New Website Enquiry
-        </h2>
-
-        <p>
-          A new enquiry has been received from the TES Apparels website.
-        </p>
-
-        <table
-          cellpadding="10"
-          cellspacing="0"
-          style="border-collapse:collapse;width:100%;border:1px solid #ddd;"
-        >
-          <tr>
-            <td><strong>Reference ID</strong></td>
-            <td>${referenceId}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Name</strong></td>
-            <td>${fullName}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Company</strong></td>
-            <td>${companyName || "-"}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Email</strong></td>
-            <td>${email}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Mobile</strong></td>
-            <td>${mobile}</td>
-          </tr>
-
-          <tr>
-            <td><strong>City</strong></td>
-            <td>${city}</td>
-          </tr>
-
-          <tr>
-            <td><strong>State</strong></td>
-            <td>${state}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Product</strong></td>
-            <td>${product}</td>
-          </tr>
-
-          <tr>
-            <td><strong>Estimated Quantity</strong></td>
-            <td>${quantity}</td>
-          </tr>
-        </table>
-
-        <h3 style="margin-top:30px;color:#0B2341">
-          Customer Message
-        </h3>
-
         <div
           style="
-            background:#f7f7f7;
-            padding:15px;
-            border-left:4px solid #C49A00;
-            white-space:pre-wrap;
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #333;
           "
         >
-${message}
-        </div>
 
-      </div>
+          <div
+            style="
+              background: #0B2341;
+              padding: 24px;
+              text-align: center;
+            "
+          >
+            <h2
+              style="
+                color: #ffffff;
+                margin: 0;
+                font-size: 24px;
+              "
+            >
+              TES Apparels
+            </h2>
+
+            <p
+              style="
+                color: #C49A00;
+                margin: 8px 0 0;
+                font-size: 14px;
+              "
+            >
+              New Website Enquiry
+            </p>
+          </div>
+
+          <div style="padding: 24px;">
+
+            <p style="font-size: 15px;">
+              A new enquiry has been received from the
+              TES Apparels website.
+            </p>
+
+            <table
+              cellpadding="10"
+              cellspacing="0"
+              style="
+                border-collapse: collapse;
+                width: 100%;
+                border: 1px solid #ddd;
+                font-size: 14px;
+              "
+            >
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                    width: 35%;
+                  "
+                >
+                  <strong>Reference ID</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${referenceId}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Name</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${fullName}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Company</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${companyName || "-"}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Email</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${email}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Mobile</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${mobile}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>City</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${city}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>State</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${state}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Product</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${product}
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #ddd;
+                    background: #f7f7f7;
+                  "
+                >
+                  <strong>Estimated Quantity</strong>
+                </td>
+
+                <td style="border: 1px solid #ddd;">
+                  ${quantity}
+                </td>
+              </tr>
+
+            </table>
+
+            <h3
+              style="
+                margin-top: 30px;
+                color: #0B2341;
+              "
+            >
+              Customer Message
+            </h3>
+
+            <div
+              style="
+                background: #f7f7f7;
+                padding: 15px;
+                border-left: 4px solid #C49A00;
+                white-space: pre-wrap;
+                line-height: 1.6;
+              "
+            >
+              ${message}
+            </div>
+
+          </div>
+
+          <div
+            style="
+              background: #0B2341;
+              padding: 16px;
+              text-align: center;
+            "
+          >
+            <p
+              style="
+                color: #ffffff;
+                margin: 0;
+                font-size: 12px;
+              "
+            >
+              TES Apparels | Corporate & Sports Apparel Manufacturer
+            </p>
+          </div>
+
+        </div>
       `,
     });
 

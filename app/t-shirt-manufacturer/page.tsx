@@ -1,17 +1,39 @@
 import type { Metadata } from "next";
-import PlaceholderPage from "../components/PlaceholderPage";
+import LandingPage from "../components/landing/LandingPage";
 
 export const metadata: Metadata = {
-  title: "T-Shirt Manufacturer | TES Apparels",
+  title:
+    "T-Shirt Manufacturer | Corporate, Polo, Dri-Fit & Custom T-Shirts | TES Apparels",
   description:
-    "TES Apparels is a leading T-Shirt Manufacturer in India specializing in bulk corporate, promotional and sports apparel.",
+    "TES Apparels is a leading T-Shirt Manufacturer in India specializing in premium corporate T-shirts, polo T-shirts, Dri-Fit sportswear, promotional apparel, customized uniforms and bulk garment manufacturing with PAN India delivery.",
+  keywords: [
+    "T-Shirt Manufacturer",
+    "T-Shirt Manufacturer in Bangalore",
+    "Corporate T-Shirt Manufacturer",
+    "Bulk T-Shirt Manufacturer",
+    "Custom T-Shirt Manufacturer",
+    "Polo T-Shirt Manufacturer",
+    "Dri-Fit T-Shirt Manufacturer",
+    "Uniform T-Shirt Manufacturer",
+    "Sports T-Shirt Manufacturer",
+    "Promotional T-Shirt Manufacturer",
+  ],
 };
 
 export default function Page() {
   return (
-    <PlaceholderPage
-      title="T-Shirt Manufacturer"
-      description="India's trusted manufacturer of premium corporate, sports and promotional T-shirts."
+    <LandingPage
+      title="Premium T-Shirt Manufacturer in India"
+      description="TES Apparels manufactures premium-quality corporate T-shirts, polo T-shirts, Dri-Fit sportswear, promotional apparel, customized uniforms, workwear and branded apparel for businesses across India."
+      primaryKeyword="T-Shirt Manufacturer"
+      highlights={[
+        "Premium Quality Fabrics",
+        "Corporate & Promotional Apparel",
+        "Custom Printing & Embroidery",
+        "Bulk Manufacturing",
+        "PAN India Delivery",
+        "Factory Direct Pricing",
+      ]}
     />
   );
 }

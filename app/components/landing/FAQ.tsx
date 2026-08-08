@@ -35,30 +35,29 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="bg-white py-12">
-      <div className="mx-auto max-w-4xl px-6">
-        <h2 className="mb-2 text-center text-3xl font-bold text-[#0B2341]">
+    <section className="py-12 bg-white">
+      <div className="max-w-4xl mx-auto px-6">
+
+        <h2 className="text-3xl font-bold text-center text-[#0B2341] mb-2">
           Frequently Asked Questions
         </h2>
 
-        <p className="mb-8 text-center text-sm text-gray-600">
-          Find answers to the most common questions about our products and
-          services.
+        <p className="text-center text-sm text-gray-600 mb-8">
+          Find answers to the most common questions about our products and services.
         </p>
 
         <div className="space-y-3">
+
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-lg border border-gray-200"
+              className="border border-gray-200 rounded-lg overflow-hidden"
             >
               <button
-                type="button"
                 onClick={() => setOpen(open === index ? null : index)}
-                className="flex w-full items-center justify-between px-5 py-4 text-left"
-                aria-expanded={open === index}
+                className="w-full flex justify-between items-center px-5 py-4 text-left"
               >
-                <span className="text-base font-semibold text-[#0B2341]">
+                <span className="font-semibold text-[#0B2341] text-base">
                   {faq.question}
                 </span>
 
@@ -71,13 +70,15 @@ export default function FAQ() {
               </button>
 
               {open === index && (
-                <div className="px-5 pb-4 text-sm leading-6 text-gray-600">
+                <div className="px-5 pb-4 text-sm text-gray-600 leading-6">
                   {faq.answer}
                 </div>
               )}
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   );
