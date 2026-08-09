@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
+const siteUrl = "https://www.tesapparels.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tesapparels.com"),
+  metadataBase: new URL(siteUrl),
 
   title: {
     default: "TES Apparels | Corporate & Sports Apparel Manufacturer in India",
@@ -37,11 +39,8 @@ export const metadata: Metadata = {
   ],
 
   creator: "TES Apparels",
-
   publisher: "TES Apparels",
-
   category: "Business",
-
   applicationName: "TES Apparels",
 
   alternates: {
@@ -51,6 +50,7 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -63,28 +63,34 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://tesapparels.com",
+    url: siteUrl,
     siteName: "TES Apparels",
+
     title:
       "TES Apparels | Premium Corporate & Sports Apparel Manufacturer",
+
     description:
-      "Premium corporate uniforms, polo T-Shirts, sports jerseys and customized apparel with PAN India delivery.",
+      "Premium corporate uniforms, polo T-shirts, sports jerseys and customized apparel with PAN India delivery.",
+
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "TES Apparels",
+        alt: "TES Apparels - Corporate and Sports Apparel Manufacturer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
+
     title:
       "TES Apparels | Premium Corporate & Sports Apparel Manufacturer",
+
     description:
-      "Premium corporate uniforms, sports jerseys, polo T-Shirts and customized apparel.",
+      "Premium corporate uniforms, sports jerseys, polo T-shirts and customized apparel.",
+
     images: ["/og-image.jpg"],
   },
 
@@ -102,27 +108,30 @@ export default function RootLayout({
 }>) {
   const structuredData = {
     "@context": "https://schema.org",
+
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://tesapparels.com/#organization",
+        "@id": `${siteUrl}/#organization`,
+
         name: "TES Apparels",
-        url: "https://tesapparels.com",
+
+        url: siteUrl,
+
         logo: {
           "@type": "ImageObject",
-          url: "https://tesapparels.com/logo.png",
+          url: `${siteUrl}/logo.png`,
         },
+
+        image: `${siteUrl}/logo.png`,
+
         email: "mailto:chidanand@tesapparels.com",
+
         telephone: "+91 9880038910",
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://tesapparels.com/#localbusiness",
-        name: "TES Apparels",
-        image: "https://tesapparels.com/logo.png",
-        url: "https://tesapparels.com",
-        telephone: "+91 9880038910",
-        email: "chidanand@tesapparels.com",
+
+        description:
+          "TES Apparels is a T-Shirt and apparel manufacturer specializing in corporate uniforms, polo T-shirts, sportswear, promotional apparel, customized garments, and bulk apparel manufacturing.",
+
         address: {
           "@type": "PostalAddress",
           streetAddress:
@@ -132,20 +141,71 @@ export default function RootLayout({
           postalCode: "560079",
           addressCountry: "IN",
         },
-        openingHours: "Mo-Sa 09:30-18:30",
+      },
+
+      {
+        "@type": "ClothingStore",
+        "@id": `${siteUrl}/#localbusiness`,
+
+        name: "TES Apparels",
+
+        url: siteUrl,
+
+        image: `${siteUrl}/logo.png`,
+
+        telephone: "+91 9880038910",
+
+        email: "chidanand@tesapparels.com",
+
+        priceRange: "$$",
+
+        address: {
+          "@type": "PostalAddress",
+          streetAddress:
+            "No.483, 2nd Floor, 3rd Stage, Basaveshwar Nagar",
+          addressLocality: "Bengaluru",
+          addressRegion: "Karnataka",
+          postalCode: "560079",
+          addressCountry: "IN",
+        },
+
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+
+            opens: "09:30",
+            closes: "18:30",
+          },
+        ],
+
         areaServed: {
           "@type": "Country",
           name: "India",
         },
-        hasMap: "https://share.google/QaZztMcf6YFnD3lKW",
+
+        hasMap:
+          "https://share.google/QaZztMcf6YFnD3lKW",
       },
+
       {
         "@type": "WebSite",
-        "@id": "https://tesapparels.com/#website",
-        url: "https://tesapparels.com",
+        "@id": `${siteUrl}/#website`,
+
+        url: siteUrl,
+
         name: "TES Apparels",
+
         publisher: {
-          "@id": "https://tesapparels.com/#organization",
+          "@id": `${siteUrl}/#organization`,
         },
       },
     ],
@@ -155,11 +215,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YY25EWRKRX"
+          id="google-analytics"
           strategy="afterInteractive"
-        />
-
-        <Script id="google-analytics" strategy="afterInteractive">
+        >
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
