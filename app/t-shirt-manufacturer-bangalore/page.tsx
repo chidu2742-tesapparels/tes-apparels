@@ -3,8 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "T-Shirt Manufacturer in Bangalore | TES Apparels",
+
   description:
     "TES Apparels is a T-shirt manufacturer in Bangalore specializing in corporate T-shirts, polo T-shirts, sportswear, Dri-Fit T-shirts, promotional apparel and customized bulk garments for businesses across India.",
+
   keywords: [
     "t shirt manufacturer in bangalore",
     "t-shirt manufacturer in bangalore",
@@ -22,21 +24,32 @@ export const metadata: Metadata = {
     "t shirt manufacturers in Karnataka",
     "t shirt manufacturer in India",
   ],
+
   alternates: {
-    canonical: "https://www.tesapparels.com/t-shirt-manufacturer-bangalore",
+    canonical:
+      "https://tesapparels.com/t-shirt-manufacturer-bangalore",
   },
+
   openGraph: {
     title: "T-Shirt Manufacturer in Bangalore | TES Apparels",
+
     description:
       "Corporate, polo, sports, Dri-Fit and customized T-shirt manufacturing in Bangalore for bulk business and institutional requirements.",
-    url: "https://www.tesapparels.com/t-shirt-manufacturer-bangalore",
+
+    url: "https://tesapparels.com/t-shirt-manufacturer-bangalore",
+
     siteName: "TES Apparels",
+
     type: "website",
+
     locale: "en_IN",
   },
+
   twitter: {
     card: "summary_large_image",
+
     title: "T-Shirt Manufacturer in Bangalore | TES Apparels",
+
     description:
       "Bulk T-shirt manufacturing in Bangalore for corporate, sports, promotional and customized apparel requirements.",
   },
@@ -48,36 +61,43 @@ const faqs = [
     answer:
       "Yes. TES Apparels is a Bangalore-based apparel manufacturer serving businesses, institutions, sports teams, schools, events and organizations with corporate T-shirts, polo T-shirts, sportswear, Dri-Fit apparel, promotional T-shirts and customized garments.",
   },
+
   {
     question: "What types of T-shirts does TES Apparels manufacture?",
     answer:
       "TES Apparels manufactures corporate T-shirts, polo T-shirts, sports T-shirts, Dri-Fit T-shirts, promotional T-shirts, customized T-shirts and uniform apparel based on the customer's fabric, colour, size, branding and quantity requirements.",
   },
+
   {
     question: "Can you manufacture T-shirts with our company logo?",
     answer:
       "Yes. Corporate and customized T-shirts can be branded with company logos and artwork using suitable printing or embroidery methods depending on the fabric, design and quantity.",
   },
+
   {
     question: "Do you manufacture bulk T-shirts for companies?",
     answer:
       "Yes. TES Apparels provides bulk apparel manufacturing solutions for companies, institutions, schools, sports teams, events, promotional campaigns and other organizations.",
   },
+
   {
     question: "Do you supply T-shirts outside Bangalore?",
     answer:
       "Yes. TES Apparels is based in Bangalore and serves customers across Karnataka and other parts of India through PAN India delivery.",
   },
+
   {
     question: "Can I choose the fabric, colour and GSM?",
     answer:
       "Yes. Depending on the product and order requirements, customers can discuss fabric type, GSM, colour, sizing, branding, printing, embroidery and finishing requirements before production.",
   },
+
   {
     question: "Do you manufacture corporate polo T-shirts?",
     answer:
       "Yes. TES Apparels manufactures customized polo T-shirts suitable for corporate uniforms, employee apparel, promotional programs, hospitality teams, institutions and other professional requirements.",
   },
+
   {
     question: "How do I request a quotation?",
     answer:
@@ -87,14 +107,21 @@ const faqs = [
 
 const jsonLd = {
   "@context": "https://schema.org",
+
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.tesapparels.com/#organization",
+
+      "@id": "https://tesapparels.com/#organization",
+
       name: "TES Apparels",
-      url: "https://www.tesapparels.com/",
+
+      url: "https://tesapparels.com/",
+
       telephone: "+91 9880038910",
+
       email: "chidanand@tesapparels.com",
+
       address: {
         "@type": "PostalAddress",
         streetAddress: "No.483, 2nd Floor, 3rd Stage",
@@ -104,14 +131,22 @@ const jsonLd = {
         addressCountry: "IN",
       },
     },
+
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tesapparels.com/#localbusiness",
+
+      "@id": "https://tesapparels.com/#localbusiness",
+
       name: "TES Apparels",
-      url: "https://www.tesapparels.com/",
+
+      url: "https://tesapparels.com/",
+
       telephone: "+91 9880038910",
+
       email: "chidanand@tesapparels.com",
+
       priceRange: "$$",
+
       address: {
         "@type": "PostalAddress",
         streetAddress: "No.483, 2nd Floor, 3rd Stage",
@@ -120,67 +155,94 @@ const jsonLd = {
         postalCode: "560079",
         addressCountry: "IN",
       },
+
       areaServed: [
         {
           "@type": "City",
           name: "Bengaluru",
         },
+
         {
           "@type": "State",
           name: "Karnataka",
         },
+
         {
           "@type": "Country",
           name: "India",
         },
       ],
     },
+
     {
       "@type": "Service",
+
       "@id":
-        "https://www.tesapparels.com/t-shirt-manufacturer-bangalore#service",
+        "https://tesapparels.com/t-shirt-manufacturer-bangalore#service",
+
       name: "T-Shirt Manufacturing in Bangalore",
+
       serviceType: "T-Shirt Manufacturing",
+
       provider: {
-        "@id": "https://www.tesapparels.com/#organization",
+        "@id": "https://tesapparels.com/#organization",
       },
+
       areaServed: {
         "@type": "City",
         name: "Bengaluru",
       },
+
       description:
         "Corporate, polo, sports, Dri-Fit, promotional and customized T-shirt manufacturing for businesses and organizations in Bangalore and across India.",
-      url: "https://www.tesapparels.com/t-shirt-manufacturer-bangalore",
+
+      url: "https://tesapparels.com/t-shirt-manufacturer-bangalore",
     },
+
     {
       "@type": "BreadcrumbList",
+
       "@id":
-        "https://www.tesapparels.com/t-shirt-manufacturer-bangalore#breadcrumb",
+        "https://tesapparels.com/t-shirt-manufacturer-bangalore#breadcrumb",
+
       itemListElement: [
         {
           "@type": "ListItem",
+
           position: 1,
+
           name: "Home",
-          item: "https://www.tesapparels.com/",
+
+          item: "https://tesapparels.com/",
         },
+
         {
           "@type": "ListItem",
+
           position: 2,
+
           name: "T-Shirt Manufacturer in Bangalore",
+
           item:
-            "https://www.tesapparels.com/t-shirt-manufacturer-bangalore",
+            "https://tesapparels.com/t-shirt-manufacturer-bangalore",
         },
       ],
     },
+
     {
       "@type": "FAQPage",
+
       "@id":
-        "https://www.tesapparels.com/t-shirt-manufacturer-bangalore#faq",
+        "https://tesapparels.com/t-shirt-manufacturer-bangalore#faq",
+
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
+
         name: faq.question,
+
         acceptedAnswer: {
           "@type": "Answer",
+
           text: faq.answer,
         },
       })),
@@ -191,6 +253,8 @@ const jsonLd = {
 export default function TshirtManufacturerBangalorePage() {
   return (
     <>
+      {/* JSON-LD Structured Data */}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -200,11 +264,14 @@ export default function TshirtManufacturerBangalorePage() {
 
       <main className="bg-white text-slate-900">
         {/* HERO */}
+
         <section className="relative overflow-hidden bg-[#0B2341]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.18),transparent_35%)]" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10 lg:py-28">
             <div className="max-w-4xl">
+              {/* Breadcrumb */}
+
               <nav
                 aria-label="Breadcrumb"
                 className="mb-8 text-sm text-slate-300"
@@ -215,15 +282,21 @@ export default function TshirtManufacturerBangalorePage() {
                 >
                   Home
                 </Link>
+
                 <span className="mx-2">/</span>
+
                 <span className="text-white">
                   T-Shirt Manufacturer in Bangalore
                 </span>
               </nav>
 
+              {/* Badge */}
+
               <div className="mb-6 inline-flex rounded-full border border-[#C49A00]/40 bg-[#C49A00]/10 px-4 py-2 text-sm font-semibold text-[#E4C65A]">
                 Bangalore-Based Apparel Manufacturing
               </div>
+
+              {/* H1 */}
 
               <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
                 T-Shirt Manufacturer in Bangalore for Corporate, Sports &
@@ -245,6 +318,8 @@ export default function TshirtManufacturerBangalorePage() {
                 specifications and quantity requirements.
               </p>
 
+              {/* CTA */}
+
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/#contact"
@@ -265,6 +340,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* INTRO */}
+
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr] lg:items-start">
             <div>
@@ -303,6 +379,8 @@ export default function TshirtManufacturerBangalorePage() {
               </div>
             </div>
 
+            {/* COMPANY SNAPSHOT */}
+
             <div className="rounded-2xl border border-slate-200 bg-slate-50 p-7 shadow-sm">
               <h3 className="text-xl font-bold text-[#0B2341]">
                 TES Apparels at a Glance
@@ -313,6 +391,7 @@ export default function TshirtManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Location
                   </dt>
+
                   <dd className="mt-1 font-semibold text-slate-900">
                     Basaveshwar Nagar, Bengaluru
                   </dd>
@@ -322,6 +401,7 @@ export default function TshirtManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Specialization
                   </dt>
+
                   <dd className="mt-1 font-semibold text-slate-900">
                     Corporate & Customized Apparel
                   </dd>
@@ -331,6 +411,7 @@ export default function TshirtManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Products
                   </dt>
+
                   <dd className="mt-1 font-semibold text-slate-900">
                     T-Shirts, Polos, Sportswear & Workwear
                   </dd>
@@ -340,6 +421,7 @@ export default function TshirtManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Service Area
                   </dt>
+
                   <dd className="mt-1 font-semibold text-slate-900">
                     Bangalore, Karnataka & PAN India
                   </dd>
@@ -350,6 +432,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* PRODUCT TYPES */}
+
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
@@ -373,33 +456,44 @@ export default function TshirtManufacturerBangalorePage() {
               {[
                 {
                   title: "Corporate T-Shirts",
-                  text: "Professional T-shirts for employees, company events, internal programs, campaigns and branded corporate apparel.",
-                  href: "/corporate-t-shirts",
+                  text:
+                    "Professional T-shirts for employees, company events, internal programs, campaigns and branded corporate apparel.",
+                  href: "/t-shirt-manufacturer",
                 },
+
                 {
                   title: "Polo T-Shirts",
-                  text: "Customized polo T-shirts for office uniforms, staff apparel, hospitality teams, institutions and promotional programs.",
+                  text:
+                    "Customized polo T-shirts for office uniforms, staff apparel, hospitality teams, institutions and promotional programs.",
                   href: "/corporate-polo-t-shirts",
                 },
+
                 {
                   title: "Sports T-Shirts",
-                  text: "Sports and team apparel designed for movement, comfort and customized team identity.",
+                  text:
+                    "Sports and team apparel designed for movement, comfort and customized team identity.",
                   href: "/sports-t-shirts",
                 },
+
                 {
                   title: "Dri-Fit T-Shirts",
-                  text: "Lightweight performance apparel suitable for sports, fitness, outdoor activities and promotional campaigns.",
+                  text:
+                    "Lightweight performance apparel suitable for sports, fitness, outdoor activities and promotional campaigns.",
                   href: "/dri-fit-t-shirts",
                 },
+
                 {
-                  title: "Promotional T-Shirts",
-                  text: "Branded apparel for marketing campaigns, events, product launches, exhibitions and corporate activities.",
-                  href: "/promotional-t-shirts",
+                  title: "Customized T-Shirt Printing",
+                  text:
+                    "Branded apparel for marketing campaigns, events, exhibitions and corporate activities with customized printing.",
+                  href: "/t-shirt-printing",
                 },
+
                 {
-                  title: "Customized Uniform T-Shirts",
-                  text: "T-shirt-based uniform solutions for businesses, institutions, schools and organizations requiring consistent branding.",
-                  href: "/uniform-t-shirt-manufacturers-bangalore",
+                  title: "T-Shirt Embroidery",
+                  text:
+                    "Professional embroidery solutions for corporate uniforms, polo T-shirts, workwear, caps and promotional apparel.",
+                  href: "/t-shirt-embroidery",
                 },
               ].map((item) => (
                 <article
@@ -427,6 +521,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* CUSTOMIZATION */}
+
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
@@ -492,6 +587,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* FABRIC */}
+
         <section className="bg-[#0B2341] text-white">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="max-w-3xl">
@@ -514,19 +610,26 @@ export default function TshirtManufacturerBangalorePage() {
               {[
                 {
                   title: "Cotton",
-                  text: "Suitable for comfortable corporate and promotional everyday apparel.",
+                  text:
+                    "Suitable for comfortable corporate and promotional everyday apparel.",
                 },
+
                 {
                   title: "Performance Fabrics",
-                  text: "Suitable for sports, fitness and active applications where lightweight comfort matters.",
+                  text:
+                    "Suitable for sports, fitness and active applications where lightweight comfort matters.",
                 },
+
                 {
                   title: "Polo Fabrics",
-                  text: "Suitable for professional uniforms and corporate staff apparel.",
+                  text:
+                    "Suitable for professional uniforms and corporate staff apparel.",
                 },
+
                 {
                   title: "GSM Selection",
-                  text: "Fabric weight can be discussed according to the garment type, comfort and intended use.",
+                  text:
+                    "Fabric weight can be discussed according to the garment type, comfort and intended use.",
                 },
               ].map((item) => (
                 <div
@@ -547,6 +650,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* MANUFACTURING PROCESS */}
+
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
@@ -568,27 +672,36 @@ export default function TshirtManufacturerBangalorePage() {
               {
                 number: "01",
                 title: "Requirement",
-                text: "Share product type, quantity, fabric, colours, sizes, branding and delivery requirements.",
+                text:
+                  "Share product type, quantity, fabric, colours, sizes, branding and delivery requirements.",
               },
+
               {
                 number: "02",
                 title: "Specification",
-                text: "Discuss garment construction, fabric and branding requirements suitable for the project.",
+                text:
+                  "Discuss garment construction, fabric and branding requirements suitable for the project.",
               },
+
               {
                 number: "03",
                 title: "Sampling",
-                text: "Where required, sampling and artwork approval can be completed before bulk production.",
+                text:
+                  "Where required, sampling and artwork approval can be completed before bulk production.",
               },
+
               {
                 number: "04",
                 title: "Production",
-                text: "Approved specifications are used for the bulk manufacturing process.",
+                text:
+                  "Approved specifications are used for the bulk manufacturing process.",
               },
+
               {
                 number: "05",
                 title: "Delivery",
-                text: "Finished apparel is prepared for delivery to Bangalore or other locations in India.",
+                text:
+                  "Finished apparel is prepared for delivery to Bangalore or other locations in India.",
               },
             ].map((step) => (
               <div
@@ -612,6 +725,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* WHY TES */}
+
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="grid gap-12 lg:grid-cols-2">
@@ -661,6 +775,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* INDUSTRIES */}
+
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
@@ -707,6 +822,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* BANGALORE LOCAL SECTION */}
+
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">
@@ -765,6 +881,8 @@ export default function TshirtManufacturerBangalorePage() {
                 </div>
               </div>
 
+              {/* CONTACT CARD */}
+
               <aside className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
                 <h3 className="text-2xl font-bold">
                   TES Apparels
@@ -782,7 +900,9 @@ export default function TshirtManufacturerBangalorePage() {
                   </p>
 
                   <p>
-                    <strong className="text-white">Phone:</strong>{" "}
+                    <strong className="text-white">
+                      Phone:
+                    </strong>{" "}
                     <a
                       href="tel:+919880038910"
                       className="hover:text-[#E4C65A]"
@@ -792,7 +912,9 @@ export default function TshirtManufacturerBangalorePage() {
                   </p>
 
                   <p>
-                    <strong className="text-white">Email:</strong>{" "}
+                    <strong className="text-white">
+                      Email:
+                    </strong>{" "}
                     <a
                       href="mailto:chidanand@tesapparels.com"
                       className="break-all hover:text-[#E4C65A]"
@@ -802,7 +924,9 @@ export default function TshirtManufacturerBangalorePage() {
                   </p>
 
                   <p>
-                    <strong className="text-white">Business Hours:</strong>
+                    <strong className="text-white">
+                      Business Hours:
+                    </strong>
                     <br />
                     Monday – Saturday
                     <br />
@@ -822,6 +946,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* RELATED SERVICES */}
+
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
@@ -839,14 +964,17 @@ export default function TshirtManufacturerBangalorePage() {
                 title: "Corporate Polo T-Shirts",
                 href: "/corporate-polo-t-shirts",
               },
+
               {
-                title: "Corporate Uniforms",
-                href: "/corporate-uniforms",
+                title: "Corporate Uniform Manufacturer",
+                href: "/corporate-uniform-manufacturer",
               },
+
               {
                 title: "Sports T-Shirts",
                 href: "/sports-t-shirts",
               },
+
               {
                 title: "T-Shirt Printing",
                 href: "/t-shirt-printing",
@@ -858,6 +986,7 @@ export default function TshirtManufacturerBangalorePage() {
                 className="rounded-xl border border-slate-200 bg-white p-6 font-bold text-[#0B2341] shadow-sm transition hover:-translate-y-1 hover:border-[#C49A00] hover:text-[#C49A00]"
               >
                 {item.title}
+
                 <span className="mt-3 block text-sm font-medium text-slate-500">
                   Explore →
                 </span>
@@ -867,6 +996,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* FAQ */}
+
         <section
           id="faq"
           className="bg-slate-50"
@@ -902,6 +1032,7 @@ export default function TshirtManufacturerBangalorePage() {
         </section>
 
         {/* FINAL CTA */}
+
         <section className="bg-[#0B2341]">
           <div className="mx-auto max-w-5xl px-6 py-16 text-center sm:px-8 lg:py-20">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
