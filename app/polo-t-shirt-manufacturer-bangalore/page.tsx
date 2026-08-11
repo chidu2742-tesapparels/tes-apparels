@@ -1,34 +1,40 @@
-
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Polo T-Shirt Manufacturer in Bangalore | TES Apparels",
   description:
-    "TES Apparels is a Polo T-shirt manufacturer and supplier in Bangalore offering customized and bulk Polo T-shirts for IT companies, schools, colleges, sports teams and event management companies.",
+    "TES Apparels is a polo T-shirt manufacturer in Bangalore supplying customized polo T-shirts in bulk for corporate companies, IT firms, schools, colleges, sports teams, institutions, events and promotional requirements.",
   keywords: [
     "polo t shirt manufacturer in bangalore",
     "polo t shirt manufacturers in bangalore",
     "polo t shirt manufacturer bangalore",
     "polo t shirt manufacturers bangalore",
-    "polo t shirt supplier in bangalore",
     "polo t shirt suppliers in bangalore",
+    "polo t shirt supplier bangalore",
     "custom polo t shirt manufacturer bangalore",
-    "custom polo t shirt manufacturers bangalore",
+    "customized polo t shirt manufacturer bangalore",
     "bulk polo t shirt manufacturer bangalore",
-    "bulk polo t shirt manufacturers bangalore",
+    "polo t shirt manufacturing company bangalore",
+    "polo tshirt manufacturer in bangalore",
+    "polo tshirt manufacturers in bangalore",
     "corporate polo t shirt manufacturer bangalore",
     "corporate polo t shirt manufacturers bangalore",
+    "company polo t shirt manufacturer bangalore",
+    "employee polo t shirt manufacturer bangalore",
+    "uniform polo t shirt manufacturer bangalore",
+    "school polo t shirt manufacturer bangalore",
+    "college polo t shirt manufacturer bangalore",
+    "sports polo t shirt manufacturer bangalore",
+    "event polo t shirt manufacturer bangalore",
+    "promotional polo t shirt manufacturer bangalore",
+    "branded polo t shirt manufacturer bangalore",
+    "custom polo shirts bangalore",
+    "bulk polo shirts bangalore",
+    "polo shirts manufacturer in karnataka",
     "polo t shirt manufacturer in karnataka",
-    "polo t shirt manufacturers in karnataka",
     "polo t shirt manufacturer in india",
-    "polo t shirt manufacturers in india",
-    "customized polo t shirts bangalore",
-    "bulk polo t shirts bangalore",
-    "corporate polo t shirts bangalore",
-    "school polo t shirts bangalore",
-    "sports polo t shirts bangalore",
-    "event polo t shirts bangalore",
+    "polo shirt manufacturer india",
   ],
   alternates: {
     canonical: "https://tesapparels.com/polo-t-shirt-manufacturer-bangalore",
@@ -36,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Polo T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Customized and bulk Polo T-shirts for companies, schools, colleges, sports teams and event management companies in Bangalore.",
+      "Customized polo T-shirts manufactured in bulk for corporates, IT companies, schools, colleges, sports teams, institutions, events and promotional programs.",
     url: "https://tesapparels.com/polo-t-shirt-manufacturer-bangalore",
     siteName: "TES Apparels",
     type: "website",
@@ -46,65 +52,173 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Polo T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Bulk and customized Polo T-shirts manufactured for corporate teams, schools, colleges, sports organizations and events.",
+      "Bulk customized polo T-shirts for corporate uniforms, schools, colleges, sports teams, events and promotional requirements.",
   },
 };
 
 const faqs = [
   {
-    question: "Is TES Apparels a Polo T-shirt manufacturer in Bangalore?",
+    question: "Is TES Apparels a polo T-shirt manufacturer in Bangalore?",
     answer:
-      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized Polo T-shirts for companies, schools, colleges, sports organizations, event management companies and other bulk buyers.",
+      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized polo T-shirts for corporate companies, IT businesses, schools, colleges, institutions, sports teams, events and promotional requirements.",
   },
   {
-    question: "Does TES Apparels supply Polo T-shirts in bulk?",
+    question: "Do you manufacture polo T-shirts in bulk?",
     answer:
-      "Yes. TES Apparels supports bulk Polo T-shirt requirements for corporate uniforms, school and college programs, sports teams, events, promotional campaigns and organizational requirements.",
+      "Yes. TES Apparels supports bulk polo T-shirt requirements for companies, institutions, schools, colleges, sports organizations, event management companies and other organizations.",
   },
   {
-    question: "What is the difference between a Polo T-shirt manufacturer and a supplier?",
+    question: "Can polo T-shirts be customized with our company logo?",
     answer:
-      "A manufacturer produces garments according to agreed specifications, while a supplier may source and distribute products. TES Apparels supports customized apparel manufacturing and bulk supply requirements based on product specifications, quantities and branding needs.",
+      "Yes. Polo T-shirts can be customized with company logos, institutional branding, team logos and other artwork using suitable embroidery or printing methods.",
   },
   {
-    question: "Can Polo T-shirts be customized with our company logo?",
+    question: "Can we select our own polo T-shirt colours?",
     answer:
-      "Yes. Polo T-shirts can be customized with company, school, college, sports team or event branding using suitable embroidery, printing and other branding methods.",
+      "Yes. Colour requirements can be discussed based on your brand identity, uniform requirements, artwork and production specifications.",
   },
   {
-    question: "Can you manufacture Polo T-shirts for IT companies?",
+    question: "Can you manufacture polo T-shirts for IT companies?",
     answer:
-      "Yes. Customized Polo T-shirts are suitable for IT companies, software companies, startups, BPOs, consulting companies and corporate offices that require professional branded employee apparel.",
+      "Yes. Customized corporate polo T-shirts are suitable for IT companies, software companies, startups, BPOs, consulting firms, technology companies and other corporate offices.",
   },
   {
-    question: "Do you manufacture Polo T-shirts for schools and colleges?",
+    question: "Do you manufacture polo T-shirts for schools and colleges?",
     answer:
-      "Yes. Polo T-shirts can be customized for school uniforms, college events, student activities, house programs, sports activities and institutional branding.",
+      "Yes. Polo T-shirts can be manufactured for schools, colleges, educational institutions, student programs, sports activities, events and institutional uniforms.",
   },
   {
-    question: "Can sports teams order customized Polo T-shirts?",
+    question: "Can polo T-shirts be used as employee uniforms?",
     answer:
-      "Yes. Sports clubs, academies, corporate sports teams and other organizations can order customized Polo T-shirts for team staff, supporters, events and off-field apparel.",
+      "Yes. Customized polo T-shirts are commonly suitable for employee uniforms, corporate teams, field staff, customer-facing employees, events and branded workplace apparel.",
   },
   {
-    question: "Do event management companies order Polo T-shirts in bulk?",
+    question: "What branding options are available?",
     answer:
-      "Yes. Polo T-shirts can be customized for event staff, volunteers, promotional teams, conferences, exhibitions, corporate events, marathons and other organized activities.",
+      "Depending on the garment and artwork, branding can include embroidery, screen printing, DTF printing, custom labels and other suitable customization methods.",
   },
   {
-    question: "Can I choose the fabric, colour and GSM?",
-    answer:
-      "Yes. Depending on the product requirement, specifications can include fabric type, GSM, colour, fit, collar style, sleeve style, sizing and branding requirements.",
-  },
-  {
-    question: "Do you provide Polo T-shirts outside Bangalore?",
+    question: "Can you supply polo T-shirts outside Bangalore?",
     answer:
       "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India through PAN India delivery.",
   },
   {
-    question: "How can I request a bulk Polo T-shirt quotation?",
+    question: "How can I request a polo T-shirt quotation?",
     answer:
-      "Share the required quantity, preferred colour, fabric or GSM, sizes, logo or artwork and delivery location with TES Apparels. The team can discuss the requirement and guide you through the quotation process.",
+      "Share your approximate quantity, preferred colour, product requirement, logo or artwork, size requirements and delivery location with TES Apparels. Our team can discuss the specifications and quotation process.",
+  },
+];
+
+const products = [
+  {
+    title: "Corporate Polo T-Shirts",
+    text: "Professional polo T-shirts customized for IT companies, corporate offices, employee uniforms, business events and branded workplace apparel.",
+    href: "/corporate-polo-t-shirts",
+  },
+  {
+    title: "Employee Uniform Polo T-Shirts",
+    text: "Customized polo uniforms for employees, field teams, service staff, customer-facing teams and workplace programs.",
+    href: "/uniform-t-shirt-manufacturers-bangalore",
+  },
+  {
+    title: "School & College Polo T-Shirts",
+    text: "Branded polo T-shirts for schools, colleges, educational institutions, student activities and institutional programs.",
+    href: "/school-uniform-manufacturer",
+  },
+  {
+    title: "Sports Polo T-Shirts",
+    text: "Customized polo T-shirts for sports clubs, academies, corporate sports teams, events and recreational activities.",
+    href: "/sports-t-shirts",
+  },
+  {
+    title: "Event Polo T-Shirts",
+    text: "Branded polo T-shirts for conferences, promotional campaigns, events, exhibitions, employee activities and event organizations.",
+    href: "/t-shirt-printing",
+  },
+  {
+    title: "Promotional Polo T-Shirts",
+    text: "Customized promotional polo shirts for brand campaigns, marketing activities, dealer networks and corporate promotions.",
+    href: "/t-shirt-printing",
+  },
+];
+
+const customizationOptions = [
+  "Company logo",
+  "Team logo",
+  "Institution branding",
+  "Company colours",
+  "Custom colours",
+  "Fabric selection",
+  "GSM selection",
+  "Collar colour",
+  "Sleeve details",
+  "Custom sizing",
+  "Embroidery",
+  "Screen printing",
+  "DTF printing",
+  "Custom labels",
+  "Bulk production",
+];
+
+const industries = [
+  "IT Companies",
+  "Software Companies",
+  "Corporate Offices",
+  "Startups",
+  "BPO & KPO Companies",
+  "Schools",
+  "Colleges",
+  "Educational Institutions",
+  "Sports Academies",
+  "Sports Clubs",
+  "Corporate Sports Teams",
+  "Manufacturing Companies",
+  "Hotels",
+  "Hospitals",
+  "Event Management Companies",
+  "Marketing Agencies",
+];
+
+const useCases = [
+  "Employee uniforms",
+  "Corporate uniforms",
+  "School uniforms",
+  "College uniforms",
+  "Sports teams",
+  "Corporate sports teams",
+  "Running communities",
+  "Events",
+  "Conferences",
+  "Exhibitions",
+  "Promotional campaigns",
+  "Brand activations",
+];
+
+const processSteps = [
+  {
+    number: "01",
+    title: "Requirement",
+    text: "Share your quantity, polo T-shirt requirement, preferred colour, branding and delivery location.",
+  },
+  {
+    number: "02",
+    title: "Specification",
+    text: "Discuss fabric, GSM, colours, collar, sleeves, sizes, logo placement and branding requirements.",
+  },
+  {
+    number: "03",
+    title: "Artwork & Sample",
+    text: "Where required, artwork and product samples can be reviewed before proceeding with bulk production.",
+  },
+  {
+    number: "04",
+    title: "Bulk Production",
+    text: "Approved product specifications are followed during the manufacturing and customization process.",
+  },
+  {
+    number: "05",
+    title: "Delivery",
+    text: "Finished polo T-shirts are prepared for delivery in Bangalore or other locations across India.",
   },
 ];
 
@@ -172,7 +286,7 @@ const jsonLd = {
         name: "Bengaluru",
       },
       description:
-        "Customized and bulk Polo T-shirt manufacturing for companies, schools, colleges, sports organizations and event management companies in Bangalore.",
+        "Customized polo T-shirt manufacturing in Bangalore for corporate companies, IT companies, schools, colleges, sports teams, institutions, events and promotional requirements.",
       url: "https://tesapparels.com/polo-t-shirt-manufacturer-bangalore",
     },
     {
@@ -197,8 +311,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "@id":
-        "https://tesapparels.com/polo-t-shirt-manufacturer-bangalore#faq",
+      "@id": "https://tesapparels.com/polo-t-shirt-manufacturer-bangalore#faq",
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -210,138 +323,6 @@ const jsonLd = {
     },
   ],
 };
-
-const customerTypes = [
-  {
-    title: "IT & Corporate Companies",
-    text: "Customized Polo T-shirts for employee uniforms, office teams, corporate events, employee engagement programs and branded workplace apparel.",
-  },
-  {
-    title: "Schools & Colleges",
-    text: "Polo T-shirts for school uniforms, college programs, house activities, student events, institutional branding and campus activities.",
-  },
-  {
-    title: "Sports Teams & Organizations",
-    text: "Customized Polo T-shirts for sports clubs, academies, corporate sports teams, coaches, support staff and team events.",
-  },
-  {
-    title: "Event Management Companies",
-    text: "Bulk Polo T-shirts for event staff, volunteers, conferences, exhibitions, marathons, promotional campaigns and organized events.",
-  },
-];
-
-const poloProducts = [
-  {
-    title: "Corporate Polo T-Shirts",
-    text: "Professional Polo T-shirts customized with company colours and branding for employees and corporate teams.",
-    href: "/corporate-polo-t-shirts",
-  },
-  {
-    title: "Custom Polo T-Shirts",
-    text: "Customized Polo T-shirts developed according to colour, fabric, GSM, sizing and branding requirements.",
-    href: "/t-shirt-manufacturer-bangalore",
-  },
-  {
-    title: "School & College Polo T-Shirts",
-    text: "Branded Polo T-shirts suitable for educational institutions, student activities, house programs and events.",
-    href: "/school-uniform-manufacturer",
-  },
-  {
-    title: "Sports Polo T-Shirts",
-    text: "Polo T-shirts for sports academies, clubs, teams, coaches, staff and sports-related events.",
-    href: "/sports-t-shirts",
-  },
-  {
-    title: "Event Polo T-Shirts",
-    text: "Bulk customized Polo T-shirts for event teams, volunteers, conferences, exhibitions and promotional activities.",
-    href: "/t-shirt-printing",
-  },
-  {
-    title: "Branded Polo T-Shirts",
-    text: "Logo-branded Polo T-shirts using embroidery or suitable printing methods based on garment and artwork requirements.",
-    href: "/t-shirt-embroidery",
-  },
-];
-
-const customizationOptions = [
-  "Custom colours",
-  "Fabric selection",
-  "GSM selection",
-  "Collar options",
-  "Sleeve options",
-  "Custom sizing",
-  "Company logo",
-  "School logo",
-  "Sports team branding",
-  "Embroidery",
-  "Screen printing",
-  "DTF printing",
-];
-
-const fabrics = [
-  {
-    title: "Cotton",
-    text: "Comfort-focused fabric options suitable for everyday corporate, institutional and promotional Polo T-shirts.",
-  },
-  {
-    title: "Poly Cotton",
-    text: "A practical option for uniforms where durability, appearance and easy maintenance are important.",
-  },
-  {
-    title: "Performance Fabrics",
-    text: "Suitable for active teams, outdoor programs and customers looking for lightweight performance-oriented apparel.",
-  },
-  {
-    title: "Custom Fabric Requirements",
-    text: "Fabric specifications can be discussed according to intended use, appearance, comfort, budget and production requirements.",
-  },
-];
-
-const processSteps = [
-  {
-    number: "01",
-    title: "Requirement",
-    text: "Share your quantity, preferred Polo T-shirt style, colours, sizes, branding and delivery location.",
-  },
-  {
-    number: "02",
-    title: "Specification",
-    text: "Discuss fabric, GSM, collar, sleeve, colour, sizing, artwork and branding requirements.",
-  },
-  {
-    number: "03",
-    title: "Sample",
-    text: "Where required, samples and artwork can be reviewed before proceeding with bulk production.",
-  },
-  {
-    number: "04",
-    title: "Production",
-    text: "Approved garment specifications and branding requirements are followed during bulk production.",
-  },
-  {
-    number: "05",
-    title: "Delivery",
-    text: "Finished Polo T-shirts are prepared for delivery in Bangalore or other locations across India.",
-  },
-];
-
-const industries = [
-  "IT Companies",
-  "Software Companies",
-  "Corporate Offices",
-  "Startups",
-  "BPO & KPO Companies",
-  "Schools",
-  "Colleges",
-  "Universities",
-  "Sports Academies",
-  "Sports Clubs",
-  "Corporate Sports Teams",
-  "Event Management Companies",
-  "Conference Organizers",
-  "Marathon Organizers",
-  "Promotional Teams",
-];
 
 export default function PoloTShirtManufacturerBangalorePage() {
   return (
@@ -356,7 +337,7 @@ export default function PoloTShirtManufacturerBangalorePage() {
       <main className="bg-white text-slate-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#0B2341]">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.18),transparent_35%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.20),transparent_35%)]" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10 lg:py-28">
             <nav
@@ -366,7 +347,9 @@ export default function PoloTShirtManufacturerBangalorePage() {
               <Link href="/" className="transition hover:text-white">
                 Home
               </Link>
+
               <span className="mx-2">/</span>
+
               <span className="text-white">
                 Polo T-Shirt Manufacturer in Bangalore
               </span>
@@ -378,22 +361,21 @@ export default function PoloTShirtManufacturerBangalorePage() {
               </div>
 
               <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Polo T-Shirt Manufacturer in Bangalore for Bulk & Custom
+                Polo T-Shirt Manufacturer in Bangalore for Bulk Customized
                 Orders
               </h1>
 
               <p className="mt-7 max-w-4xl text-lg leading-8 text-slate-200 sm:text-xl">
-                TES Apparels is a Polo T-shirt manufacturer and bulk supplier
-                in Bangalore providing customized Polo T-shirts for IT
-                companies, corporate offices, schools, colleges, sports teams
-                and event management companies.
+                TES Apparels is a polo T-shirt manufacturer in Bangalore
+                supplying customized polo T-shirts in bulk for corporate
+                companies, IT firms, schools, colleges, sports teams,
+                institutions, events and promotional requirements.
               </p>
 
               <p className="mt-5 max-w-4xl text-base leading-7 text-slate-300">
-                From fabric and GSM selection to colours, sizing, logo
-                embroidery and printing, we help organizations develop Polo
-                T-shirts according to their branding and bulk apparel
-                requirements.
+                From fabric and colour selection to logo embroidery, printing,
+                sizing and bulk production, we help organizations develop polo
+                T-shirts according to their brand and uniform requirements.
               </p>
 
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -401,7 +383,7 @@ export default function PoloTShirtManufacturerBangalorePage() {
                   href="/#contact"
                   className="inline-flex items-center justify-center rounded-lg bg-[#C49A00] px-7 py-4 font-bold text-white shadow-lg transition hover:bg-[#A98200]"
                 >
-                  Request a Bulk Polo T-Shirt Quote
+                  Request a Polo T-Shirt Quote
                 </Link>
 
                 <a
@@ -415,7 +397,7 @@ export default function PoloTShirtManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* INTRO */}
+        {/* INTRODUCTION */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr] lg:items-start">
             <div>
@@ -424,32 +406,30 @@ export default function PoloTShirtManufacturerBangalorePage() {
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight text-[#0B2341] sm:text-4xl">
-                Polo T-Shirt Manufacturers in Bangalore for Customized Bulk
-                Requirements
+                Customized Polo T-Shirts for Companies, Institutions & Teams
               </h2>
 
               <div className="mt-6 space-y-5 text-base leading-8 text-slate-600">
                 <p>
-                  Polo T-shirts are widely used for corporate uniforms,
-                  institutional apparel, sports organizations, events,
-                  promotional activities and employee programs. A well-made
-                  Polo T-shirt can provide a professional appearance while
-                  offering comfort for regular use.
+                  Polo T-shirts are a versatile apparel option for companies,
+                  schools, colleges, sports organizations, institutions and
+                  events. They combine a professional appearance with the
+                  flexibility required for everyday uniforms and branded
+                  activities.
                 </p>
 
                 <p>
-                  TES Apparels works with organizations looking for a Polo
-                  T-shirt manufacturer in Bangalore for customized and bulk
-                  requirements. Specifications can be developed around
-                  colours, fabric, GSM, sizing, collar style and branding.
+                  TES Apparels works with organizations looking for customized
+                  polo T-shirts in Bangalore and across India. Requirements can
+                  be developed around colour, fabric, GSM, fit, sizing,
+                  branding and quantity.
                 </p>
 
                 <p>
-                  Whether you are an IT company ordering employee uniforms, a
-                  college organizing an event, a sports organization requiring
-                  team apparel or an event management company requiring
-                  branded staff clothing, the requirement can be developed
-                  according to your application.
+                  Whether you require employee polo uniforms for an IT company,
+                  school and college polo T-shirts, sports team apparel or
+                  branded event clothing, the product can be customized around
+                  your specific requirements.
                 </p>
               </div>
             </div>
@@ -480,10 +460,10 @@ export default function PoloTShirtManufacturerBangalorePage() {
 
                 <div>
                   <dt className="text-sm font-semibold text-slate-500">
-                    Requirement
+                    Requirements
                   </dt>
                   <dd className="mt-1 font-semibold text-slate-900">
-                    Bulk & Custom Orders
+                    Corporate, Uniform, Sports & Events
                   </dd>
                 </div>
 
@@ -500,26 +480,27 @@ export default function PoloTShirtManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* CUSTOMER TYPES */}
+        {/* PRODUCTS */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Who We Serve
+                Polo T-Shirt Solutions
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Customized Polo T-Shirts for Organizations & Teams
+                Polo T-Shirts Manufactured for Different Requirements
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                TES Apparels supports Polo T-shirt requirements across
-                corporate, educational, sports and event applications.
+                Choose polo T-shirts for employee uniforms, institutions,
+                sports activities, events, promotional campaigns or corporate
+                branding programs.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {customerTypes.map((item) => (
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {products.map((item) => (
                 <article
                   key={item.title}
                   className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
@@ -531,341 +512,338 @@ export default function PoloTShirtManufacturerBangalorePage() {
                   <p className="mt-4 leading-7 text-slate-600">
                     {item.text}
                   </p>
+
+                  <Link
+                    href={item.href}
+                    className="mt-5 inline-flex font-bold text-[#0B2341] hover:text-[#C49A00]"
+                  >
+                    Explore solution →
+                  </Link>
                 </article>
               ))}
             </div>
           </div>
         </section>
 
-        {/* PRODUCTS */}
-        <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-              Polo T-Shirt Solutions
-            </p>
-
-            <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-              Polo T-Shirt Products for Bulk Buyers
-            </h2>
-
-            <p className="mt-5 leading-7 text-slate-600">
-              Choose a customized Polo T-shirt solution according to your
-              organization, event, branding and quantity requirements.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {poloProducts.map((item) => (
-              <article
-                key={item.title}
-                className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-              >
-                <h3 className="text-xl font-bold text-[#0B2341]">
-                  {item.title}
-                </h3>
-
-                <p className="mt-4 leading-7 text-slate-600">{item.text}</p>
-
-                <Link
-                  href={item.href}
-                  className="mt-5 inline-flex font-bold text-[#0B2341] transition hover:text-[#C49A00]"
-                >
-                  Explore solution →
-                </Link>
-              </article>
-            ))}
-          </div>
-        </section>
-
         {/* CORPORATE */}
-        <section className="bg-[#0B2341] text-white">
-          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-                  Corporate Polo T-Shirts
-                </p>
-
-                <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                  Polo T-Shirts for IT Companies & Corporate Offices
-                </h2>
-
-                <div className="mt-6 space-y-5 leading-8 text-slate-300">
-                  <p>
-                    Polo T-shirts are a practical choice for companies looking
-                    for professional employee apparel that reflects their
-                    corporate identity.
-                  </p>
-
-                  <p>
-                    TES Apparels can develop customized corporate Polo
-                    T-shirts around company colours, logo placement,
-                    employee sizes, fabric specifications and branding
-                    requirements.
-                  </p>
-
-                  <p>
-                    They can be used for everyday employee uniforms, team
-                    activities, corporate events, conferences, employee
-                    engagement programs and promotional activities.
-                  </p>
-                </div>
-
-                <Link
-                  href="/corporate-polo-t-shirts"
-                  className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
-                >
-                  Explore Corporate Polo T-Shirts
-                </Link>
-              </div>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                {[
-                  "Company colour matching",
-                  "Employee size requirements",
-                  "Company logo branding",
-                  "Embroidery support",
-                  "Printing support",
-                  "Corporate events",
-                  "Employee uniforms",
-                  "Bulk production",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
-                  >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
-                      ✓
-                    </span>
-
-                    <span className="font-medium text-slate-200">
-                      {item}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* EDUCATION */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Schools & Colleges
+                Corporate Polo T-Shirts
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Polo T-Shirt Manufacturers for Schools & Colleges
+                Corporate Polo T-Shirt Manufacturer for IT Companies & Offices
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
-                  Schools and colleges can use customized Polo T-shirts for
-                  uniforms, house activities, student events, campus programs,
-                  sports activities and institutional branding.
+                  Customized polo T-shirts are suitable for companies that
+                  want a consistent employee appearance while maintaining a
+                  comfortable workplace dress option.
                 </p>
 
                 <p>
-                  Polo T-shirts can be developed using institution colours,
-                  logos and sizing requirements to create a consistent
-                  appearance across students or staff.
+                  TES Apparels supplies corporate polo T-shirts for IT
+                  companies, software companies, startups, BPOs, consulting
+                  companies and professional offices.
                 </p>
 
                 <p>
-                  TES Apparels can discuss bulk institutional requirements
-                  based on product specifications, quantities and delivery
-                  schedules.
+                  Company colours, employee requirements, logo placement,
+                  departments and quantity can be considered when developing a
+                  corporate polo T-shirt program.
                 </p>
               </div>
 
               <Link
-                href="/school-uniform-manufacturer"
+                href="/corporate-polo-t-shirts"
                 className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
               >
-                Explore School Uniform Solutions
+                View Corporate Polo T-Shirts
               </Link>
             </div>
 
-            <div className="rounded-2xl bg-slate-50 p-8">
-              <h3 className="text-2xl font-bold text-[#0B2341]">
-                Institutional Polo T-Shirt Applications
-              </h3>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {[
+                "Professional employee appearance",
+                "Company colour matching",
+                "Custom company branding",
+                "Employee size specifications",
+                "Department-wise requirements",
+                "Office & event apparel",
+                "Bulk production",
+                "PAN India delivery",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm"
+                >
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0B2341] text-sm font-bold text-white">
+                    ✓
+                  </span>
 
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                {[
-                  "School uniforms",
-                  "College uniforms",
-                  "House activities",
-                  "Student events",
-                  "College fests",
-                  "Sports activities",
-                  "Staff apparel",
-                  "Institution branding",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-lg border border-slate-200 bg-white px-4 py-3 font-medium text-slate-700"
-                  >
-                    {item}
-                  </div>
-                ))}
+                  <span className="font-medium text-slate-700">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* SCHOOLS & COLLEGES */}
+        <section className="bg-slate-50">
+          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+              <div className="order-2 lg:order-1">
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {[
+                    "School uniforms",
+                    "College uniforms",
+                    "Institution branding",
+                    "Student activities",
+                    "Sports activities",
+                    "College events",
+                    "Department uniforms",
+                    "Bulk student apparel",
+                  ].map((item) => (
+                    <div
+                      key={item}
+                      className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"
+                    >
+                      <span className="text-lg font-bold text-[#C49A00]">
+                        ✓
+                      </span>
+
+                      <p className="mt-2 font-semibold text-slate-700">
+                        {item}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="order-1 lg:order-2">
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+                  Schools & Colleges
+                </p>
+
+                <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+                  Customized Polo T-Shirts for Schools & Colleges
+                </h2>
+
+                <div className="mt-6 space-y-5 leading-8 text-slate-600">
+                  <p>
+                    Polo T-shirts can be developed as school and college
+                    uniforms, student activity apparel, department apparel,
+                    sports clothing and event merchandise.
+                  </p>
+
+                  <p>
+                    Educational institutions can specify their preferred
+                    colours, logo, branding, sizing and other garment
+                    requirements.
+                  </p>
+
+                  <p>
+                    TES Apparels supports bulk institutional apparel
+                    requirements for schools, colleges and educational
+                    organizations.
+                  </p>
+                </div>
+
+                <Link
+                  href="/school-uniform-manufacturer"
+                  className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
+                >
+                  Explore School Uniform Solutions
+                </Link>
               </div>
             </div>
           </div>
         </section>
 
         {/* SPORTS & EVENTS */}
-        <section className="bg-slate-50">
+        <section className="bg-[#0B2341] text-white">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="grid gap-12 lg:grid-cols-2">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                  Sports Organizations
-                </p>
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
+                Sports & Events
+              </p>
 
-                <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  Polo T-Shirts for Sports Teams, Clubs & Academies
-                </h2>
+              <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+                Polo T-Shirts for Sports Teams, Events & Organizations
+              </h2>
 
-                <p className="mt-6 leading-8 text-slate-600">
-                  Sports organizations can use customized Polo T-shirts for
-                  coaches, support staff, team management, club members,
-                  promotional activities and off-field team apparel.
-                </p>
+              <p className="mt-5 leading-8 text-slate-300">
+                Customized polo T-shirts can be used by sports academies,
+                clubs, corporate sports teams, running communities, event
+                organizers and other organizations requiring branded team
+                apparel.
+              </p>
+            </div>
 
-                <p className="mt-5 leading-8 text-slate-600">
-                  Requirements can be customized around team colours, logos,
-                  player or staff sizes and branding specifications.
-                </p>
-
-                <Link
-                  href="/sports-jersey-manufacturer-bangalore"
-                  className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
+            <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                "Sports academies",
+                "Sports clubs",
+                "Corporate sports teams",
+                "Running communities",
+                "Marathon events",
+                "Event management companies",
+                "College sports teams",
+                "Corporate events",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="rounded-xl border border-white/10 bg-white/5 p-6 text-center"
                 >
-                  Explore Sports Apparel
-                </Link>
-              </div>
+                  <h3 className="font-bold text-white">{item}</h3>
+                </div>
+              ))}
+            </div>
 
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                  Event Management Companies
-                </p>
-
-                <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  Bulk Polo T-Shirts for Events & Promotional Teams
-                </h2>
-
-                <p className="mt-6 leading-8 text-slate-600">
-                  Event management companies can order customized Polo
-                  T-shirts for event staff, volunteers, registration teams,
-                  promotional teams, conferences, exhibitions, marathons and
-                  corporate events.
-                </p>
-
-                <p className="mt-5 leading-8 text-slate-600">
-                  Branded Polo T-shirts help event teams maintain a consistent
-                  professional appearance while making staff easier for
-                  attendees to identify.
-                </p>
-
-                <Link
-                  href="/t-shirt-printing"
-                  className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
-                >
-                  Explore T-Shirt Printing
-                </Link>
-              </div>
+            <div className="mt-10 text-center">
+              <Link
+                href="/sports-jersey-manufacturer-bangalore"
+                className="inline-flex rounded-lg bg-[#C49A00] px-7 py-4 font-bold text-white transition hover:bg-[#A98200]"
+              >
+                Explore Sports Apparel
+              </Link>
             </div>
           </div>
         </section>
 
         {/* CUSTOMIZATION */}
-        <section className="bg-[#0B2341] text-white">
-          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-                  Customization
-                </p>
+        <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+                Customization
+              </p>
 
-                <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                  Customize Your Polo T-Shirts for Bulk Production
-                </h2>
+              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+                Customize Your Polo T-Shirts for Your Brand
+              </h2>
 
-                <p className="mt-6 leading-8 text-slate-300">
-                  Every organization may have different branding, fabric,
-                  colour, sizing and application requirements. Polo T-shirts
-                  can be developed according to the intended use and approved
-                  specifications.
-                </p>
+              <p className="mt-6 leading-8 text-slate-600">
+                Every organization can have different requirements for colour,
+                fabric, sizing, branding and garment construction. Polo
+                T-shirts can be customized according to the intended
+                application and approved specifications.
+              </p>
 
-                <p className="mt-5 leading-8 text-slate-300">
-                  Share your artwork, company or institution colours,
-                  preferred fabric, estimated quantity and sizing requirements
-                  to discuss your customized Polo T-shirt requirement.
-                </p>
+              <p className="mt-5 leading-8 text-slate-600">
+                Share your logo, preferred colours, approximate quantity and
+                garment requirements with TES Apparels before proceeding with
+                bulk production.
+              </p>
 
-                <Link
-                  href="/t-shirt-embroidery"
-                  className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+              <Link
+                href="/t-shirt-embroidery"
+                className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
+              >
+                Explore Embroidery & Branding
+              </Link>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              {customizationOptions.map((item) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4"
                 >
-                  Explore Embroidery & Branding
-                </Link>
-              </div>
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
+                    ✓
+                  </span>
 
-              <div className="grid gap-4 sm:grid-cols-2">
-                {customizationOptions.map((item) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
-                  >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
-                      ✓
-                    </span>
-
-                    <span className="font-medium text-slate-200">
-                      {item}
-                    </span>
-                  </div>
-                ))}
-              </div>
+                  <span className="font-medium text-slate-700">{item}</span>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* FABRIC */}
+        <section className="bg-slate-50">
+          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+                Fabric & Quality
+              </p>
+
+              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+                Polo T-Shirt Fabric Options Based on Your Requirement
+              </h2>
+
+              <p className="mt-5 leading-7 text-slate-600">
+                Fabric selection depends on the intended use, comfort
+                requirements, appearance, workplace environment and product
+                specifications.
+              </p>
+            </div>
+
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                {
+                  title: "Cotton",
+                  text: "Comfort-focused fabric options suitable for everyday corporate, institutional and promotional apparel.",
+                },
+                {
+                  title: "Poly Cotton",
+                  text: "Suitable for uniforms where durability, easy maintenance and comfort are important.",
+                },
+                {
+                  title: "Performance Fabrics",
+                  text: "Suitable for active requirements, outdoor programs, sports activities and team apparel.",
+                },
+                {
+                  title: "Custom Requirements",
+                  text: "Fabric specifications can be discussed based on the intended garment application and quantity.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.title}
+                  className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+                >
+                  <h3 className="text-lg font-bold text-[#0B2341]">
+                    {item.title}
+                  </h3>
+
+                  <p className="mt-3 text-sm leading-7 text-slate-600">
+                    {item.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* USE CASES */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-              Fabric & Quality
+              Applications
             </p>
 
             <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-              Choose Polo T-Shirt Fabric Based on Your Application
+              Where Customized Polo T-Shirts Can Be Used
             </h2>
 
             <p className="mt-5 leading-7 text-slate-600">
-              Fabric selection can depend on comfort, durability, appearance,
-              workplace conditions, activity level and intended use.
+              Polo T-shirts can support different uniform, branding, team and
+              promotional requirements.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {fabrics.map((item) => (
-              <article
-                key={item.title}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+          <div className="mt-12 flex flex-wrap justify-center gap-3">
+            {useCases.map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm"
               >
-                <h3 className="text-lg font-bold text-[#0B2341]">
-                  {item.title}
-                </h3>
-
-                <p className="mt-3 text-sm leading-7 text-slate-600">
-                  {item.text}
-                </p>
-              </article>
+                {item}
+              </span>
             ))}
           </div>
         </section>
@@ -876,21 +854,21 @@ export default function PoloTShirtManufacturerBangalorePage() {
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                  Logo Branding
+                  Polo T-Shirt Branding
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  Professional Branding for Customized Polo T-Shirts
+                  Professional Logo Branding for Customized Polo T-Shirts
                 </h2>
 
                 <p className="mt-6 leading-8 text-slate-600">
-                  Company, school, college, sports team and event branding can
-                  be incorporated into Polo T-shirts using suitable embroidery
-                  or printing methods.
+                  Company logos, team logos and institutional branding can be
+                  incorporated into customized polo T-shirts using suitable
+                  embroidery and printing techniques.
                 </p>
 
                 <p className="mt-5 leading-8 text-slate-600">
-                  Logo placement, size, artwork and branding method can be
+                  Logo size, placement, artwork and branding method can be
                   discussed based on the garment, fabric and intended
                   application.
                 </p>
@@ -900,9 +878,7 @@ export default function PoloTShirtManufacturerBangalorePage() {
                     "Embroidery",
                     "Screen Printing",
                     "DTF Printing",
-                    "Company Logos",
-                    "School Logos",
-                    "Team Branding",
+                    "Logo Branding",
                     "Custom Labels",
                   ].map((item) => (
                     <span
@@ -921,15 +897,15 @@ export default function PoloTShirtManufacturerBangalorePage() {
                 </h3>
 
                 <p className="mt-4 leading-7 text-slate-300">
-                  Share your logo, preferred colour, quantity, sizes and
-                  delivery location with TES Apparels.
+                  Share your logo, preferred colour, approximate quantity,
+                  sizes and polo T-shirt requirements with TES Apparels.
                 </p>
 
                 <Link
                   href="/#contact"
                   className="mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
                 >
-                  Request a Bulk Quote
+                  Request a Quote
                 </Link>
               </div>
             </div>
@@ -948,14 +924,14 @@ export default function PoloTShirtManufacturerBangalorePage() {
             </h2>
 
             <p className="mt-5 leading-7 text-slate-600">
-              A structured process helps keep the final Polo T-shirts aligned
+              A structured process helps keep customized polo T-shirts aligned
               with approved product and branding specifications.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
             {processSteps.map((step) => (
-              <article
+              <div
                 key={step.number}
                 className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
               >
@@ -970,7 +946,7 @@ export default function PoloTShirtManufacturerBangalorePage() {
                 <p className="mt-3 text-sm leading-7 text-slate-600">
                   {step.text}
                 </p>
-              </article>
+              </div>
             ))}
           </div>
         </section>
@@ -985,33 +961,27 @@ export default function PoloTShirtManufacturerBangalorePage() {
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  A Bangalore Apparel Partner for Bulk Polo T-Shirt
+                  Polo T-Shirt Manufacturing for Bulk Organizational
                   Requirements
                 </h2>
 
                 <p className="mt-6 leading-8 text-slate-600">
                   TES Apparels focuses on customized apparel requirements where
-                  product specifications, professional appearance, branding and
-                  bulk production are important.
-                </p>
-
-                <p className="mt-5 leading-8 text-slate-600">
-                  Our Polo T-shirt solutions can be considered by corporate
-                  companies, educational institutions, sports organizations and
-                  event management companies.
+                  product appearance, branding, comfort and production
+                  consistency are important.
                 </p>
               </div>
 
               <div className="space-y-4">
                 {[
                   "Bangalore-based apparel manufacturer",
-                  "Customized Polo T-shirt solutions",
+                  "Customized polo T-shirt manufacturing",
                   "Corporate and employee apparel",
                   "School and college requirements",
-                  "Sports team requirements",
-                  "Event management requirements",
-                  "Embroidery and printing support",
-                  "Bulk production",
+                  "Sports and team apparel",
+                  "Event and promotional apparel",
+                  "Printing and embroidery support",
+                  "Bulk manufacturing",
                   "PAN India delivery support",
                 ].map((item) => (
                   <div
@@ -1040,12 +1010,12 @@ export default function PoloTShirtManufacturerBangalorePage() {
             </p>
 
             <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-              Polo T-Shirt Manufacturers Serving Different Organizations
+              Polo T-Shirt Manufacturer for Companies, Institutions & Teams
             </h2>
 
             <p className="mt-5 leading-7 text-slate-600">
-              Customized Polo T-shirts can be developed for different
-              organizational and event requirements.
+              Customized polo T-shirts can be developed for different
+              organizational environments and bulk requirements.
             </p>
           </div>
 
@@ -1071,27 +1041,28 @@ export default function PoloTShirtManufacturerBangalorePage() {
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  Polo T-Shirt Manufacturer & Supplier Serving Bengaluru
+                  Polo T-Shirt Manufacturer Serving Businesses Across
+                  Bengaluru
                 </h2>
 
                 <div className="mt-6 space-y-5 leading-8 text-slate-600">
                   <p>
                     TES Apparels is located in Basaveshwar Nagar, Bengaluru,
-                    Karnataka. We support companies, institutions, sports
-                    organizations and event businesses looking for customized
-                    Polo T-shirts.
+                    Karnataka. We support companies, institutions and
+                    organizations looking for customized polo T-shirts in
+                    bulk.
                   </p>
 
                   <p>
-                    Organizations searching for Polo T-shirt manufacturers in
-                    Bangalore can discuss product specifications, quantities,
-                    colours, branding requirements and delivery schedules with
-                    our team.
+                    Our Bangalore location enables us to work with businesses
+                    across commercial, technology, industrial and institutional
+                    areas while also supporting customers outside Bangalore.
                   </p>
 
                   <p>
-                    Our Bangalore location also enables us to support customers
-                    across Karnataka and other parts of India.
+                    Whether you need corporate polo T-shirts, school uniforms,
+                    college apparel, sports team clothing or event polo
+                    T-shirts, our team can discuss your requirement.
                   </p>
                 </div>
 
@@ -1189,36 +1160,36 @@ export default function PoloTShirtManufacturerBangalorePage() {
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                title: "T-Shirt Manufacturer in Bangalore",
-                href: "/t-shirt-manufacturer-bangalore",
-              },
-              {
                 title: "Corporate Polo T-Shirts",
                 href: "/corporate-polo-t-shirts",
               },
               {
-                title: "Corporate Uniform Manufacturer",
-                href: "/corporate-uniform-manufacturer",
+                title: "T-Shirt Manufacturer in Bangalore",
+                href: "/t-shirt-manufacturer-bangalore",
               },
               {
-                title: "T-Shirt Embroidery",
-                href: "/t-shirt-embroidery",
-              },
-              {
-                title: "T-Shirt Printing",
-                href: "/t-shirt-printing",
+                title: "Dri-Fit T-Shirt Manufacturers",
+                href: "/dri-fit-t-shirt-manufacturers-bangalore",
               },
               {
                 title: "Sports Jersey Manufacturer",
                 href: "/sports-jersey-manufacturer-bangalore",
               },
               {
-                title: "School Uniform Manufacturer",
-                href: "/school-uniform-manufacturer",
+                title: "Corporate Uniform Manufacturer",
+                href: "/corporate-uniform-manufacturer",
               },
               {
-                title: "Dri-Fit T-Shirts",
-                href: "/dri-fit-t-shirts",
+                title: "Uniform T-Shirt Manufacturers",
+                href: "/uniform-t-shirt-manufacturers-bangalore",
+              },
+              {
+                title: "T-Shirt Printing",
+                href: "/t-shirt-printing",
+              },
+              {
+                title: "T-Shirt Embroidery",
+                href: "/t-shirt-embroidery",
               },
             ].map((item) => (
               <Link
@@ -1276,14 +1247,14 @@ export default function PoloTShirtManufacturerBangalorePage() {
             </p>
 
             <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              Looking for Polo T-Shirt Manufacturers in Bangalore?
+              Looking for a Polo T-Shirt Manufacturer in Bangalore?
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Share your quantity, preferred Polo T-shirt specifications,
-              colours, sizes, logo or artwork and delivery location with TES
-              Apparels. Our team can discuss your requirement and guide you
-              through the quotation process.
+              Share your polo T-shirt requirement, approximate quantity,
+              preferred colours, logo or artwork, sizes and delivery location
+              with TES Apparels. Our team can discuss the specifications and
+              guide you through the quotation process.
             </p>
 
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
