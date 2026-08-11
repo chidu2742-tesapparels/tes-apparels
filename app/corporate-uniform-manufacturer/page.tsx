@@ -202,32 +202,38 @@ const jsonLd = {
 const uniformProducts = [
   {
     title: "Corporate Polo T-Shirts",
-    text: "Professional polo T-shirts for IT companies, office teams, employee uniforms, corporate events and everyday workplace apparel.",
+    text:
+      "Professional polo T-shirts for IT companies, office teams, employee uniforms, corporate events and everyday workplace apparel.",
     href: "/corporate-polo-t-shirts",
   },
   {
     title: "Corporate T-Shirts",
-    text: "Customized round-neck and corporate T-shirts for employee programs, team activities, campaigns and branded company apparel.",
+    text:
+      "Customized round-neck and corporate T-shirts for employee programs, team activities, campaigns and branded company apparel.",
     href: "/t-shirt-manufacturer-bangalore",
   },
   {
     title: "Formal Shirts & Trousers",
-    text: "Professional formal shirts and trousers for employees, management teams, customer-facing staff and corporate offices.",
-    href: "/corporate-uniform-manufacturer",
+    text:
+      "Professional formal shirts and trousers for employees, management teams, customer-facing staff and corporate offices.",
+    href: "/formal-shirt-manufacturer-bangalore",
   },
   {
     title: "Corporate Jackets",
-    text: "Customized jackets for outdoor teams, travel, events, winter requirements and corporate employee apparel programs.",
+    text:
+      "Customized jackets for outdoor teams, travel, events, winter requirements and corporate employee apparel programs.",
     href: "/products/jackets",
   },
   {
     title: "Corporate Caps",
-    text: "Branded caps for employee activities, events, outdoor programs, promotions and corporate campaigns.",
+    text:
+      "Branded caps for employee activities, events, outdoor programs, promotions and corporate campaigns.",
     href: "/products/caps",
   },
   {
     title: "Corporate Bags",
-    text: "Laptop bags, backpacks and promotional bags customized with company branding for employees and corporate programs.",
+    text:
+      "Laptop bags, backpacks and promotional bags customized with company branding for employees and corporate programs.",
     href: "/products/bags",
   },
 ];
@@ -266,27 +272,32 @@ const processSteps = [
   {
     number: "01",
     title: "Requirement",
-    text: "Share your employee uniform requirement, product types, approximate quantity, branding and delivery location.",
+    text:
+      "Share your employee uniform requirement, product types, approximate quantity, branding and delivery location.",
   },
   {
     number: "02",
     title: "Specification",
-    text: "Discuss fabric, GSM, colours, sizes, garment construction, logo placement and branding requirements.",
+    text:
+      "Discuss fabric, GSM, colours, sizes, garment construction, logo placement and branding requirements.",
   },
   {
     number: "03",
     title: "Sampling",
-    text: "Where required, samples and artwork can be reviewed before proceeding with bulk production.",
+    text:
+      "Where required, samples and artwork can be reviewed before proceeding with bulk production.",
   },
   {
     number: "04",
     title: "Production",
-    text: "Approved specifications are followed during the corporate apparel manufacturing process.",
+    text:
+      "Approved specifications are followed during the corporate apparel manufacturing process.",
   },
   {
     number: "05",
     title: "Delivery",
-    text: "Finished corporate uniforms are prepared for delivery in Bangalore or other locations across India.",
+    text:
+      "Finished corporate uniforms are prepared for delivery in Bangalore or other locations across India.",
   },
 ];
 
@@ -636,19 +647,23 @@ export default function CorporateUniformManufacturerPage() {
             {[
               {
                 title: "Cotton",
-                text: "Comfortable fabric options for everyday corporate and promotional apparel.",
+                text:
+                  "Comfortable fabric options for everyday corporate and promotional apparel.",
               },
               {
                 title: "Poly Cotton",
-                text: "Suitable for uniforms where durability, easy maintenance and comfort are important.",
+                text:
+                  "Suitable for uniforms where durability, easy maintenance and comfort are important.",
               },
               {
                 title: "Performance Fabrics",
-                text: "Suitable for sports, outdoor activities and active employee requirements.",
+                text:
+                  "Suitable for sports, outdoor activities and active employee requirements.",
               },
               {
                 title: "Formal Fabrics",
-                text: "Suitable for professional shirts and corporate office wear.",
+                text:
+                  "Suitable for professional shirts and corporate office wear.",
               },
             ].map((item) => (
               <div
@@ -910,9 +925,7 @@ export default function CorporateUniformManufacturerPage() {
               </div>
 
               <aside className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
-                <h3 className="text-2xl font-bold">
-                  TES Apparels
-                </h3>
+                <h3 className="text-2xl font-bold">TES Apparels</h3>
 
                 <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
                   <p>
