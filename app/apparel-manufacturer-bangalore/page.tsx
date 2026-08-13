@@ -1,181 +1,186 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const SITE_URL = "https://tesapparels.com";
+const PAGE_URL = `${SITE_URL}/apparel-manufacturer-bangalore`;
+
 export const metadata: Metadata = {
   title:
-    "Apparel Manufacturer in Bangalore | Apparel Manufacturers | TES Apparels",
+    "Apparel Manufacturer in Bangalore | Apparel Manufacturers in Bangalore | TES Apparels",
+
   description:
-    "TES Apparels is an apparel manufacturer in Bangalore supplying bulk custom T-shirts, polo T-shirts, corporate uniforms, school uniforms, sportswear, workwear and promotional apparel across Bangalore, Karnataka and India.",
+    "TES Apparels is an apparel manufacturer in Bangalore supplying customized T-shirts, uniforms, corporate apparel, polo T-shirts, sportswear, workwear and bulk garments for businesses and institutions across India.",
+
   keywords: [
     "apparel manufacturer in bangalore",
     "apparel manufacturers in bangalore",
     "apparel manufacturer bangalore",
     "apparel manufacturers bangalore",
-    "clothing manufacturer in bangalore",
-    "clothing manufacturers in bangalore",
+    "apparel manufacturing company in bangalore",
+    "apparel manufacturing companies in bangalore",
     "garment manufacturer in bangalore",
     "garment manufacturers in bangalore",
-    "uniform manufacturer in bangalore",
-    "uniform manufacturers in bangalore",
-    "t shirt manufacturer in bangalore",
-    "t shirt manufacturers in bangalore",
-    "polo t shirt manufacturer in bangalore",
-    "polo t shirt manufacturers in bangalore",
-    "corporate apparel manufacturer bangalore",
-    "corporate apparel manufacturers bangalore",
-    "corporate uniform manufacturer bangalore",
-    "corporate uniform manufacturers bangalore",
-    "school uniform manufacturer bangalore",
-    "school uniform manufacturers bangalore",
-    "college uniform manufacturer bangalore",
-    "college uniform manufacturers bangalore",
-    "sportswear manufacturer bangalore",
-    "sportswear manufacturers bangalore",
-    "sports t shirt manufacturer bangalore",
-    "sports t shirt manufacturers bangalore",
-    "event t shirt manufacturer bangalore",
-    "event t shirt manufacturers bangalore",
-    "workwear manufacturer bangalore",
-    "workwear manufacturers bangalore",
+    "garment manufacturing company in bangalore",
+    "garment manufacturing companies in bangalore",
+    "clothing manufacturer in bangalore",
+    "clothing manufacturers in bangalore",
+    "clothing manufacturer bangalore",
     "custom apparel manufacturer bangalore",
     "custom apparel manufacturers bangalore",
     "bulk apparel manufacturer bangalore",
     "bulk apparel manufacturers bangalore",
+    "t shirt manufacturer in bangalore",
+    "t shirt manufacturers in bangalore",
+    "t shirt manufacturer bangalore",
+    "t shirt manufacturers bangalore",
+    "uniform manufacturer in bangalore",
+    "uniform manufacturers in bangalore",
+    "corporate apparel manufacturer bangalore",
+    "corporate apparel manufacturers bangalore",
+    "corporate uniform manufacturer bangalore",
+    "sports apparel manufacturer bangalore",
+    "sports apparel manufacturers bangalore",
+    "polo t shirt manufacturer bangalore",
+    "polo t shirt manufacturers bangalore",
+    "dri fit t shirt manufacturer bangalore",
+    "dri fit t shirt manufacturers bangalore",
+    "workwear manufacturer bangalore",
+    "workwear manufacturers bangalore",
+    "industrial uniform manufacturer bangalore",
+    "industrial uniform manufacturers bangalore",
+    "school uniform manufacturer bangalore",
+    "school uniform manufacturers bangalore",
+    "college uniform manufacturer bangalore",
+    "college uniform manufacturers bangalore",
+    "event t shirt manufacturer bangalore",
+    "event t shirt manufacturers bangalore",
+    "sports jersey manufacturer bangalore",
+    "sports jersey manufacturers bangalore",
     "apparel manufacturer in karnataka",
     "apparel manufacturers in karnataka",
+    "garment manufacturer in karnataka",
     "apparel manufacturer in india",
     "apparel manufacturers in india",
-    "clothing manufacturers in india",
-    "garment manufacturers in india",
   ],
+
   alternates: {
-    canonical: "https://tesapparels.com/apparel-manufacturer-bangalore",
+    canonical: PAGE_URL,
   },
+
   openGraph: {
     title:
-      "Apparel Manufacturer in Bangalore | Apparel Manufacturers | TES Apparels",
+      "Apparel Manufacturer in Bangalore | Apparel Manufacturers in Bangalore | TES Apparels",
     description:
-      "Bulk custom apparel manufacturing in Bangalore including T-shirts, polo T-shirts, uniforms, sportswear, workwear and promotional apparel.",
-    url: "https://tesapparels.com/apparel-manufacturer-bangalore",
+      "Bangalore-based apparel manufacturer supplying customized T-shirts, uniforms, corporate apparel, sportswear, workwear and bulk garments.",
+    url: PAGE_URL,
     siteName: "TES Apparels",
     type: "website",
     locale: "en_IN",
   },
+
   twitter: {
     card: "summary_large_image",
     title:
-      "Apparel Manufacturer in Bangalore | Apparel Manufacturers | TES Apparels",
+      "Apparel Manufacturer in Bangalore | Apparel Manufacturers in Bangalore | TES Apparels",
     description:
-      "TES Apparels manufactures bulk custom apparel, T-shirts, uniforms, sportswear and corporate clothing in Bangalore.",
+      "Customized apparel, T-shirts, uniforms, sportswear, corporate apparel and bulk garment manufacturing from Bangalore.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
 const products = [
   {
-    title: "T-Shirts",
+    title: "T-Shirt Manufacturing",
     text:
-      "Custom and bulk T-shirts for companies, institutions, events, promotional campaigns, teams and organizations.",
+      "Customized T-shirts for corporate programs, promotional campaigns, events, institutions, teams and bulk apparel requirements.",
     href: "/t-shirt-manufacturer-bangalore",
-  },
-  {
-    title: "Polo T-Shirts",
-    text:
-      "Corporate and institutional polo T-shirts manufactured according to approved fabric, colour, sizing and branding requirements.",
-    href: "/polo-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Corporate Apparel",
     text:
-      "Customized corporate T-shirts, polo T-shirts, uniforms and workwear for employee and organization requirements.",
+      "Corporate T-shirts, polo T-shirts, uniforms and branded apparel designed around company requirements and employee programs.",
     href: "/corporate-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "School & College Uniforms",
+    title: "Polo T-Shirts",
     text:
-      "Bulk school and college uniforms including shirts, trousers, T-shirts, polo T-shirts and sports apparel.",
-    href: "/school-uniform-manufacturer-bangalore",
+      "Customized polo T-shirts for companies, institutions, promotional programs, hospitality, retail and professional teams.",
+    href: "/corporate-polo-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Sports Apparel",
     text:
-      "Sports T-shirts, jerseys and performance apparel for teams, academies, institutions and sporting events.",
+      "Sports T-shirts, jerseys and performance apparel for teams, academies, schools, events and sporting activities.",
     href: "/sports-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "Event & Promotional Apparel",
+    title: "Uniform Manufacturing",
     text:
-      "Customized event T-shirts and promotional clothing for corporate events, campaigns, marathons and organized activities.",
+      "Customized school, college, corporate, industrial and institutional uniforms manufactured according to approved specifications.",
+    href: "/corporate-uniform-manufacturer",
+  },
+  {
+    title: "Dri-Fit Apparel",
+    text:
+      "Performance-focused Dri-Fit T-shirts and activewear for sports, events, fitness programs and outdoor activities.",
+    href: "/dri-fit-t-shirt-manufacturers-bangalore",
+  },
+  {
+    title: "Workwear",
+    text:
+      "Customized workwear and industrial apparel for organizations requiring consistent employee clothing and branding.",
+    href: "/corporate-workwear-manufacturer-bangalore",
+  },
+  {
+    title: "Event T-Shirts",
+    text:
+      "Bulk event T-shirts for conferences, corporate events, college events, promotional campaigns, marathons and public events.",
     href: "/event-t-shirt-manufacturer-bangalore",
+  },
+  {
+    title: "Sports Jerseys",
+    text:
+      "Customized jerseys for schools, colleges, clubs, corporate teams, sports academies and competitions.",
+    href: "/sports-jersey-manufacturer-bangalore",
   },
 ];
 
 const industries = [
   "Corporate Companies",
-  "IT & Technology Companies",
-  "Manufacturing Companies",
+  "IT & Technology",
+  "Manufacturing",
+  "Healthcare",
+  "Education",
   "Schools",
   "Colleges",
   "Universities",
-  "Educational Institutions",
   "Sports Academies",
-  "Fitness Organizations",
-  "Event Companies",
-  "Marketing Agencies",
-  "Startups",
-  "Retail Businesses",
+  "Fitness & Wellness",
+  "Hospitality",
+  "Retail",
+  "Events & Promotions",
   "Industrial Organizations",
-  "NGOs & Associations",
-  "Clubs & Teams",
+  "Startups",
+  "NGOs & Institutions",
 ];
 
-const customization = [
-  "Custom garment design",
-  "Institution colours",
+const capabilities = [
+  "Bulk apparel manufacturing",
+  "Customized garment development",
   "Corporate branding",
-  "School logos",
-  "College branding",
-  "Fabric selection",
-  "GSM selection",
-  "Multiple size ranges",
-  "Embroidery",
-  "Screen printing",
-  "DTF printing",
+  "School and college uniforms",
+  "Sportswear and jerseys",
+  "Dri-Fit performance apparel",
+  "Polo T-shirts",
+  "Workwear and industrial apparel",
+  "Printing and embroidery",
   "Custom labels",
-];
-
-const areas = [
-  "Basaveshwar Nagar",
-  "Rajajinagar",
-  "Malleshwaram",
-  "Yeshwanthpur",
-  "Peenya",
-  "Vijayanagar",
-  "Nagarbhavi",
-  "Kengeri",
-  "Jayanagar",
-  "JP Nagar",
-  "Banashankari",
-  "BTM Layout",
-  "HSR Layout",
-  "Bommanahalli",
-  "Electronic City",
-  "Bannerghatta Road",
-  "Koramangala",
-  "Bellandur",
-  "Marathahalli",
-  "Whitefield",
-  "Brookefield",
-  "Mahadevapura",
-  "Hoodi",
-  "KR Puram",
-  "CV Raman Nagar",
-  "Hebbal",
-  "Yelahanka",
-  "Thanisandra",
-  "Nagawara",
-  "Jakkur",
-  "Bommasandra",
-  "Hosur Road",
+  "Multiple size requirements",
+  "PAN India delivery",
 ];
 
 const processSteps = [
@@ -183,31 +188,31 @@ const processSteps = [
     number: "01",
     title: "Requirement",
     text:
-      "Share your product requirements, approximate quantity, intended use, delivery location and expected timeline.",
+      "Share the products, quantities, design requirements, target users and delivery location.",
   },
   {
     number: "02",
-    title: "Product Specifications",
+    title: "Specifications",
     text:
-      "Discuss garment design, fabric, GSM, colours, sizes, branding, printing and embroidery requirements.",
+      "Discuss fabric, GSM, colours, sizing, garment construction, branding and other specifications.",
   },
   {
     number: "03",
     title: "Sampling",
     text:
-      "Where required, product samples and artwork can be reviewed before proceeding with bulk production.",
+      "Where required, samples, artwork and specifications can be reviewed before bulk production.",
   },
   {
     number: "04",
-    title: "Bulk Manufacturing",
+    title: "Production",
     text:
-      "Approved specifications are followed during production to maintain consistency across the required quantity.",
+      "Approved specifications are followed during bulk manufacturing to maintain product consistency.",
   },
   {
     number: "05",
-    title: "Quality & Delivery",
+    title: "Delivery",
     text:
-      "Finished apparel is prepared for delivery in Bangalore, Karnataka or other locations across India.",
+      "Finished apparel is prepared for delivery in Bangalore, Karnataka and other locations across India.",
   },
 ];
 
@@ -215,52 +220,52 @@ const faqs = [
   {
     question: "Is TES Apparels an apparel manufacturer in Bangalore?",
     answer:
-      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized and bulk apparel for corporate, institutional, sports, event and promotional requirements.",
+      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized T-shirts, polo T-shirts, uniforms, sportswear, corporate apparel, workwear and other bulk garment solutions.",
   },
   {
-    question: "Are you among the apparel manufacturers in Bangalore?",
+    question: "What products do your apparel manufacturers supply?",
     answer:
-      "TES Apparels operates as a Bangalore-based apparel manufacturing company focused on bulk customized T-shirts, polo T-shirts, uniforms, sportswear, workwear and other apparel requirements.",
+      "TES Apparels supplies customized T-shirts, polo T-shirts, Dri-Fit T-shirts, sports jerseys, corporate uniforms, school uniforms, college uniforms, workwear, event apparel and other customized garments.",
   },
   {
-    question: "What products does your apparel manufacturing company provide?",
+    question: "Do you handle bulk apparel manufacturing?",
     answer:
-      "TES Apparels manufactures and supplies T-shirts, polo T-shirts, corporate apparel, school and college uniforms, sports T-shirts, jerseys, workwear and event or promotional apparel based on customer requirements.",
-  },
-  {
-    question: "Do you manufacture apparel in bulk?",
-    answer:
-      "Yes. TES Apparels focuses on bulk apparel requirements and works with organizations that require customized garments in multiple quantities, sizes, colours and specifications.",
+      "Yes. TES Apparels focuses on bulk and customized apparel requirements. Production can be discussed based on garment specifications, quantities, sizes, fabric, branding requirements and delivery schedules.",
   },
   {
     question: "Can you manufacture customized T-shirts in Bangalore?",
     answer:
-      "Yes. Customized T-shirts can be developed according to garment specifications, fabric, GSM, colour, sizing, artwork and branding requirements.",
+      "Yes. Customized T-shirts can be developed according to the required fabric, GSM, colour, design, sizing, branding and printing or embroidery requirements.",
   },
   {
     question: "Do you manufacture corporate uniforms?",
     answer:
-      "Yes. TES Apparels provides corporate apparel and uniform manufacturing solutions including T-shirts, polo T-shirts, shirts, workwear and other customized employee apparel.",
+      "Yes. TES Apparels supplies customized corporate uniforms and branded apparel for organizations that require consistent employee clothing and company branding.",
   },
   {
     question: "Do you manufacture school and college uniforms?",
     answer:
-      "Yes. TES Apparels supports bulk school and college uniform requirements including shirts, trousers, T-shirts, polo T-shirts and sports apparel.",
+      "Yes. TES Apparels can manufacture customized school and college uniforms including shirts, trousers, T-shirts, polo T-shirts and sports apparel.",
   },
   {
-    question: "Can apparel be customized with logos?",
+    question: "Can you manufacture sports T-shirts and jerseys?",
     answer:
-      "Yes. Depending on the garment and fabric, suitable embroidery, screen printing, DTF printing, labels and other branding methods can be considered.",
+      "Yes. Sports T-shirts, Dri-Fit apparel and customized jerseys can be developed for sports teams, academies, schools, colleges, corporate teams and events.",
   },
   {
-    question: "Do you serve customers outside Bangalore?",
+    question: "Can apparel be customized with company or institution logos?",
     answer:
-      "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India.",
+      "Yes. Depending on the garment and fabric, branding options such as embroidery, screen printing, DTF printing, labels and other suitable methods can be considered.",
   },
   {
-    question: "How can I request a quotation from an apparel manufacturer in Bangalore?",
+    question: "Do you supply apparel outside Bangalore?",
     answer:
-      "You can share your required products, approximate quantity, specifications, branding requirements and delivery location with TES Apparels to discuss your bulk apparel requirement.",
+      "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India through PAN India delivery.",
+  },
+  {
+    question: "How can I request an apparel manufacturing quotation?",
+    answer:
+      "You can share your required products, approximate quantity, preferred fabric, design or artwork, branding requirements, sizes and delivery location with TES Apparels to discuss the requirement and quotation.",
   },
 ];
 
@@ -268,10 +273,6 @@ const relatedPages = [
   {
     title: "T-Shirt Manufacturer in Bangalore",
     href: "/t-shirt-manufacturer-bangalore",
-  },
-  {
-    title: "Polo T-Shirt Manufacturer in Bangalore",
-    href: "/polo-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Corporate T-Shirt Manufacturer",
@@ -298,20 +299,16 @@ const relatedPages = [
     href: "/sports-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "Sports Jersey Manufacturer",
-    href: "/sports-jersey-manufacturer-bangalore",
+    title: "Event T-Shirt Manufacturer",
+    href: "/event-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Dri-Fit T-Shirt Manufacturer",
     href: "/dri-fit-t-shirt-manufacturers-bangalore",
   },
   {
-    title: "Event T-Shirt Manufacturer",
-    href: "/event-t-shirt-manufacturer-bangalore",
-  },
-  {
-    title: "Marathon T-Shirt Manufacturer",
-    href: "/marathon-t-shirt-manufacturer-bangalore",
+    title: "Sports Jersey Manufacturer",
+    href: "/sports-jersey-manufacturer-bangalore",
   },
   {
     title: "Industrial Uniform Manufacturer",
@@ -328,9 +325,9 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://tesapparels.com/#organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "TES Apparels",
-      url: "https://tesapparels.com/",
+      url: SITE_URL,
       telephone: "+91 9880038910",
       email: "chidanand@tesapparels.com",
       address: {
@@ -342,11 +339,12 @@ const jsonLd = {
         addressCountry: "IN",
       },
     },
+
     {
       "@type": "LocalBusiness",
-      "@id": "https://tesapparels.com/#localbusiness",
+      "@id": `${SITE_URL}/#localbusiness`,
       name: "TES Apparels",
-      url: "https://tesapparels.com/",
+      url: SITE_URL,
       telephone: "+91 9880038910",
       email: "chidanand@tesapparels.com",
       priceRange: "$$",
@@ -373,14 +371,14 @@ const jsonLd = {
         },
       ],
     },
+
     {
       "@type": "Service",
-      "@id":
-        "https://tesapparels.com/apparel-manufacturer-bangalore#service",
+      "@id": `${PAGE_URL}#service`,
       name: "Apparel Manufacturing in Bangalore",
       serviceType: "Apparel Manufacturing",
       provider: {
-        "@id": "https://tesapparels.com/#organization",
+        "@id": `${SITE_URL}/#organization`,
       },
       areaServed: [
         {
@@ -397,32 +395,48 @@ const jsonLd = {
         },
       ],
       description:
-        "Bulk customized apparel manufacturing in Bangalore including T-shirts, polo T-shirts, corporate uniforms, school uniforms, sportswear, workwear and event apparel.",
-      url: "https://tesapparels.com/apparel-manufacturer-bangalore",
+        "Customized and bulk apparel manufacturing in Bangalore including T-shirts, uniforms, corporate apparel, sportswear, workwear, polo T-shirts and event apparel.",
+      url: PAGE_URL,
     },
+
+    {
+      "@type": "WebPage",
+      "@id": PAGE_URL,
+      url: PAGE_URL,
+      name:
+        "Apparel Manufacturer in Bangalore | Apparel Manufacturers in Bangalore",
+      description:
+        "TES Apparels is an apparel manufacturer in Bangalore supplying customized T-shirts, uniforms, corporate apparel, sportswear, workwear and bulk garments.",
+      isPartOf: {
+        "@id": `${SITE_URL}/#website`,
+      },
+      about: {
+        "@id": `${SITE_URL}/#organization`,
+      },
+    },
+
     {
       "@type": "BreadcrumbList",
-      "@id":
-        "https://tesapparels.com/apparel-manufacturer-bangalore#breadcrumb",
+      "@id": `${PAGE_URL}#breadcrumb`,
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://tesapparels.com/",
+          item: SITE_URL,
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Apparel Manufacturer in Bangalore",
-          item:
-            "https://tesapparels.com/apparel-manufacturer-bangalore",
+          item: PAGE_URL,
         },
       ],
     },
+
     {
       "@type": "FAQPage",
-      "@id": "https://tesapparels.com/apparel-manufacturer-bangalore#faq",
+      "@id": `${PAGE_URL}#faq`,
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -449,6 +463,7 @@ export default function ApparelManufacturerBangalorePage() {
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#0B2341]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.20),transparent_38%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent_35%)]" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10 lg:py-28">
             <nav
@@ -471,21 +486,22 @@ export default function ApparelManufacturerBangalorePage() {
             </div>
 
             <h1 className="max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Apparel Manufacturer in Bangalore for Bulk Custom Apparel
+              Apparel Manufacturer in Bangalore for Customized & Bulk
+              Apparel Manufacturing
             </h1>
 
             <p className="mt-7 max-w-4xl text-lg leading-8 text-slate-200 sm:text-xl">
               TES Apparels is an apparel manufacturer in Bangalore supplying
-              customized and bulk T-shirts, polo T-shirts, corporate uniforms,
-              school uniforms, sportswear, workwear and event apparel for
-              organizations across Bengaluru, Karnataka and India.
+              customized T-shirts, polo T-shirts, corporate apparel, uniforms,
+              sportswear, workwear, event apparel and other bulk garment
+              solutions for businesses and institutions.
             </p>
 
             <p className="mt-5 max-w-4xl text-base leading-7 text-slate-300">
-              Businesses and institutions looking for apparel manufacturers in
-              Bangalore can discuss product specifications, fabric, GSM,
-              colours, sizes, branding, embroidery, printing and bulk
-              production requirements with TES Apparels.
+              As one of the apparel manufacturers serving Bangalore and
+              customers across India, we work with organizations requiring
+              consistent product specifications, branding, sizing and bulk
+              production.
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -493,7 +509,7 @@ export default function ApparelManufacturerBangalorePage() {
                 href="/#contact"
                 className="inline-flex items-center justify-center rounded-lg bg-[#C49A00] px-7 py-4 font-bold text-white shadow-lg transition hover:bg-[#A98200]"
               >
-                Request Bulk Apparel Quote
+                Request Apparel Quote
               </Link>
 
               <a
@@ -503,6 +519,21 @@ export default function ApparelManufacturerBangalorePage() {
                 Call +91 9880038910
               </a>
             </div>
+
+            <div className="mt-12 grid max-w-5xl gap-4 sm:grid-cols-3">
+              {[
+                "Customized Apparel",
+                "Bulk Manufacturing",
+                "PAN India Delivery",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="rounded-xl border border-white/10 bg-white/5 p-5"
+                >
+                  <p className="font-semibold text-white">{item}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -510,39 +541,35 @@ export default function ApparelManufacturerBangalorePage() {
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1.35fr_0.65fr] lg:items-start">
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+              <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
                 Apparel Manufacturing in Bangalore
               </p>
 
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-[#0B2341] sm:text-4xl">
-                Customized Apparel Manufacturing for Bulk Requirements
+              <h2 className="text-3xl font-bold tracking-tight text-[#0B2341] sm:text-4xl">
+                Customized Apparel Manufacturing for Businesses &
+                Institutions
               </h2>
 
               <div className="mt-6 space-y-5 text-base leading-8 text-slate-600">
                 <p>
-                  Apparel requirements vary significantly between businesses,
-                  institutions, sports organizations and event companies.
-                  Product specifications can depend on the intended use,
-                  employee or participant requirements, climate, branding and
-                  quantity.
+                  Apparel requirements vary from organization to organization.
+                  Some businesses need branded corporate T-shirts and polo
+                  T-shirts, while schools, colleges, sports teams and
+                  industrial organizations may require uniforms, sportswear or
+                  workwear.
                 </p>
 
                 <p>
-                  TES Apparels works with organizations looking for a reliable
-                  apparel manufacturer in Bangalore for customized and bulk
-                  clothing requirements.
+                  TES Apparels provides customized apparel manufacturing
+                  solutions based on product specifications, fabric, GSM,
+                  colours, sizing, branding and quantity requirements.
                 </p>
 
                 <p>
-                  Our product range includes T-shirts, polo T-shirts,
-                  corporate apparel, uniforms, sportswear, event apparel and
-                  other customized garments.
-                </p>
-
-                <p>
-                  Instead of treating every requirement as a standard garment,
-                  specifications can be discussed around fabric, GSM, colour,
-                  construction, sizing, artwork, branding and quantity.
+                  Our Bangalore-based operation supports organizations looking
+                  for a reliable apparel manufacturer for recurring programs,
+                  promotional campaigns, institutional clothing and bulk
+                  garment requirements.
                 </p>
               </div>
             </div>
@@ -564,19 +591,19 @@ export default function ApparelManufacturerBangalorePage() {
 
                 <div>
                   <dt className="text-sm font-semibold text-slate-500">
-                    Manufacturing Focus
+                    Manufacturing
                   </dt>
                   <dd className="mt-1 font-semibold text-slate-900">
-                    Custom & Bulk Apparel
+                    Customized & Bulk Apparel
                   </dd>
                 </div>
 
                 <div>
                   <dt className="text-sm font-semibold text-slate-500">
-                    Key Products
+                    Product Range
                   </dt>
                   <dd className="mt-1 font-semibold text-slate-900">
-                    T-Shirts, Polos, Uniforms & Sportswear
+                    T-Shirts, Uniforms, Sportswear & Workwear
                   </dd>
                 </div>
 
@@ -598,16 +625,16 @@ export default function ApparelManufacturerBangalorePage() {
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Products
+                Apparel Products
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Apparel Products Manufactured for Businesses & Institutions
+                Apparel Manufacturing Solutions from One Bangalore Partner
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                TES Apparels supports different apparel categories depending
-                on the customer's application, specifications and quantity.
+                Explore customized apparel categories for corporate,
+                institutional, sports, promotional and industrial requirements.
               </p>
             </div>
 
@@ -637,36 +664,29 @@ export default function ApparelManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* BULK MANUFACTURING */}
+        {/* MANUFACTURING CAPABILITIES */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Bulk Apparel Manufacturing
+                Manufacturing Capabilities
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Bulk Apparel Manufacturers for Customized Organization
-                Requirements
+                What You Can Expect from a Bangalore Apparel Manufacturer
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
-                  Organizations often need apparel in larger quantities with
-                  consistent specifications across different sizes. This can
-                  include employee uniforms, promotional T-shirts, school
-                  uniforms, sportswear, event clothing and branded garments.
+                  A successful bulk apparel program depends on clear
+                  specifications, consistent sizing, suitable fabrics,
+                  accurate branding and coordinated production.
                 </p>
 
                 <p>
-                  TES Apparels can discuss bulk requirements based on
-                  approximate quantity, garment type, fabric, GSM, colour,
-                  sizing, branding and delivery requirements.
-                </p>
-
-                <p>
-                  For recurring programs, organizations can also discuss
-                  product specifications and requirements for future orders.
+                  TES Apparels can discuss these requirements before production
+                  so the apparel program is aligned with the organization&apos;s
+                  intended use and approved specifications.
                 </p>
               </div>
 
@@ -674,25 +694,12 @@ export default function ApparelManufacturerBangalorePage() {
                 href="/#contact"
                 className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
               >
-                Discuss Your Bulk Requirement
+                Discuss Your Requirement
               </Link>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              {[
-                "Bulk production",
-                "Custom specifications",
-                "Multiple sizes",
-                "Fabric selection",
-                "GSM selection",
-                "Custom colours",
-                "Logo branding",
-                "Embroidery",
-                "Printing",
-                "Custom labels",
-                "Quality-focused production",
-                "PAN India delivery",
-              ].map((item) => (
+              {capabilities.map((item) => (
                 <div
                   key={item}
                   className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm"
@@ -701,9 +708,7 @@ export default function ApparelManufacturerBangalorePage() {
                     ✓
                   </span>
 
-                  <span className="font-medium text-slate-700">
-                    {item}
-                  </span>
+                  <span className="font-medium text-slate-700">{item}</span>
                 </div>
               ))}
             </div>
@@ -713,41 +718,30 @@ export default function ApparelManufacturerBangalorePage() {
         {/* INDUSTRIES */}
         <section className="bg-[#0B2341] text-white">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-                  Industries & Organizations
-                </p>
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
+                Industries & Organizations
+              </p>
 
-                <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                  Apparel Manufacturing Solutions for Different Industries
-                </h2>
+              <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+                Apparel Manufacturing for Businesses & Institutions
+              </h2>
 
-                <p className="mt-6 leading-8 text-slate-300">
-                  Different organizations require different apparel
-                  specifications. TES Apparels can discuss customized
-                  requirements for corporate teams, educational institutions,
-                  sports organizations, events and other bulk apparel programs.
-                </p>
+              <p className="mt-5 leading-7 text-slate-300">
+                Customized apparel can be developed for different industries,
+                teams and institutional programs based on their requirements.
+              </p>
+            </div>
 
-                <Link
-                  href="/#contact"
-                  className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+            <div className="mt-12 flex flex-wrap justify-center gap-3">
+              {industries.map((industry) => (
+                <span
+                  key={industry}
+                  className="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-slate-200"
                 >
-                  Send Your Requirement
-                </Link>
-              </div>
-
-              <div className="flex flex-wrap gap-3">
-                {industries.map((industry) => (
-                  <span
-                    key={industry}
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold text-slate-200"
-                  >
-                    {industry}
-                  </span>
-                ))}
-              </div>
+                  {industry}
+                </span>
+              ))}
             </div>
           </div>
         </section>
@@ -757,87 +751,117 @@ export default function ApparelManufacturerBangalorePage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Custom Apparel
+                Customization & Branding
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Customize Apparel Around Your Brand & Product Requirements
+                Customize Apparel for Your Brand, Team or Institution
               </h2>
 
-              <p className="mt-6 leading-8 text-slate-600">
-                Custom apparel can be developed around the organization's
-                preferred colours, garment construction, fabric, GSM, size
-                range, artwork and branding requirements.
-              </p>
+              <div className="mt-6 space-y-5 leading-8 text-slate-600">
+                <p>
+                  Customized apparel can include company colours, institution
+                  colours, logos, artwork, garment specifications, fabric
+                  selection, GSM, sizing and branding requirements.
+                </p>
 
-              <p className="mt-5 leading-8 text-slate-600">
-                Branding can include suitable embroidery, screen printing,
-                DTF printing, labels and other methods depending on the garment
-                and fabric.
-              </p>
+                <p>
+                  Depending on the garment and application, embroidery,
+                  screen printing, DTF printing, labels and other suitable
+                  branding methods can be considered.
+                </p>
+              </div>
 
               <Link
                 href="/t-shirt-embroidery"
-                className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
+                className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
               >
-                Explore Embroidery & Branding
+                Explore Apparel Branding
               </Link>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {customization.map((item) => (
-                <div
-                  key={item}
-                  className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4"
-                >
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
-                    ✓
-                  </span>
+            <div className="rounded-2xl bg-slate-50 p-8 shadow-sm">
+              <h3 className="text-2xl font-bold text-[#0B2341]">
+                Common Customization Requirements
+              </h3>
 
-                  <span className="font-medium text-slate-700">
-                    {item}
-                  </span>
-                </div>
-              ))}
+              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                {[
+                  "Custom Colours",
+                  "Company Logo",
+                  "Institution Logo",
+                  "Fabric Selection",
+                  "GSM Selection",
+                  "Custom Sizes",
+                  "Embroidery",
+                  "Screen Printing",
+                  "DTF Printing",
+                  "Custom Labels",
+                ].map((item) => (
+                  <div
+                    key={item}
+                    className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700"
+                  >
+                    ✓ {item}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
 
-        {/* MANUFACTURING PROCESS */}
+        {/* FABRIC */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Manufacturing Process
+                Fabric & Product Specifications
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                From Apparel Requirement to Bulk Production
+                Choose Apparel Specifications Based on Intended Use
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                A structured process helps ensure that approved product
-                specifications are followed throughout the apparel
-                manufacturing requirement.
+                Fabric and garment specifications can vary depending on
+                comfort, durability, appearance, climate, activity level,
+                maintenance requirements and budget.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-              {processSteps.map((step) => (
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                {
+                  title: "Cotton",
+                  text:
+                    "Comfort-focused options for everyday T-shirts and institutional apparel.",
+                },
+                {
+                  title: "Poly Cotton",
+                  text:
+                    "Suitable for applications requiring a balance of comfort, durability and easy maintenance.",
+                },
+                {
+                  title: "Performance",
+                  text:
+                    "Suitable for sports, events, fitness and active-use apparel.",
+                },
+                {
+                  title: "Polo & Formal",
+                  text:
+                    "Suitable for professional corporate and institutional apparel programs.",
+                },
+              ].map((item) => (
                 <div
-                  key={step.number}
+                  key={item.title}
                   className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
                 >
-                  <span className="text-3xl font-black text-[#C49A00]">
-                    {step.number}
-                  </span>
-
-                  <h3 className="mt-4 text-lg font-bold text-[#0B2341]">
-                    {step.title}
+                  <h3 className="text-lg font-bold text-[#0B2341]">
+                    {item.title}
                   </h3>
 
                   <p className="mt-3 text-sm leading-7 text-slate-600">
-                    {step.text}
+                    {item.text}
                   </p>
                 </div>
               ))}
@@ -845,91 +869,86 @@ export default function ApparelManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* BANGALORE AREAS */}
+        {/* PROCESS */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Serving Bangalore
-              </p>
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+              Manufacturing Process
+            </p>
 
-              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Apparel Manufacturer Serving Businesses Across Bengaluru
-              </h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+              From Apparel Requirement to Bulk Production
+            </h2>
 
-              <div className="mt-6 space-y-5 leading-8 text-slate-600">
-                <p>
-                  TES Apparels is based in Basaveshwar Nagar, Bengaluru and
-                  supports organizations across the city's major commercial,
-                  residential and industrial areas.
-                </p>
+            <p className="mt-5 leading-7 text-slate-600">
+              A structured process helps organizations keep production aligned
+              with approved garment and branding specifications.
+            </p>
+          </div>
 
-                <p>
-                  Customers searching for apparel manufacturers in Bangalore
-                  can discuss bulk T-shirt, uniform, polo, sportswear,
-                  workwear and promotional apparel requirements with TES
-                  Apparels.
-                </p>
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+            {processSteps.map((step) => (
+              <div
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              >
+                <span className="text-3xl font-black text-[#C49A00]">
+                  {step.number}
+                </span>
 
-                <p>
-                  Service coverage includes central, west, north, south and
-                  east Bangalore, with delivery support extending across
-                  Karnataka and India.
+                <h3 className="mt-4 text-lg font-bold text-[#0B2341]">
+                  {step.title}
+                </h3>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  {step.text}
                 </p>
               </div>
-            </div>
-
-            <div className="flex flex-wrap gap-3">
-              {areas.map((area) => (
-                <span
-                  key={area}
-                  className="rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm"
-                >
-                  {area}
-                </span>
-              ))}
-            </div>
+            ))}
           </div>
         </section>
 
         {/* WHY TES */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="grid gap-12 lg:grid-cols-2">
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
                   Why TES Apparels
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  A Bangalore Apparel Manufacturing Partner for Bulk Orders
+                  A Bangalore Apparel Manufacturing Partner for Bulk
+                  Requirements
                 </h2>
 
-                <p className="mt-6 leading-8 text-slate-600">
-                  Selecting an apparel manufacturer involves more than finding
-                  a garment supplier. Product specifications, consistency,
-                  branding, quantity and communication are important parts of a
-                  successful bulk apparel program.
-                </p>
+                <div className="mt-6 space-y-5 leading-8 text-slate-600">
+                  <p>
+                    Organizations often need apparel that represents their
+                    brand consistently across employees, students, teams or
+                    events.
+                  </p>
 
-                <p className="mt-5 leading-8 text-slate-600">
-                  TES Apparels works with organizations that require customized
-                  apparel according to their approved product requirements.
-                </p>
+                  <p>
+                    TES Apparels supports customized apparel requirements with
+                    attention to product specifications, branding, sizing and
+                    bulk production requirements.
+                  </p>
+                </div>
               </div>
 
               <div className="space-y-4">
                 {[
                   "Bangalore-based apparel manufacturer",
-                  "Experience with customized bulk apparel",
+                  "Customized and bulk apparel",
                   "T-shirts and polo T-shirts",
-                  "Corporate uniforms and workwear",
+                  "Corporate apparel and uniforms",
                   "School and college uniforms",
                   "Sportswear and jerseys",
-                  "Event and promotional apparel",
+                  "Dri-Fit performance apparel",
+                  "Workwear and industrial apparel",
                   "Printing and embroidery support",
-                  "Multiple size requirements",
-                  "Karnataka and PAN India delivery support",
+                  "PAN India delivery support",
                 ].map((item) => (
                   <div
                     key={item}
@@ -949,30 +968,117 @@ export default function ApparelManufacturerBangalorePage() {
           </div>
         </section>
 
+        {/* BANGALORE SERVICE */}
+        <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+          <div className="rounded-3xl bg-[#0B2341] p-8 text-white shadow-xl sm:p-12">
+            <div className="grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-center">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
+                  Bangalore Apparel Manufacturer
+                </p>
+
+                <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+                  Serving Businesses & Institutions Across Bangalore
+                </h2>
+
+                <div className="mt-6 space-y-5 leading-8 text-slate-300">
+                  <p>
+                    TES Apparels is based in Basaveshwar Nagar, Bengaluru and
+                    supports organizations across Bangalore looking for
+                    customized and bulk apparel manufacturing.
+                  </p>
+
+                  <p>
+                    We can discuss requirements for corporate apparel,
+                    uniforms, T-shirts, sportswear, workwear, promotional
+                    apparel and other customized garments.
+                  </p>
+
+                  <p>
+                    Our service extends beyond Bangalore, with support for
+                    customers across Karnataka and other parts of India.
+                  </p>
+                </div>
+
+                <Link
+                  href="/#contact"
+                  className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+                >
+                  Start Your Apparel Enquiry
+                </Link>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-7">
+                <h3 className="text-2xl font-bold">TES Apparels</h3>
+
+                <div className="mt-5 space-y-4 text-sm leading-7 text-slate-300">
+                  <p>
+                    No.483, 2nd Floor,
+                    <br />
+                    3rd Stage, Basaveshwar Nagar,
+                    <br />
+                    Bengaluru – 560079,
+                    <br />
+                    Karnataka, India
+                  </p>
+
+                  <p>
+                    <strong className="text-white">Phone:</strong>{" "}
+                    <a
+                      href="tel:+919880038910"
+                      className="hover:text-[#E4C65A]"
+                    >
+                      +91 9880038910
+                    </a>
+                  </p>
+
+                  <p>
+                    <strong className="text-white">Email:</strong>{" "}
+                    <a
+                      href="mailto:chidanand@tesapparels.com"
+                      className="break-all hover:text-[#E4C65A]"
+                    >
+                      chidanand@tesapparels.com
+                    </a>
+                  </p>
+
+                  <p>
+                    <strong className="text-white">Business Hours:</strong>
+                    <br />
+                    Monday – Saturday
+                    <br />
+                    9:30 AM – 6:30 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* RELATED PAGES */}
-        <section className="bg-white">
+        <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                TES Apparels Solutions
+                Explore TES Apparels
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Explore Our Apparel Manufacturing Solutions
+                Apparel Manufacturing Solutions in Bangalore
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                Explore specific TES Apparels manufacturing solutions for
-                corporate, institutional, sports and event requirements.
+                Explore our specialized apparel manufacturing and customized
+                garment solutions.
               </p>
             </div>
 
-            <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {relatedPages.map((item) => (
                 <Link
                   key={item.title}
                   href={item.href}
-                  className="rounded-xl border border-slate-200 bg-slate-50 p-6 font-bold text-[#0B2341] shadow-sm transition hover:-translate-y-1 hover:border-[#C49A00] hover:text-[#C49A00]"
+                  className="rounded-xl border border-slate-200 bg-white p-6 font-bold text-[#0B2341] shadow-sm transition hover:-translate-y-1 hover:border-[#C49A00] hover:text-[#C49A00]"
                 >
                   {item.title}
 
@@ -986,7 +1092,7 @@ export default function ApparelManufacturerBangalorePage() {
         </section>
 
         {/* FAQ */}
-        <section id="faq" className="bg-slate-50">
+        <section id="faq" className="bg-white">
           <div className="mx-auto max-w-5xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
@@ -996,13 +1102,19 @@ export default function ApparelManufacturerBangalorePage() {
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
                 Apparel Manufacturer in Bangalore – FAQs
               </h2>
+
+              <p className="mx-auto mt-5 max-w-3xl leading-7 text-slate-600">
+                Answers to common questions about customized apparel
+                manufacturing, bulk garments, uniforms and T-shirt production
+                in Bangalore.
+              </p>
             </div>
 
             <div className="mt-12 space-y-4">
               {faqs.map((faq) => (
                 <details
                   key={faq.question}
-                  className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm"
+                  className="group rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm"
                 >
                   <summary className="cursor-pointer list-none pr-8 text-lg font-bold text-[#0B2341]">
                     {faq.question}
@@ -1021,7 +1133,7 @@ export default function ApparelManufacturerBangalorePage() {
         <section className="bg-[#0B2341]">
           <div className="mx-auto max-w-5xl px-6 py-16 text-center sm:px-8 lg:py-20">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-              Bulk Apparel Manufacturing
+              Customized & Bulk Apparel Manufacturing
             </p>
 
             <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
@@ -1031,8 +1143,7 @@ export default function ApparelManufacturerBangalorePage() {
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
               Share your apparel requirements, approximate quantity, preferred
               products, fabric specifications, branding requirements and
-              delivery location with TES Apparels. We can discuss your
-              requirement and guide you through the next steps.
+              delivery location with TES Apparels.
             </p>
 
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
@@ -1040,7 +1151,7 @@ export default function ApparelManufacturerBangalorePage() {
                 href="/#contact"
                 className="rounded-lg bg-[#C49A00] px-8 py-4 font-bold text-white transition hover:bg-[#A98200]"
               >
-                Request Bulk Apparel Quote
+                Request Apparel Quote
               </Link>
 
               <a
