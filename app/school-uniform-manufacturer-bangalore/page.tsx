@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const PAGE_URL =
+  "https://tesapparels.com/school-uniform-manufacturer-bangalore";
+
 export const metadata: Metadata = {
   title:
     "School Uniform Manufacturer in Bangalore | School Uniform Manufacturers | TES Apparels",
+
   description:
     "TES Apparels is a school uniform manufacturer in Bangalore supplying bulk customized school uniforms, shirts, trousers, T-shirts, sports uniforms and institutional apparel for schools, colleges and educational institutions.",
+
   keywords: [
     "school uniform manufacturer in bangalore",
     "school uniform manufacturers in bangalore",
@@ -42,23 +47,24 @@ export const metadata: Metadata = {
     "school uniform supplier karnataka",
     "school uniform manufacturer south india",
   ],
+
   alternates: {
-    canonical: "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+    canonical: PAGE_URL,
   },
+
   openGraph: {
-    title:
-      "School Uniform Manufacturer in Bangalore | TES Apparels",
+    title: "School Uniform Manufacturer in Bangalore | TES Apparels",
     description:
       "Bulk school uniforms, college uniforms, shirts, trousers, T-shirts and sports uniforms manufactured for schools and educational institutions.",
-    url: "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+    url: PAGE_URL,
     siteName: "TES Apparels",
     type: "website",
     locale: "en_IN",
   },
+
   twitter: {
     card: "summary_large_image",
-    title:
-      "School Uniform Manufacturer in Bangalore | TES Apparels",
+    title: "School Uniform Manufacturer in Bangalore | TES Apparels",
     description:
       "Bulk customized school and college uniforms manufactured for educational institutions across Bangalore and India.",
   },
@@ -66,20 +72,17 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question:
-      "Is TES Apparels a school uniform manufacturer in Bangalore?",
+    question: "Is TES Apparels a school uniform manufacturer in Bangalore?",
     answer:
       "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized school uniforms and institutional apparel for schools, colleges and educational organizations.",
   },
   {
-    question:
-      "What school uniform products does TES Apparels manufacture?",
+    question: "What school uniform products does TES Apparels manufacture?",
     answer:
       "TES Apparels can manufacture school shirts, trousers, skirts, T-shirts, polo T-shirts, sports T-shirts and other customized institutional apparel based on the requirements of the school or educational institution.",
   },
   {
-    question:
-      "Do you supply school uniforms in bulk?",
+    question: "Do you supply school uniforms in bulk?",
     answer:
       "Yes. TES Apparels focuses on bulk apparel requirements and can discuss school uniform production based on product specifications, student strength, sizes, quantities, branding requirements and delivery schedules.",
   },
@@ -90,38 +93,32 @@ const faqs = [
       "Yes. Uniform specifications can be customized according to the institution's approved colours, logo, garment design, fabric requirements, sizing and branding requirements.",
   },
   {
-    question:
-      "Do you manufacture uniforms for colleges?",
+    question: "Do you manufacture uniforms for colleges?",
     answer:
       "Yes. TES Apparels can provide customized apparel solutions for colleges, universities, educational institutions and student groups, including shirts, trousers, T-shirts, polo T-shirts and sports apparel.",
   },
   {
-    question:
-      "Can you manufacture school sports uniforms?",
+    question: "Can you manufacture school sports uniforms?",
     answer:
       "Yes. Sports T-shirts, jerseys and other athletic apparel can be developed for school sports teams, physical education programs, competitions, sports days and institutional events.",
   },
   {
-    question:
-      "Can you provide different sizes for students?",
+    question: "Can you provide different sizes for students?",
     answer:
       "Yes. School and institutional uniform programs can include multiple garment sizes according to the student population and the approved size requirements of the institution.",
   },
   {
-    question:
-      "Can school uniforms include embroidery or printing?",
+    question: "Can school uniforms include embroidery or printing?",
     answer:
       "Yes. Depending on the garment and fabric, suitable embroidery, printing, labels and other branding methods can be considered for school logos, names and institutional branding.",
   },
   {
-    question:
-      "Do you supply school uniforms outside Bangalore?",
+    question: "Do you supply school uniforms outside Bangalore?",
     answer:
       "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India through PAN India delivery.",
   },
   {
-    question:
-      "How can a school request a bulk uniform quotation?",
+    question: "How can a school request a bulk uniform quotation?",
     answer:
       "Schools, colleges and educational institutions can share their uniform requirements, student strength or approximate quantity, garment specifications, branding requirements and delivery location with TES Apparels to discuss the next steps and quotation.",
   },
@@ -257,6 +254,7 @@ const relatedPages = [
 
 const jsonLd = {
   "@context": "https://schema.org",
+
   "@graph": [
     {
       "@type": "Organization",
@@ -274,6 +272,7 @@ const jsonLd = {
         addressCountry: "IN",
       },
     },
+
     {
       "@type": "LocalBusiness",
       "@id": "https://tesapparels.com/#localbusiness",
@@ -305,10 +304,10 @@ const jsonLd = {
         },
       ],
     },
+
     {
       "@type": "Service",
-      "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#service",
+      "@id": `${PAGE_URL}#service`,
       name: "School Uniform Manufacturing in Bangalore",
       serviceType: "School Uniform Manufacturing",
       provider: {
@@ -330,13 +329,12 @@ const jsonLd = {
       ],
       description:
         "Bulk customized school and college uniform manufacturing for schools, colleges and educational institutions in Bangalore and across India.",
-      url:
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+      url: PAGE_URL,
     },
+
     {
       "@type": "BreadcrumbList",
-      "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#breadcrumb",
+      "@id": `${PAGE_URL}#breadcrumb`,
       itemListElement: [
         {
           "@type": "ListItem",
@@ -348,15 +346,14 @@ const jsonLd = {
           "@type": "ListItem",
           position: 2,
           name: "School Uniform Manufacturer in Bangalore",
-          item:
-            "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+          item: PAGE_URL,
         },
       ],
     },
+
     {
       "@type": "FAQPage",
-      "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#faq",
+      "@id": `${PAGE_URL}#faq`,
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -389,10 +386,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
               aria-label="Breadcrumb"
               className="mb-8 text-sm text-slate-300"
             >
-              <Link
-                href="/"
-                className="transition hover:text-white"
-              >
+              <Link href="/" className="transition hover:text-white">
                 Home
               </Link>
 
@@ -408,8 +402,8 @@ export default function SchoolUniformManufacturerBangalorePage() {
             </div>
 
             <h1 className="max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              School Uniform Manufacturer in Bangalore for Schools, Colleges
-              & Educational Institutions
+              School Uniform Manufacturer in Bangalore for Schools, Colleges &
+              Educational Institutions
             </h1>
 
             <p className="mt-7 max-w-4xl text-lg leading-8 text-slate-200 sm:text-xl">
@@ -623,9 +617,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                     ✓
                   </span>
 
-                  <span className="font-medium text-slate-700">
-                    {item}
-                  </span>
+                  <span className="font-medium text-slate-700">{item}</span>
                 </div>
               ))}
             </div>
@@ -674,9 +666,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                       ✓
                     </span>
 
-                    <span className="font-medium text-slate-200">
-                      {item}
-                    </span>
+                    <span className="font-medium text-slate-200">{item}</span>
                   </div>
                 ))}
               </div>
@@ -1009,9 +999,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
             </div>
 
             <aside className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
-              <h3 className="text-2xl font-bold">
-                TES Apparels
-              </h3>
+              <h3 className="text-2xl font-bold">TES Apparels</h3>
 
               <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
                 <p>
@@ -1045,9 +1033,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 </p>
 
                 <p>
-                  <strong className="text-white">
-                    Business Hours:
-                  </strong>
+                  <strong className="text-white">Business Hours:</strong>
                   <br />
                   Monday – Saturday
                   <br />
