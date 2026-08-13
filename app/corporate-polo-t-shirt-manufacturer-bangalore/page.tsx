@@ -3,54 +3,56 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "School Uniform Manufacturer in Bangalore | School Uniform Manufacturers | TES Apparels",
+    "Corporate Polo T-Shirt Manufacturer in Bangalore | Corporate Polo T-Shirt Manufacturers | TES Apparels",
   description:
-    "TES Apparels is a school uniform manufacturer in Bangalore supplying bulk customized school uniforms, shirts, trousers, T-shirts, sports uniforms and institutional apparel for schools, colleges and educational institutions.",
+    "TES Apparels is a corporate polo T-shirt manufacturer in Bangalore supplying bulk customized polo T-shirts for companies, offices, employee uniforms, corporate events, promotional campaigns and organizations across India.",
   keywords: [
-    "school uniform manufacturer in bangalore",
-    "school uniform manufacturers in bangalore",
-    "school uniform manufacturer bangalore",
-    "school uniform manufacturers bangalore",
-    "school uniform suppliers in bangalore",
-    "school uniform supplier bangalore",
-    "school uniform manufacturer in karnataka",
-    "school uniform manufacturers in karnataka",
-    "school uniform manufacturer in india",
-    "school uniform manufacturers in india",
-    "school uniform suppliers in india",
-    "school shirt manufacturer bangalore",
-    "school shirts manufacturers in bangalore",
-    "school trouser manufacturer bangalore",
-    "school trousers manufacturers in bangalore",
-    "school t shirt manufacturer bangalore",
-    "school t shirt manufacturers in bangalore",
-    "school sports uniform manufacturer bangalore",
-    "school sports uniform manufacturers bangalore",
-    "school sports t shirt manufacturer bangalore",
-    "school uniform supplier near me",
-    "bulk school uniform manufacturer bangalore",
-    "bulk school uniform suppliers bangalore",
-    "customized school uniform manufacturer bangalore",
-    "school uniform manufacturer near me",
-    "college uniform manufacturer bangalore",
-    "college uniform manufacturers in bangalore",
-    "college uniform supplier bangalore",
-    "college shirt manufacturer bangalore",
-    "college t shirt manufacturer bangalore",
-    "educational institution uniform manufacturer bangalore",
-    "institutional uniform manufacturer bangalore",
-    "school uniform supplier karnataka",
-    "school uniform manufacturer south india",
+    "corporate polo t shirt manufacturer in bangalore",
+    "corporate polo t shirt manufacturers in bangalore",
+    "corporate polo t shirt manufacturer bangalore",
+    "corporate polo t shirt manufacturers bangalore",
+    "corporate polo t shirt supplier bangalore",
+    "corporate polo t shirt suppliers bangalore",
+    "corporate polo t shirt manufacturer in karnataka",
+    "corporate polo t shirt manufacturers in karnataka",
+    "corporate polo t shirt manufacturer in india",
+    "corporate polo t shirt manufacturers in india",
+    "bulk corporate polo t shirts",
+    "bulk corporate polo t shirt manufacturer",
+    "customized corporate polo t shirts",
+    "corporate polo t shirt supplier",
+    "company uniform polo t shirts",
+    "employee uniform polo t shirts",
+    "corporate uniform polo t shirts",
+    "branded polo t shirts for companies",
+    "corporate event polo t shirts",
+    "company polo t shirt manufacturer",
+    "office polo t shirt manufacturer",
+    "corporate t shirt manufacturer bangalore",
+    "polo t shirt manufacturer bangalore",
+    "polo t shirt manufacturers in bangalore",
+    "custom polo t shirt manufacturer bangalore",
+    "bulk polo t shirt manufacturer bangalore",
+    "corporate apparel manufacturer bangalore",
+    "corporate clothing manufacturer bangalore",
+    "employee uniform manufacturer bangalore",
+    "company uniform manufacturer bangalore",
+    "promotional polo t shirt manufacturer bangalore",
+    "corporate uniform manufacturer india",
+    "polo t shirt manufacturers in india",
+    "corporate apparel manufacturers in india",
   ],
   alternates: {
-    canonical: "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+    canonical:
+      "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore",
   },
   openGraph: {
     title:
-      "School Uniform Manufacturer in Bangalore | TES Apparels",
+      "Corporate Polo T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Bulk school uniforms, college uniforms, shirts, trousers, T-shirts and sports uniforms manufactured for schools and educational institutions.",
-    url: "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+      "Bulk customized corporate polo T-shirts for companies, employee uniforms, corporate events, promotional campaigns and organizations.",
+    url:
+      "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore",
     siteName: "TES Apparels",
     type: "website",
     locale: "en_IN",
@@ -58,200 +60,200 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "School Uniform Manufacturer in Bangalore | TES Apparels",
+      "Corporate Polo T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Bulk customized school and college uniforms manufactured for educational institutions across Bangalore and India.",
+      "Bulk customized corporate polo T-shirts manufactured for companies and organizations across Bangalore and India.",
   },
 };
 
 const faqs = [
   {
     question:
-      "Is TES Apparels a school uniform manufacturer in Bangalore?",
+      "Is TES Apparels a corporate polo T-shirt manufacturer in Bangalore?",
     answer:
-      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized school uniforms and institutional apparel for schools, colleges and educational organizations.",
+      "Yes. TES Apparels is a Bangalore-based apparel manufacturer supplying customized corporate polo T-shirts for companies, offices, employee uniforms, corporate events and promotional requirements.",
   },
   {
     question:
-      "What school uniform products does TES Apparels manufacture?",
+      "What types of corporate polo T-shirts can TES Apparels manufacture?",
     answer:
-      "TES Apparels can manufacture school shirts, trousers, skirts, T-shirts, polo T-shirts, sports T-shirts and other customized institutional apparel based on the requirements of the school or educational institution.",
+      "TES Apparels can manufacture customized polo T-shirts based on the company's preferred fabric, colour, GSM, collar, sleeve, fit, sizing, logo placement and branding requirements.",
   },
   {
     question:
-      "Do you supply school uniforms in bulk?",
+      "Do you manufacture corporate polo T-shirts in bulk?",
     answer:
-      "Yes. TES Apparels focuses on bulk apparel requirements and can discuss school uniform production based on product specifications, student strength, sizes, quantities, branding requirements and delivery schedules.",
+      "Yes. TES Apparels focuses on bulk apparel requirements and can discuss production based on quantity, garment specifications, employee sizes, branding requirements and delivery schedules.",
   },
   {
     question:
-      "Can school uniforms be customized with school colours and logos?",
+      "Can company logos be added to corporate polo T-shirts?",
     answer:
-      "Yes. Uniform specifications can be customized according to the institution's approved colours, logo, garment design, fabric requirements, sizing and branding requirements.",
+      "Yes. Company logos and branding can be incorporated using suitable embroidery, printing or other branding methods depending on the garment and fabric.",
   },
   {
     question:
-      "Do you manufacture uniforms for colleges?",
+      "Are corporate polo T-shirts suitable for employee uniforms?",
     answer:
-      "Yes. TES Apparels can provide customized apparel solutions for colleges, universities, educational institutions and student groups, including shirts, trousers, T-shirts, polo T-shirts and sports apparel.",
+      "Yes. Polo T-shirts are commonly used for employee uniforms, field staff, sales teams, service teams, warehouse teams, events and other corporate apparel programs.",
   },
   {
     question:
-      "Can you manufacture school sports uniforms?",
+      "Can you manufacture different sizes for employees?",
     answer:
-      "Yes. Sports T-shirts, jerseys and other athletic apparel can be developed for school sports teams, physical education programs, competitions, sports days and institutional events.",
+      "Yes. Corporate apparel programs can include multiple sizes based on the company's employee size requirements.",
   },
   {
     question:
-      "Can you provide different sizes for students?",
+      "Can corporate polo T-shirts be customized in company colours?",
     answer:
-      "Yes. School and institutional uniform programs can include multiple garment sizes according to the student population and the approved size requirements of the institution.",
+      "Yes. Polo T-shirts can be developed according to approved company colours, garment specifications and branding requirements.",
   },
   {
     question:
-      "Can school uniforms include embroidery or printing?",
-    answer:
-      "Yes. Depending on the garment and fabric, suitable embroidery, printing, labels and other branding methods can be considered for school logos, names and institutional branding.",
-  },
-  {
-    question:
-      "Do you supply school uniforms outside Bangalore?",
+      "Do you supply corporate polo T-shirts outside Bangalore?",
     answer:
       "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India through PAN India delivery.",
   },
   {
     question:
-      "How can a school request a bulk uniform quotation?",
+      "Can polo T-shirts be used for corporate events?",
     answer:
-      "Schools, colleges and educational institutions can share their uniform requirements, student strength or approximate quantity, garment specifications, branding requirements and delivery location with TES Apparels to discuss the next steps and quotation.",
+      "Yes. Customized polo T-shirts can be manufactured for corporate events, conferences, employee engagement activities, sports events, promotional campaigns and company outings.",
+  },
+  {
+    question:
+      "How can a company request a bulk quotation?",
+    answer:
+      "Companies can share the required quantity, preferred colour, fabric, logo, sizes, garment specifications and delivery location with TES Apparels to discuss the requirement and quotation.",
   },
 ];
 
 const products = [
   {
-    title: "School Shirts",
+    title: "Employee Uniform Polo T-Shirts",
     text:
-      "Customized school shirts designed around the institution's approved colour, fabric, style, sizing and branding requirements.",
+      "Customized polo T-shirts for employees, office staff, sales teams, service teams and field personnel.",
   },
   {
-    title: "School Trousers",
+    title: "Corporate Event Polo T-Shirts",
     text:
-      "School trousers manufactured for regular student uniforms with specifications based on the institution's requirements.",
+      "Branded polo T-shirts for conferences, corporate events, company outings, employee engagement programs and campaigns.",
   },
   {
-    title: "School T-Shirts",
+    title: "Company Branded Polo T-Shirts",
     text:
-      "Customized T-shirts and polo T-shirts for schools, activity programs, events, student groups and institutional requirements.",
+      "Polo T-shirts customized with company colours, logos and branding specifications.",
   },
   {
-    title: "School Sports Uniforms",
+    title: "Promotional Polo T-Shirts",
     text:
-      "Sports T-shirts, jerseys and athletic apparel for school teams, competitions, sports days and physical education programs.",
+      "Bulk branded polo T-shirts for promotional campaigns, marketing activities, dealer programs and customer events.",
   },
   {
-    title: "College Uniforms",
+    title: "Corporate Sports Polo T-Shirts",
     text:
-      "Customized shirts, trousers, T-shirts and other student apparel for colleges and educational institutions.",
+      "Customized polo T-shirts for corporate sports teams, tournaments and employee wellness activities.",
   },
   {
-    title: "Institutional Apparel",
+    title: "Management & Staff Uniforms",
     text:
-      "Customized apparel programs for educational organizations requiring consistent branded clothing across students or teams.",
+      "Professional polo T-shirts for staff groups requiring consistent branded corporate apparel.",
   },
 ];
 
-const customizationOptions = [
-  "Institution colours",
-  "School logo",
-  "College branding",
+const industries = [
+  "IT Companies",
+  "Software Companies",
+  "Startups",
+  "Manufacturing Companies",
+  "Logistics Companies",
+  "Retail Companies",
+  "Hospitality",
+  "Healthcare Organizations",
+  "Educational Institutions",
+  "Banks & Financial Services",
+  "Event Management Companies",
+  "Sales & Marketing Teams",
+];
+
+const customization = [
+  "Company colours",
+  "Company logo",
   "Fabric selection",
   "GSM selection",
+  "Collar style",
+  "Sleeve style",
   "Custom garment design",
-  "Student size ranges",
+  "Employee size ranges",
   "Embroidery",
   "Screen printing",
   "DTF printing",
   "Custom labels",
-  "Bulk production",
 ];
 
-const institutions = [
-  "Schools",
-  "CBSE Schools",
-  "ICSE Schools",
-  "State Board Schools",
-  "International Schools",
-  "Residential Schools",
-  "Pre-University Colleges",
-  "Degree Colleges",
-  "Universities",
-  "Educational Institutions",
-  "Coaching Institutions",
-  "Sports Academies",
+const benefits = [
+  "Bulk corporate polo T-shirt manufacturing",
+  "Customized company colours",
+  "Company logo branding",
+  "Multiple employee sizes",
+  "Fabric and GSM selection",
+  "Embroidery and printing support",
+  "Corporate event apparel",
+  "Employee uniform programs",
+  "Promotional apparel",
+  "PAN India delivery support",
 ];
 
-const processSteps = [
+const process = [
   {
     number: "01",
-    title: "Requirement",
+    title: "Share Requirement",
     text:
-      "Share the institution's uniform requirements, student strength, product types, approximate quantity and delivery location.",
+      "Share your quantity, preferred polo T-shirt style, company colours, logo, employee sizes and delivery location.",
   },
   {
     number: "02",
-    title: "Specifications",
+    title: "Finalize Specifications",
     text:
-      "Discuss garment design, fabric, GSM, colours, sizes, logo placement, branding and other uniform specifications.",
+      "Discuss fabric, GSM, colour, collar, sleeves, fit, sizing, branding and other garment specifications.",
   },
   {
     number: "03",
-    title: "Sampling",
+    title: "Artwork & Sample",
     text:
-      "Where required, samples and artwork can be reviewed before proceeding with bulk school uniform production.",
+      "Where required, branding artwork and sample specifications can be reviewed before bulk production.",
   },
   {
     number: "04",
-    title: "Bulk Production",
+    title: "Bulk Manufacturing",
     text:
-      "Approved specifications are followed during production to maintain consistency across the required uniform quantities.",
+      "Approved specifications are followed during production to maintain consistency across the corporate apparel order.",
   },
   {
     number: "05",
     title: "Delivery",
     text:
-      "Finished uniforms are prepared for delivery in Bangalore or other locations across Karnataka and India.",
+      "Finished corporate polo T-shirts are prepared for delivery in Bangalore, Karnataka or other parts of India.",
   },
-];
-
-const benefits = [
-  "Bulk school uniform manufacturing",
-  "Customized institution colours",
-  "School and college logo branding",
-  "Multiple student sizes",
-  "Shirts and trousers",
-  "T-shirts and polo T-shirts",
-  "Sports uniforms and jerseys",
-  "Embroidery and printing support",
-  "Institutional apparel programs",
-  "PAN India delivery support",
 ];
 
 const relatedPages = [
   {
-    title: "T-Shirt Manufacturer in Bangalore",
-    href: "/t-shirt-manufacturer-bangalore",
+    title: "Corporate T-Shirt Manufacturer in Bangalore",
+    href: "/corporate-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "Sports T-Shirt Manufacturer",
-    href: "/sports-t-shirts",
+    title: "Corporate Polo T-Shirts",
+    href: "/corporate-polo-t-shirts",
   },
   {
-    title: "Dri-Fit T-Shirt Manufacturer",
-    href: "/dri-fit-t-shirts",
+    title: "Polo T-Shirt Manufacturer in Bangalore",
+    href: "/polo-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "Sports Jersey Manufacturer",
-    href: "/sports-jersey-manufacturer-bangalore",
+    title: "Corporate Uniform Manufacturer",
+    href: "/corporate-uniform-manufacturer",
   },
 ];
 
@@ -308,9 +310,9 @@ const jsonLd = {
     {
       "@type": "Service",
       "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#service",
-      name: "School Uniform Manufacturing in Bangalore",
-      serviceType: "School Uniform Manufacturing",
+        "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore#service",
+      name: "Corporate Polo T-Shirt Manufacturing",
+      serviceType: "Corporate Polo T-Shirt Manufacturing",
       provider: {
         "@id": "https://tesapparels.com/#organization",
       },
@@ -329,14 +331,14 @@ const jsonLd = {
         },
       ],
       description:
-        "Bulk customized school and college uniform manufacturing for schools, colleges and educational institutions in Bangalore and across India.",
+        "Bulk customized corporate polo T-shirt manufacturing for companies, employee uniforms, corporate events and promotional requirements.",
       url:
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+        "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore",
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#breadcrumb",
+        "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -347,16 +349,16 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "School Uniform Manufacturer in Bangalore",
+          name: "Corporate Polo T-Shirt Manufacturer in Bangalore",
           item:
-            "https://tesapparels.com/school-uniform-manufacturer-bangalore",
+            "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore",
         },
       ],
     },
     {
       "@type": "FAQPage",
       "@id":
-        "https://tesapparels.com/school-uniform-manufacturer-bangalore#faq",
+        "https://tesapparels.com/corporate-polo-t-shirt-manufacturer-bangalore#faq",
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -369,7 +371,7 @@ const jsonLd = {
   ],
 };
 
-export default function SchoolUniformManufacturerBangalorePage() {
+export default function CorporatePoloTShirtManufacturerBangalorePage() {
   return (
     <>
       <script
@@ -382,48 +384,42 @@ export default function SchoolUniformManufacturerBangalorePage() {
       <main className="bg-white text-slate-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#0B2341]">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.18),transparent_35%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.2),transparent_38%)]" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10 lg:py-28">
             <nav
               aria-label="Breadcrumb"
               className="mb-8 text-sm text-slate-300"
             >
-              <Link
-                href="/"
-                className="transition hover:text-white"
-              >
+              <Link href="/" className="hover:text-white">
                 Home
               </Link>
-
               <span className="mx-2">/</span>
-
               <span className="text-white">
-                School Uniform Manufacturer in Bangalore
+                Corporate Polo T-Shirt Manufacturer in Bangalore
               </span>
             </nav>
 
             <div className="mb-6 inline-flex rounded-full border border-[#C49A00]/40 bg-[#C49A00]/10 px-4 py-2 text-sm font-semibold text-[#E4C65A]">
-              Bulk School & Institutional Uniform Manufacturing
+              Bulk Corporate Polo T-Shirt Manufacturing
             </div>
 
             <h1 className="max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              School Uniform Manufacturer in Bangalore for Schools, Colleges
-              & Educational Institutions
+              Corporate Polo T-Shirt Manufacturer in Bangalore for Companies
+              & Organizations
             </h1>
 
             <p className="mt-7 max-w-4xl text-lg leading-8 text-slate-200 sm:text-xl">
-              TES Apparels is a school uniform manufacturer in Bangalore
-              supplying customized school shirts, trousers, T-shirts, polo
-              T-shirts, sports uniforms and institutional apparel for schools,
-              colleges and educational institutions.
+              TES Apparels is a corporate polo T-shirt manufacturer in
+              Bangalore supplying customized polo T-shirts for companies,
+              employee uniforms, corporate events, promotional campaigns and
+              organizations.
             </p>
 
-            <p className="mt-5 max-w-4xl text-base leading-7 text-slate-300">
-              We support bulk uniform requirements with customized fabrics,
-              colours, sizes, garment specifications, school branding,
-              embroidery and printing based on the requirements of each
-              institution.
+            <p className="mt-5 max-w-4xl leading-7 text-slate-300">
+              We support bulk requirements with customized fabrics, colours,
+              GSM, collar styles, employee sizes, company logos, embroidery
+              and printing based on your corporate apparel requirements.
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -431,7 +427,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 href="/#contact"
                 className="inline-flex items-center justify-center rounded-lg bg-[#C49A00] px-7 py-4 font-bold text-white shadow-lg transition hover:bg-[#A98200]"
               >
-                Request Bulk Uniform Quote
+                Request Bulk Polo Quote
               </Link>
 
               <a
@@ -446,35 +442,34 @@ export default function SchoolUniformManufacturerBangalorePage() {
 
         {/* INTRO */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-          <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr] lg:items-start">
+          <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr]">
             <div>
               <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                School Uniform Manufacturing
+                Corporate Polo T-Shirt Manufacturing
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight text-[#0B2341] sm:text-4xl">
-                Customized School Uniforms for Bulk Institutional Requirements
+                Customized Corporate Polo T-Shirts for Bulk Requirements
               </h2>
 
-              <div className="mt-6 space-y-5 text-base leading-8 text-slate-600">
+              <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
-                  School uniforms create a consistent identity across students
-                  while helping institutions maintain a professional and
-                  recognizable appearance. Uniform requirements can vary based
-                  on age group, school board, climate, activity requirements
-                  and institutional preferences.
+                  Corporate polo T-shirts are widely used by companies for
+                  employee uniforms, field teams, sales teams, corporate
+                  events, promotional activities and employee engagement
+                  programs.
                 </p>
 
                 <p>
-                  TES Apparels works with schools, colleges and educational
-                  institutions looking for customized uniforms manufactured
-                  according to their approved specifications.
+                  TES Apparels works with businesses looking for customized
+                  polo T-shirts manufactured according to their approved
+                  colours, fabric, branding and sizing requirements.
                 </p>
 
                 <p>
-                  Requirements can include school shirts, trousers, skirts,
-                  T-shirts, polo T-shirts, sports uniforms and other
-                  institutional apparel in different sizes and quantities.
+                  From a simple company-logo polo T-shirt to a complete
+                  employee uniform program, requirements can be discussed
+                  according to quantity and garment specifications.
                 </p>
               </div>
             </div>
@@ -489,7 +484,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Location
                   </dt>
-                  <dd className="mt-1 font-semibold text-slate-900">
+                  <dd className="mt-1 font-semibold">
                     Basaveshwar Nagar, Bengaluru
                   </dd>
                 </div>
@@ -498,8 +493,8 @@ export default function SchoolUniformManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Focus
                   </dt>
-                  <dd className="mt-1 font-semibold text-slate-900">
-                    School & Institutional Apparel
+                  <dd className="mt-1 font-semibold">
+                    Corporate & Institutional Apparel
                   </dd>
                 </div>
 
@@ -507,8 +502,8 @@ export default function SchoolUniformManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Products
                   </dt>
-                  <dd className="mt-1 font-semibold text-slate-900">
-                    Shirts, Trousers, T-Shirts & Sports Uniforms
+                  <dd className="mt-1 font-semibold">
+                    Polo T-Shirts, T-Shirts & Uniforms
                   </dd>
                 </div>
 
@@ -516,7 +511,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                   <dt className="text-sm font-semibold text-slate-500">
                     Service Area
                   </dt>
-                  <dd className="mt-1 font-semibold text-slate-900">
+                  <dd className="mt-1 font-semibold">
                     Bangalore, Karnataka & PAN India
                   </dd>
                 </div>
@@ -530,17 +525,17 @@ export default function SchoolUniformManufacturerBangalorePage() {
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                School Uniform Products
+                Corporate Polo T-Shirt Products
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Complete School & College Uniform Solutions
+                Polo T-Shirts for Employees, Events & Corporate Programs
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                Schools and educational institutions can choose individual
-                uniform products or develop a complete customized student
-                apparel program.
+                Companies can develop customized polo T-shirts for different
+                employee groups, events, promotional activities and business
+                requirements.
               </p>
             </div>
 
@@ -570,38 +565,35 @@ export default function SchoolUniformManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* BULK ENQUIRIES */}
+        {/* BULK ENQUIRY */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Bulk Uniform Enquiries
+                Bulk Corporate Enquiries
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Bulk School Uniform Manufacturing for Institutions
+                Bulk Corporate Polo T-Shirt Manufacturing
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
-                  Schools and colleges often require uniforms in multiple
-                  products, sizes and quantities. A coordinated manufacturing
-                  process helps institutions maintain consistency across the
-                  student uniform program.
+                  Companies often require polo T-shirts in multiple sizes and
+                  quantities while maintaining consistent colours, branding
+                  and garment specifications.
                 </p>
 
                 <p>
-                  TES Apparels can discuss requirements based on student
-                  strength, garment specifications, quantity, fabric,
-                  institutional colours, logo requirements and delivery
-                  schedules.
+                  TES Apparels can discuss requirements based on employee
+                  strength, quantity, fabric, GSM, company colours, logo
+                  requirements and delivery schedules.
                 </p>
 
                 <p>
-                  Whether you are planning uniforms for a new academic year,
-                  replacing existing uniforms or introducing a new institutional
-                  apparel program, you can share your requirements for a bulk
-                  enquiry.
+                  Whether you are introducing a new employee uniform, planning
+                  a corporate event or running a promotional campaign, you can
+                  share your bulk polo T-shirt requirement with our team.
                 </p>
               </div>
 
@@ -609,7 +601,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 href="/#contact"
                 className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
               >
-                Submit Bulk Uniform Enquiry
+                Submit Bulk Enquiry
               </Link>
             </div>
 
@@ -638,22 +630,23 @@ export default function SchoolUniformManufacturerBangalorePage() {
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-                  Uniform Customization
+                  Corporate Customization
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                  Customize School Uniforms to Match Your Institution
+                  Customize Polo T-Shirts to Match Your Company Brand
                 </h2>
 
                 <p className="mt-6 leading-8 text-slate-300">
-                  School and college uniforms can be developed according to
-                  approved institutional colours, garment designs, fabric
-                  requirements, student sizes and branding specifications.
+                  Corporate polo T-shirts can be customized according to
+                  approved company colours, garment design, fabric,
+                  specifications, employee sizes and branding requirements.
                 </p>
 
                 <p className="mt-5 leading-8 text-slate-300">
-                  Logo placement and branding methods can also be discussed
-                  based on the garment and fabric selected by the institution.
+                  Logo placement and branding methods can be discussed based on
+                  the garment and fabric selected for the corporate apparel
+                  program.
                 </p>
 
                 <Link
@@ -665,7 +658,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
               </div>
 
               <div className="grid gap-4 sm:grid-cols-2">
-                {customizationOptions.map((item) => (
+                {customization.map((item) => (
                   <div
                     key={item}
                     className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
@@ -684,95 +677,83 @@ export default function SchoolUniformManufacturerBangalorePage() {
           </div>
         </section>
 
-        {/* SCHOOLS & COLLEGES */}
+        {/* INDUSTRIES */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Schools, Colleges & Institutions
+                Industries We Serve
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Uniform Manufacturing for Different Educational Institutions
+                Corporate Polo T-Shirts for Different Industries
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
-                  Different educational institutions may have different
-                  requirements for classroom uniforms, sportswear, event
-                  apparel and student activities.
+                  Different organizations use branded polo T-shirts for
+                  employee identification, professional appearance, field
+                  operations, events and promotional activities.
                 </p>
 
                 <p>
-                  TES Apparels can discuss customized apparel requirements for
-                  schools, colleges, universities, academies and other
-                  educational organizations.
-                </p>
-
-                <p>
-                  Uniform programs can be planned around student groups,
-                  departments, activities and institution-specific branding
-                  requirements.
+                  TES Apparels can discuss customized corporate apparel
+                  requirements for companies and organizations across
+                  different industries.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-3">
-              {institutions.map((institution) => (
+              {industries.map((industry) => (
                 <span
-                  key={institution}
+                  key={industry}
                   className="rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm"
                 >
-                  {institution}
+                  {industry}
                 </span>
               ))}
             </div>
           </div>
         </section>
 
-        {/* FABRIC */}
+        {/* USE CASES */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Fabric & Quality
+                Corporate Applications
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Select Uniform Fabrics Based on Student & Institutional Needs
+                Where Customized Corporate Polo T-Shirts Can Be Used
               </h2>
-
-              <p className="mt-5 leading-7 text-slate-600">
-                Fabric selection can depend on garment type, climate, comfort,
-                durability, appearance, maintenance requirements and intended
-                use.
-              </p>
             </div>
 
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               {[
                 {
-                  title: "Cotton",
+                  title: "Employee Uniforms",
                   text:
-                    "Comfort-focused fabric options suitable for everyday school and institutional apparel.",
+                    "Branded polo T-shirts for employees and staff requiring a consistent company appearance.",
                 },
                 {
-                  title: "Poly Cotton",
+                  title: "Corporate Events",
                   text:
-                    "Suitable for uniforms where durability, easy maintenance and comfort are important.",
+                    "Customized apparel for conferences, company outings, annual events and employee programs.",
                 },
                 {
-                  title: "Performance Fabrics",
+                  title: "Sales Teams",
                   text:
-                    "Suitable for sports uniforms, activity programs and active student requirements.",
+                    "Professional branded apparel for sales representatives, field teams and customer-facing staff.",
                 },
                 {
-                  title: "Formal Fabrics",
+                  title: "Promotional Campaigns",
                   text:
-                    "Suitable for professional school shirts, college uniforms and formal institutional apparel.",
+                    "Company-branded polo T-shirts for marketing campaigns, dealer programs and promotional activities.",
                 },
               ].map((item) => (
-                <div
+                <article
                   key={item.title}
                   className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
                 >
@@ -783,72 +764,8 @@ export default function SchoolUniformManufacturerBangalorePage() {
                   <p className="mt-3 text-sm leading-7 text-slate-600">
                     {item.text}
                   </p>
-                </div>
+                </article>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* BRANDING */}
-        <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                School Branding
-              </p>
-
-              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                School Logo & Institutional Branding
-              </h2>
-
-              <p className="mt-6 leading-8 text-slate-600">
-                School logos, college branding and institutional identifiers
-                can be incorporated into uniforms using suitable embroidery,
-                printing and labelling methods.
-              </p>
-
-              <p className="mt-5 leading-8 text-slate-600">
-                Logo placement, size, artwork and branding method can be
-                discussed according to the garment, fabric and intended
-                application.
-              </p>
-
-              <div className="mt-7 flex flex-wrap gap-3">
-                {[
-                  "School Logo",
-                  "College Logo",
-                  "Embroidery",
-                  "Screen Printing",
-                  "DTF Printing",
-                  "Custom Labels",
-                ].map((item) => (
-                  <span
-                    key={item}
-                    className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
-              <h3 className="text-2xl font-bold">
-                Planning Bulk School Uniforms?
-              </h3>
-
-              <p className="mt-4 leading-7 text-slate-300">
-                Share your school or college logo, required products,
-                approximate student quantity, preferred fabric and delivery
-                location with TES Apparels.
-              </p>
-
-              <Link
-                href="/#contact"
-                className="mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
-              >
-                Request a Bulk Quote
-              </Link>
             </div>
           </div>
         </section>
@@ -857,21 +774,21 @@ export default function SchoolUniformManufacturerBangalorePage() {
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-              School Uniform Manufacturing Process
+              Manufacturing Process
             </p>
 
             <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-              From Institution Requirement to Finished Uniform
+              From Corporate Requirement to Finished Polo T-Shirts
             </h2>
 
             <p className="mt-5 leading-7 text-slate-600">
-              A structured process helps educational institutions keep uniform
+              A structured process helps keep bulk corporate apparel
               production aligned with approved specifications.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {processSteps.map((step) => (
+            {process.map((step) => (
               <div
                 key={step.number}
                 className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
@@ -902,32 +819,32 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  A Uniform Manufacturing Partner for Educational Institutions
+                  A Corporate Apparel Manufacturing Partner
                 </h2>
 
                 <p className="mt-6 leading-8 text-slate-600">
                   TES Apparels focuses on customized apparel where consistent
-                  specifications, institutional branding, student sizing and
-                  bulk production are important.
+                  specifications, company branding, employee sizing and bulk
+                  production are important.
                 </p>
 
                 <p className="mt-5 leading-8 text-slate-600">
-                  Schools, colleges and educational institutions can discuss
-                  their requirements for regular uniforms, sports apparel and
-                  other customized institutional clothing.
+                  Companies can discuss requirements for employee uniforms,
+                  corporate events, promotional apparel and other branded
+                  clothing programs.
                 </p>
               </div>
 
               <div className="space-y-4">
                 {[
                   "Bangalore-based apparel manufacturer",
-                  "Bulk school uniform manufacturing",
-                  "School shirts and trousers",
-                  "T-shirts and polo T-shirts",
-                  "Sports uniforms and jerseys",
-                  "Multiple student size requirements",
-                  "School logo branding",
-                  "Printing and embroidery support",
+                  "Bulk corporate polo T-shirt manufacturing",
+                  "Customized company colours",
+                  "Company logo branding",
+                  "Multiple employee sizes",
+                  "Embroidery and printing support",
+                  "Corporate event apparel",
+                  "Employee uniform programs",
                   "PAN India delivery support",
                 ].map((item) => (
                   <div
@@ -953,33 +870,31 @@ export default function SchoolUniformManufacturerBangalorePage() {
           <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                School Uniforms in Bangalore
+                Corporate Polo T-Shirts in Bangalore
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                School Uniform Manufacturer Serving Educational Institutions
-                Across Bengaluru
+                Corporate Polo T-Shirt Manufacturer Serving Bengaluru
+                Businesses
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
                   TES Apparels is located in Basaveshwar Nagar, Bengaluru,
-                  Karnataka. We support schools, colleges and educational
-                  institutions looking for customized uniforms and student
-                  apparel.
+                  Karnataka. We support companies looking for customized
+                  corporate polo T-shirts and branded employee apparel.
                 </p>
 
                 <p>
-                  Our Bangalore location enables us to work with educational
-                  institutions across the city while also supporting customers
-                  across Karnataka and other parts of India.
+                  Our Bangalore location enables us to work with businesses
+                  across the city while also supporting customers across
+                  Karnataka and other parts of India.
                 </p>
 
                 <p>
-                  Whether you require school shirts and trousers, T-shirts,
-                  polo T-shirts, sports uniforms or a complete institutional
-                  apparel program, you can share your requirement with our
-                  team.
+                  Whether you require employee polo T-shirts, corporate event
+                  apparel, promotional clothing or a complete company uniform
+                  program, you can share your requirement with our team.
                 </p>
               </div>
 
@@ -1009,9 +924,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
             </div>
 
             <aside className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
-              <h3 className="text-2xl font-bold">
-                TES Apparels
-              </h3>
+              <h3 className="text-2xl font-bold">TES Apparels</h3>
 
               <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
                 <p>
@@ -1045,9 +958,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 </p>
 
                 <p>
-                  <strong className="text-white">
-                    Business Hours:
-                  </strong>
+                  <strong className="text-white">Business Hours:</strong>
                   <br />
                   Monday – Saturday
                   <br />
@@ -1059,7 +970,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 href="/#contact"
                 className="mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
               >
-                Send a School Enquiry
+                Send Corporate Enquiry
               </Link>
             </aside>
           </div>
@@ -1105,7 +1016,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                School Uniform Manufacturer in Bangalore – FAQs
+                Corporate Polo T-Shirt Manufacturer in Bangalore – FAQs
               </h2>
             </div>
 
@@ -1132,18 +1043,18 @@ export default function SchoolUniformManufacturerBangalorePage() {
         <section className="bg-[#0B2341]">
           <div className="mx-auto max-w-5xl px-6 py-16 text-center sm:px-8 lg:py-20">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-              Bulk School Uniform Requirement
+              Bulk Corporate Polo T-Shirt Requirement
             </p>
 
             <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              Looking for a School Uniform Manufacturer in Bangalore?
+              Looking for Corporate Polo T-Shirt Manufacturers in Bangalore?
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Share your school or college uniform requirements, approximate
-              student quantity, preferred products, branding requirements and
-              delivery location with TES Apparels. Our team can discuss the
-              requirement and guide you through the next steps.
+              Share your required quantity, preferred fabric, company colours,
+              logo, employee sizes and delivery location with TES Apparels.
+              Our team can discuss your corporate polo T-shirt requirement and
+              guide you through the next steps.
             </p>
 
             <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
@@ -1151,7 +1062,7 @@ export default function SchoolUniformManufacturerBangalorePage() {
                 href="/#contact"
                 className="rounded-lg bg-[#C49A00] px-8 py-4 font-bold text-white transition hover:bg-[#A98200]"
               >
-                Request Bulk Uniform Quote
+                Request Bulk Polo Quote
               </Link>
 
               <a
