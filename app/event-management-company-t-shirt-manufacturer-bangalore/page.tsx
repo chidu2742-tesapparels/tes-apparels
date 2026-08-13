@@ -5,46 +5,56 @@ export const metadata: Metadata = {
   title:
     "Event Management Company T-Shirt Manufacturer in Bangalore | TES Apparels",
   description:
-    "TES Apparels is an event management company T-shirt manufacturer in Bangalore supplying bulk customized T-shirts for event agencies, corporate events, conferences, exhibitions, promotions, sports events and event crews.",
+    "TES Apparels manufactures customized event T-shirts in Bangalore for event management companies, event organizers, agencies, production teams, event crews and promotional campaigns. Bulk event apparel with printing, branding and PAN India delivery.",
   keywords: [
-    "event management company t shirt manufacturer bangalore",
-    "event management companies t shirt manufacturer bangalore",
+    "event management company t shirt manufacturer in bangalore",
+    "event management company t shirt manufacturers in bangalore",
+    "event management t shirt manufacturer bangalore",
     "event management t shirt manufacturers bangalore",
+    "event management company t shirt supplier bangalore",
     "event company t shirt manufacturer bangalore",
     "event company t shirt manufacturers bangalore",
-    "event t shirt manufacturer bangalore",
-    "event t shirt manufacturers bangalore",
-    "event t shirt supplier bangalore",
-    "event t shirt suppliers bangalore",
-    "event staff t shirt manufacturer bangalore",
+    "event organizer t shirt manufacturer bangalore",
+    "event organizer t shirt suppliers bangalore",
     "event crew t shirt manufacturer bangalore",
     "event crew t shirt manufacturers bangalore",
-    "event promotional t shirt manufacturer bangalore",
-    "event promotional t shirt manufacturers bangalore",
-    "bulk event t shirt manufacturer bangalore",
-    "bulk event t shirt suppliers bangalore",
+    "event staff t shirt manufacturer bangalore",
+    "event staff t shirt suppliers bangalore",
+    "event agency t shirt manufacturer bangalore",
+    "event agency t shirt suppliers bangalore",
+    "event production t shirt manufacturer bangalore",
+    "event production company t shirt manufacturer bangalore",
+    "event uniform manufacturer bangalore",
+    "event uniform manufacturers bangalore",
+    "event staff uniform manufacturer bangalore",
+    "event merchandise manufacturer bangalore",
+    "event merchandise suppliers bangalore",
     "customized event t shirt manufacturer bangalore",
     "custom event t shirt manufacturer bangalore",
-    "conference t shirt manufacturer bangalore",
-    "conference t shirt manufacturers bangalore",
-    "exhibition t shirt manufacturer bangalore",
-    "exhibition t shirt manufacturers bangalore",
-    "corporate event t shirt manufacturer bangalore",
-    "corporate event t shirt manufacturers bangalore",
-    "sports event t shirt manufacturer bangalore",
-    "sports event t shirt manufacturers bangalore",
+    "bulk event t shirt manufacturer bangalore",
+    "bulk event t shirt suppliers bangalore",
+    "event t shirt supplier bangalore",
+    "event t shirt manufacturers in bangalore",
+    "event t shirt printing bangalore",
+    "event t shirt printing manufacturers bangalore",
     "promotional t shirt manufacturer bangalore",
     "promotional t shirt manufacturers bangalore",
-    "event management uniform manufacturer bangalore",
-    "event staff uniform manufacturer bangalore",
-    "event agency apparel supplier bangalore",
-    "event management company apparel supplier bangalore",
+    "corporate event t shirt manufacturer bangalore",
+    "sports event t shirt manufacturer bangalore",
+    "marathon event t shirt manufacturer bangalore",
+    "conference t shirt manufacturer bangalore",
+    "exhibition t shirt manufacturer bangalore",
+    "festival t shirt manufacturer bangalore",
+    "college event t shirt manufacturer bangalore",
+    "school event t shirt manufacturer bangalore",
+    "event apparel manufacturer bangalore",
+    "event apparel manufacturers bangalore",
+    "event clothing manufacturer bangalore",
+    "event merchandise manufacturer india",
     "event t shirt manufacturer in karnataka",
     "event t shirt manufacturers in karnataka",
     "event t shirt manufacturer in india",
     "event t shirt manufacturers in india",
-    "event apparel manufacturer bangalore",
-    "event apparel manufacturers bangalore",
   ],
   alternates: {
     canonical:
@@ -54,7 +64,7 @@ export const metadata: Metadata = {
     title:
       "Event Management Company T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Bulk customized event T-shirts for event management companies, event agencies, conferences, exhibitions, promotions, sports events and corporate events.",
+      "Customized bulk event T-shirts manufactured for event management companies, organizers, agencies, event crews, production teams and promotional campaigns.",
     url:
       "https://tesapparels.com/event-management-company-t-shirt-manufacturer-bangalore",
     siteName: "TES Apparels",
@@ -66,7 +76,7 @@ export const metadata: Metadata = {
     title:
       "Event Management Company T-Shirt Manufacturer in Bangalore | TES Apparels",
     description:
-      "Bulk customized T-shirts manufactured for event management companies, event crews, conferences, exhibitions and corporate events.",
+      "Bulk customized event T-shirts for event management companies, event organizers, crews, agencies and promotional campaigns.",
   },
 };
 
@@ -75,53 +85,59 @@ const faqs = [
     question:
       "Is TES Apparels an event management company T-shirt manufacturer in Bangalore?",
     answer:
-      "Yes. TES Apparels manufactures customized T-shirts and promotional apparel for event management companies, event agencies, corporate events, conferences, exhibitions, sports events and other organized programs.",
+      "Yes. TES Apparels manufactures customized T-shirts and event apparel for event management companies, event organizers, agencies, production teams, event crews and promotional campaigns in Bangalore and across India.",
   },
   {
     question:
       "Do you manufacture T-shirts for event management companies?",
     answer:
-      "Yes. Event management companies can order customized T-shirts for event staff, crew members, volunteers, promoters, coordinators, security teams and other event personnel.",
+      "Yes. Event management companies can source customized T-shirts for event staff, coordinators, volunteers, production crews, registration teams, security teams, promoters and other event personnel.",
   },
   {
     question:
       "Can event T-shirts be customized with company and event branding?",
     answer:
-      "Yes. T-shirts can be customized with event logos, company logos, sponsor branding, campaign artwork, text, numbers and other approved artwork using suitable printing or embroidery methods.",
+      "Yes. Event T-shirts can be customized with event logos, company branding, sponsor logos, campaign artwork, staff identifiers, text and other approved artwork using suitable printing or embroidery methods.",
   },
   {
     question:
-      "Do you supply event T-shirts in bulk?",
+      "Do you supply bulk T-shirts for events?",
     answer:
-      "Yes. TES Apparels focuses on bulk apparel requirements and can discuss production based on the required quantity, garment specifications, sizes, colours, branding and delivery schedule.",
+      "Yes. TES Apparels supports bulk apparel enquiries for events, conferences, exhibitions, festivals, sports events, promotional campaigns, corporate events and other organized activities.",
   },
   {
     question:
-      "Can you manufacture T-shirts for conferences and exhibitions?",
+      "Can you manufacture different T-shirts for different event teams?",
     answer:
-      "Yes. Customized T-shirts can be manufactured for conferences, exhibitions, trade shows, product launches, promotional campaigns, seminars and corporate events.",
+      "Yes. Different colours, designs, branding or garment specifications can be considered for different event teams such as management, volunteers, production crew, registration staff, promoters and coordinators.",
   },
   {
     question:
-      "Can event crew T-shirts have different colours for different teams?",
+      "Can event T-shirts include sponsor logos?",
     answer:
-      "Yes. Different colours, designs or branding specifications can be considered for different event teams, departments, volunteers, coordinators or operational groups.",
+      "Yes. Sponsor and partner logos can be incorporated into event T-shirts where required, subject to the final artwork, placement and selected printing or branding method.",
   },
   {
     question:
-      "Can you manufacture sports event T-shirts?",
+      "What types of events can you support?",
     answer:
-      "Yes. TES Apparels can manufacture customized sports and event T-shirts for sporting events, tournaments, runs, fitness events, corporate sports programs and promotional activities.",
+      "Event apparel can be developed for corporate events, conferences, exhibitions, product launches, festivals, college events, school events, sports events, marathons, promotional campaigns and other organized activities.",
   },
   {
     question:
-      "Do you provide printing and embroidery for event T-shirts?",
+      "Can you manufacture event crew T-shirts?",
     answer:
-      "Yes. Suitable branding methods such as screen printing, DTF printing, embroidery and custom labels can be considered depending on the garment, artwork and intended application.",
+      "Yes. Event crew T-shirts can be customized for production teams, stage crews, technical teams, coordinators, volunteers, registration teams and other event staff.",
   },
   {
     question:
-      "Do you manufacture event T-shirts outside Bangalore?",
+      "Do you provide event T-shirt printing?",
+    answer:
+      "Yes. Printing requirements can be discussed based on the garment, fabric, artwork, quantity and intended application. Suitable printing and branding methods can be considered for each requirement.",
+  },
+  {
+    question:
+      "Do you supply event T-shirts outside Bangalore?",
     answer:
       "Yes. TES Apparels is based in Bangalore and supports customers across Karnataka and other parts of India through PAN India delivery.",
   },
@@ -129,88 +145,116 @@ const faqs = [
     question:
       "How can an event management company request a quotation?",
     answer:
-      "Event management companies can share the event type, required T-shirt style, approximate quantity, sizes, colours, branding requirements and delivery location with TES Apparels to discuss the requirement and quotation.",
+      "Event management companies can share the event details, T-shirt quantity, preferred garment type, colours, artwork or logos, sizes and delivery location with TES Apparels for a bulk enquiry.",
+  },
+];
+
+const eventTypes = [
+  {
+    title: "Corporate Events",
+    text:
+      "Customized T-shirts for corporate events, employee activities, annual functions, team events and internal campaigns.",
+  },
+  {
+    title: "Conferences",
+    text:
+      "Branded T-shirts for conference teams, coordinators, volunteers, registration staff and event support teams.",
+  },
+  {
+    title: "Exhibitions",
+    text:
+      "Customized apparel for exhibition staff, promoters, booth teams and brand activation personnel.",
+  },
+  {
+    title: "Product Launches",
+    text:
+      "Event T-shirts for product launches, promotional teams, campaign staff and brand representatives.",
+  },
+  {
+    title: "Festivals & Cultural Events",
+    text:
+      "Customized apparel for festival teams, volunteers, organizers, coordinators and event support personnel.",
+  },
+  {
+    title: "Sports Events",
+    text:
+      "T-shirts, sports apparel and event jerseys for sports events, competitions, fitness campaigns and athletic activities.",
+  },
+  {
+    title: "Marathons & Runs",
+    text:
+      "Customized participant, volunteer, organizer and crew T-shirts for marathons, runs and fitness events.",
+  },
+  {
+    title: "College & School Events",
+    text:
+      "Customized event apparel for student events, college festivals, school programs, competitions and activities.",
   },
 ];
 
 const products = [
   {
+    title: "Event T-Shirts",
+    text:
+      "Customized T-shirts for event teams, staff, organizers, volunteers and promotional campaigns.",
+  },
+  {
     title: "Event Crew T-Shirts",
     text:
-      "Customized T-shirts for event crew members, coordinators, volunteers and operational teams.",
+      "Branded apparel for production crews, technical teams, coordinators and behind-the-scenes event personnel.",
   },
   {
     title: "Event Staff T-Shirts",
     text:
-      "Branded apparel for event staff requiring clear team identification and consistent event branding.",
+      "Clearly branded T-shirts for registration teams, hospitality staff, promoters, coordinators and event support teams.",
   },
   {
-    title: "Conference T-Shirts",
+    title: "Promotional T-Shirts",
     text:
-      "Customized T-shirts for conferences, seminars, business meetings and corporate gatherings.",
-  },
-  {
-    title: "Exhibition T-Shirts",
-    text:
-      "Branded T-shirts for exhibition teams, trade shows, product demonstrations and promotional campaigns.",
-  },
-  {
-    title: "Corporate Event T-Shirts",
-    text:
-      "Customized apparel for employee events, annual meets, team activities, corporate celebrations and campaigns.",
+      "Customized promotional apparel for marketing campaigns, product activations, brand promotions and customer engagement.",
   },
   {
     title: "Sports Event T-Shirts",
     text:
-      "Customized sports T-shirts and jerseys for tournaments, runs, fitness events and sporting programs.",
+      "Performance-oriented T-shirts and jerseys for sports events, competitions, fitness programs and athletic campaigns.",
+  },
+  {
+    title: "Event Polo T-Shirts",
+    text:
+      "Customized polo T-shirts for professional event teams, corporate events, hospitality teams and coordinators.",
   },
 ];
 
-const eventTypes = [
-  "Corporate Events",
-  "Conferences",
-  "Exhibitions",
-  "Trade Shows",
-  "Product Launches",
-  "Seminars",
-  "College Events",
-  "School Events",
-  "Sports Events",
-  "Marathons",
-  "Fitness Events",
-  "Promotional Campaigns",
-  "Brand Activations",
-  "Team Building Events",
-  "Annual Meets",
-  "Employee Events",
-];
-
 const customizationOptions = [
-  "Event Logo",
-  "Company Logo",
-  "Sponsor Logos",
-  "Custom Artwork",
-  "Event Name",
-  "Team Names",
-  "Employee Names",
-  "Numbers",
-  "Screen Printing",
-  "DTF Printing",
+  "Event logo",
+  "Company logo",
+  "Sponsor logos",
+  "Campaign artwork",
+  "Team names",
+  "Staff identifiers",
+  "Custom colours",
+  "Custom garment design",
+  "Multiple sizes",
+  "Screen printing",
+  "DTF printing",
   "Embroidery",
-  "Custom Labels",
+  "Custom labels",
+  "Bulk production",
 ];
 
-const benefits = [
-  "Bulk event T-shirt manufacturing",
-  "Customized event branding",
-  "Event crew identification",
-  "Multiple colours",
-  "Multiple sizes",
-  "Corporate branding",
-  "Sponsor branding",
-  "Printing support",
-  "Embroidery support",
-  "PAN India delivery",
+const eventTeams = [
+  "Event Managers",
+  "Event Coordinators",
+  "Event Crew",
+  "Production Teams",
+  "Technical Teams",
+  "Registration Teams",
+  "Volunteers",
+  "Promoters",
+  "Brand Ambassadors",
+  "Hospitality Teams",
+  "Security Teams",
+  "Support Staff",
 ];
 
 const processSteps = [
@@ -218,25 +262,25 @@ const processSteps = [
     number: "01",
     title: "Event Requirement",
     text:
-      "Share the event type, approximate quantity, T-shirt requirements, delivery location and event date.",
+      "Share the event type, approximate T-shirt quantity, team requirements, delivery location and preferred garment.",
   },
   {
     number: "02",
-    title: "Product Selection",
+    title: "Design & Specifications",
     text:
-      "Discuss T-shirt style, fabric, GSM, colours, sizes and other garment specifications.",
+      "Discuss colours, fabric, GSM, sizes, event branding, sponsor logos, artwork and printing requirements.",
   },
   {
     number: "03",
-    title: "Artwork & Branding",
+    title: "Sample & Approval",
     text:
-      "Share event logos, company branding, sponsor artwork and other design requirements.",
+      "Where required, artwork and samples can be reviewed before proceeding with bulk production.",
   },
   {
     number: "04",
-    title: "Production",
+    title: "Bulk Manufacturing",
     text:
-      "Approved garment and branding specifications are followed during bulk production.",
+      "Approved specifications are followed during production to maintain consistency across the required event apparel.",
   },
   {
     number: "05",
@@ -246,22 +290,35 @@ const processSteps = [
   },
 ];
 
+const benefits = [
+  "Bulk event T-shirt manufacturing",
+  "Event management company requirements",
+  "Event crew T-shirts",
+  "Event staff T-shirts",
+  "Promotional T-shirts",
+  "Corporate event apparel",
+  "Sponsor logo branding",
+  "Multiple colours and sizes",
+  "Printing and embroidery support",
+  "PAN India delivery support",
+];
+
 const relatedPages = [
   {
-    title: "Corporate T-Shirt Manufacturer",
-    href: "/corporate-t-shirt-manufacturer-bangalore",
+    title: "Event T-Shirt Manufacturer in Bangalore",
+    href: "/event-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Corporate Event T-Shirt Manufacturer",
     href: "/corporate-event-t-shirt-manufacturer-bangalore",
   },
   {
-    title: "Event T-Shirt Manufacturer",
-    href: "/event-t-shirt-manufacturer-bangalore",
-  },
-  {
     title: "Marathon T-Shirt Manufacturer",
     href: "/marathon-t-shirt-manufacturer-bangalore",
+  },
+  {
+    title: "Corporate T-Shirt Manufacturer",
+    href: "/corporate-t-shirt-manufacturer-bangalore",
   },
   {
     title: "Sports T-Shirt Manufacturer",
@@ -327,8 +384,10 @@ const jsonLd = {
       "@type": "Service",
       "@id":
         "https://tesapparels.com/event-management-company-t-shirt-manufacturer-bangalore#service",
-      name: "Event Management Company T-Shirt Manufacturing in Bangalore",
-      serviceType: "Event T-Shirt Manufacturing",
+      name:
+        "Event Management Company T-Shirt Manufacturing in Bangalore",
+      serviceType:
+        "Event Management Company T-Shirt Manufacturing",
       provider: {
         "@id": "https://tesapparels.com/#organization",
       },
@@ -347,7 +406,7 @@ const jsonLd = {
         },
       ],
       description:
-        "Bulk customized event T-shirt manufacturing for event management companies, event agencies, conferences, exhibitions, corporate events, sports events and promotional campaigns.",
+        "Customized bulk event T-shirt manufacturing for event management companies, organizers, agencies, event crews, production teams and promotional campaigns.",
       url:
         "https://tesapparels.com/event-management-company-t-shirt-manufacturer-bangalore",
     },
@@ -365,7 +424,8 @@ const jsonLd = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Event Management Company T-Shirt Manufacturer in Bangalore",
+          name:
+            "Event Management Company T-Shirt Manufacturer in Bangalore",
           item:
             "https://tesapparels.com/event-management-company-t-shirt-manufacturer-bangalore",
         },
@@ -400,14 +460,17 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
       <main className="bg-white text-slate-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#0B2341]">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.18),transparent_35%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(196,154,0,0.20),transparent_35%)]" />
 
           <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10 lg:py-28">
             <nav
               aria-label="Breadcrumb"
               className="mb-8 text-sm text-slate-300"
             >
-              <Link href="/" className="transition hover:text-white">
+              <Link
+                href="/"
+                className="transition hover:text-white"
+              >
                 Home
               </Link>
 
@@ -419,7 +482,7 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
             </nav>
 
             <div className="mb-6 inline-flex rounded-full border border-[#C49A00]/40 bg-[#C49A00]/10 px-4 py-2 text-sm font-semibold text-[#E4C65A]">
-              Bulk Event & Promotional T-Shirt Manufacturing
+              Bulk Event T-Shirt Manufacturing
             </div>
 
             <h1 className="max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -427,16 +490,17 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
             </h1>
 
             <p className="mt-7 max-w-4xl text-lg leading-8 text-slate-200 sm:text-xl">
-              TES Apparels manufactures customized T-shirts for event
-              management companies, event agencies, conferences, exhibitions,
-              corporate events, sports events, promotional campaigns and event
-              crews.
+              TES Apparels manufactures customized event T-shirts in
+              Bangalore for event management companies, event organizers,
+              agencies, production teams, event crews and promotional
+              campaigns.
             </p>
 
             <p className="mt-5 max-w-4xl text-base leading-7 text-slate-300">
-              We support bulk requirements with customized colours, fabrics,
-              sizes, event branding, company logos, sponsor logos, printing,
-              embroidery and other apparel specifications.
+              From event staff and volunteer T-shirts to promotional apparel,
+              corporate event clothing and sports event T-shirts, we support
+              bulk requirements with customized colours, sizes, fabrics,
+              printing, embroidery and branding.
             </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -444,7 +508,7 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
                 href="/#contact"
                 className="inline-flex items-center justify-center rounded-lg bg-[#C49A00] px-7 py-4 font-bold text-white shadow-lg transition hover:bg-[#A98200]"
               >
-                Request Event T-Shirt Quote
+                Request Bulk Event Quote
               </Link>
 
               <a
@@ -457,7 +521,7 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
           </div>
         </section>
 
-        {/* INTRO */}
+        {/* INTRODUCTION */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1.4fr_0.8fr] lg:items-start">
             <div>
@@ -466,26 +530,29 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
               </p>
 
               <h2 className="text-3xl font-bold tracking-tight text-[#0B2341] sm:text-4xl">
-                Customized T-Shirts for Event Management Companies
+                Customized Event T-Shirts for Event Management Companies
               </h2>
 
               <div className="mt-6 space-y-5 text-base leading-8 text-slate-600">
                 <p>
-                  Event management companies often need branded apparel for
-                  staff, event crews, volunteers, promoters, coordinators and
-                  other teams working at events.
+                  Event management companies often require coordinated
+                  apparel for organizers, coordinators, volunteers, promoters,
+                  production teams and event support staff. Branded T-shirts
+                  help teams remain recognizable while creating a consistent
+                  event identity.
                 </p>
 
                 <p>
-                  TES Apparels supports bulk event T-shirt requirements with
-                  customized garments designed around the event identity,
-                  company branding and operational requirements.
+                  TES Apparels works with event companies and organizers
+                  requiring customized T-shirts manufactured according to
+                  their event specifications.
                 </p>
 
                 <p>
-                  T-shirts can be manufactured for conferences, exhibitions,
-                  product launches, corporate events, promotional campaigns,
-                  sports events, college events and other organized programs.
+                  Requirements can include event logos, company branding,
+                  sponsor logos, team names, staff identifiers, custom colours,
+                  multiple sizes and different designs for different event
+                  teams.
                 </p>
               </div>
             </div>
@@ -516,10 +583,10 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
 
                 <div>
                   <dt className="text-sm font-semibold text-slate-500">
-                    Products
+                    Customers
                   </dt>
                   <dd className="mt-1 font-semibold text-slate-900">
-                    T-Shirts, Polo T-Shirts & Sports Apparel
+                    Event Companies, Agencies & Organizers
                   </dd>
                 </div>
 
@@ -536,240 +603,233 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
           </div>
         </section>
 
-        {/* PRODUCTS */}
+        {/* EVENT TYPES */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Event T-Shirt Products
+                Event Types
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Event T-Shirts for Different Programs & Teams
+                Event T-Shirt Manufacturing for Different Types of Events
               </h2>
 
               <p className="mt-5 leading-7 text-slate-600">
-                Event management companies can develop customized apparel for
-                different teams, event categories and promotional requirements.
+                Event management companies can source customized apparel for
+                corporate, promotional, cultural, educational, sports and
+                entertainment events.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {products.map((product) => (
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {eventTypes.map((item) => (
                 <article
-                  key={product.title}
-                  className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                  key={item.title}
+                  className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
                 >
                   <h3 className="text-xl font-bold text-[#0B2341]">
-                    {product.title}
+                    {item.title}
                   </h3>
 
-                  <p className="mt-4 leading-7 text-slate-600">
-                    {product.text}
+                  <p className="mt-4 text-sm leading-7 text-slate-600">
+                    {item.text}
                   </p>
-
-                  <Link
-                    href="/#contact"
-                    className="mt-5 inline-flex font-bold text-[#0B2341] hover:text-[#C49A00]"
-                  >
-                    Request information →
-                  </Link>
                 </article>
               ))}
             </div>
           </div>
         </section>
 
-        {/* BULK ENQUIRIES */}
+        {/* PRODUCTS */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Bulk Event T-Shirt Enquiries
-              </p>
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+              Event Apparel Products
+            </p>
 
-              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Bulk T-Shirts for Event Management Companies & Agencies
-              </h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+              Event T-Shirts, Staff Apparel & Promotional Clothing
+            </h2>
 
-              <div className="mt-6 space-y-5 leading-8 text-slate-600">
-                <p>
-                  Event agencies may require hundreds or thousands of T-shirts
-                  for large events, promotional campaigns and multi-location
-                  programs.
-                </p>
+            <p className="mt-5 leading-7 text-slate-600">
+              Choose customized apparel based on your event format, team
+              structure, branding requirements and quantity.
+            </p>
+          </div>
 
-                <p>
-                  TES Apparels can discuss bulk requirements based on quantity,
-                  garment style, colours, sizes, artwork, branding requirements
-                  and delivery schedule.
-                </p>
-
-                <p>
-                  Requirements can also be planned for separate event teams
-                  such as organizers, volunteers, promoters, technical crews
-                  and coordinators.
-                </p>
-              </div>
-
-              <Link
-                href="/#contact"
-                className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {products.map((product) => (
+              <article
+                key={product.title}
+                className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
-                Submit Bulk Event Enquiry
-              </Link>
-            </div>
+                <h3 className="text-xl font-bold text-[#0B2341]">
+                  {product.title}
+                </h3>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {benefits.map((item) => (
-                <div
-                  key={item}
-                  className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm"
+                <p className="mt-4 leading-7 text-slate-600">
+                  {product.text}
+                </p>
+
+                <Link
+                  href="/#contact"
+                  className="mt-5 inline-flex font-bold text-[#0B2341] hover:text-[#C49A00]"
                 >
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0B2341] text-sm font-bold text-white">
-                    ✓
-                  </span>
-
-                  <span className="font-medium text-slate-700">{item}</span>
-                </div>
-              ))}
-            </div>
+                  Request information →
+                </Link>
+              </article>
+            ))}
           </div>
         </section>
 
-        {/* EVENT TYPES */}
+        {/* BULK ENQUIRIES */}
         <section className="bg-[#0B2341] text-white">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
-                  Events We Support
+                  Bulk Event Enquiries
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-                  T-Shirt Manufacturing for Different Event Categories
+                  Bulk T-Shirt Manufacturing for Event Management Companies
                 </h2>
 
-                <p className="mt-6 leading-8 text-slate-300">
-                  Event T-shirts can be developed for corporate programs,
-                  promotional campaigns, conferences, exhibitions, sports
-                  programs, educational events and other organized activities.
-                </p>
+                <div className="mt-6 space-y-5 leading-8 text-slate-300">
+                  <p>
+                    Event companies may need hundreds or thousands of T-shirts
+                    for different teams, campaigns or event activities.
+                    Coordinated bulk manufacturing helps maintain consistency
+                    across the complete event apparel program.
+                  </p>
+
+                  <p>
+                    TES Apparels can discuss requirements based on quantity,
+                    garment type, fabric, colours, sizes, event artwork,
+                    sponsor logos and delivery schedule.
+                  </p>
+
+                  <p>
+                    Share your event requirement with us to discuss the
+                    suitable apparel and branding options.
+                  </p>
+                </div>
+
+                <Link
+                  href="/#contact"
+                  className="mt-7 inline-flex rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+                >
+                  Submit Bulk Event Enquiry
+                </Link>
               </div>
 
-              <div className="flex flex-wrap gap-3">
-                {eventTypes.map((item) => (
-                  <span
+              <div className="grid gap-4 sm:grid-cols-2">
+                {benefits.map((item) => (
+                  <div
                     key={item}
-                    className="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-slate-200"
+                    className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
                   >
-                    {item}
-                  </span>
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
+                      ✓
+                    </span>
+
+                    <span className="font-medium text-slate-200">
+                      {item}
+                    </span>
+                  </div>
                 ))}
               </div>
             </div>
           </div>
         </section>
 
-        {/* CUSTOMIZATION */}
+        {/* EVENT TEAMS */}
         <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Event T-Shirt Customization
+                Event Teams
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Customize T-Shirts With Event, Company & Sponsor Branding
+                Customized T-Shirts for Event Staff, Crews & Volunteers
               </h2>
 
-              <p className="mt-6 leading-8 text-slate-600">
-                Event management companies can customize T-shirts with event
-                names, logos, company branding, sponsor logos, team names,
-                artwork and other approved designs.
-              </p>
+              <div className="mt-6 space-y-5 leading-8 text-slate-600">
+                <p>
+                  Large events often involve multiple teams with different
+                  responsibilities. Branded T-shirts can help identify teams
+                  and create a coordinated professional appearance.
+                </p>
 
-              <p className="mt-5 leading-8 text-slate-600">
-                Branding methods can be selected according to the garment,
-                artwork, fabric and intended application.
-              </p>
-
-              <Link
-                href="/t-shirt-printing"
-                className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
-              >
-                Explore T-Shirt Printing
-              </Link>
+                <p>
+                  Different colours, designs or identifiers can be considered
+                  for different groups depending on the event structure.
+                </p>
+              </div>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {customizationOptions.map((item) => (
-                <div
-                  key={item}
-                  className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4"
+            <div className="flex flex-wrap gap-3">
+              {eventTeams.map((team) => (
+                <span
+                  key={team}
+                  className="rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm"
                 >
-                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#C49A00] text-sm font-bold text-white">
-                    ✓
-                  </span>
-
-                  <span className="font-medium text-slate-700">{item}</span>
-                </div>
+                  {team}
+                </span>
               ))}
             </div>
           </div>
         </section>
 
-        {/* TEAM IDENTIFICATION */}
+        {/* CUSTOMIZATION */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                  Event Crew Apparel
+                  Event T-Shirt Customization
                 </p>
 
                 <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                  Branded T-Shirts for Event Staff, Crew & Volunteers
+                  Customize Event T-Shirts With Your Branding
                 </h2>
 
-                <div className="mt-6 space-y-5 leading-8 text-slate-600">
-                  <p>
-                    Event staff need to be easily identifiable during large
-                    gatherings. Consistent branded T-shirts can help visitors
-                    recognize event teams and operational personnel.
-                  </p>
+                <p className="mt-6 leading-8 text-slate-600">
+                  Event T-shirts can be customized with company branding,
+                  event logos, sponsor logos, campaign artwork, staff
+                  identifiers and other approved artwork.
+                </p>
 
-                  <p>
-                    Different colours or branding can be considered for
-                    organizers, volunteers, promoters, technical teams,
-                    registration teams and other event departments.
-                  </p>
-
-                  <p>
-                    This makes customized event apparel useful for conferences,
-                    exhibitions, corporate events, promotional activations and
-                    public events.
-                  </p>
-                </div>
-              </div>
-
-              <div className="rounded-2xl bg-white p-8 shadow-lg">
-                <h3 className="text-2xl font-bold text-[#0B2341]">
-                  Planning Event Crew T-Shirts?
-                </h3>
-
-                <p className="mt-4 leading-7 text-slate-600">
-                  Share your event date, approximate quantity, T-shirt
-                  requirements, team sizes, colours and branding artwork with
-                  TES Apparels.
+                <p className="mt-5 leading-8 text-slate-600">
+                  Branding methods can be selected based on the garment,
+                  fabric, artwork, quantity and intended application.
                 </p>
 
                 <Link
-                  href="/#contact"
-                  className="mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+                  href="/t-shirt-printing"
+                  className="mt-7 inline-flex rounded-lg bg-[#0B2341] px-6 py-3 font-bold text-white transition hover:bg-[#123762]"
                 >
-                  Request Event T-Shirt Quote
+                  Explore T-Shirt Printing
                 </Link>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                {customizationOptions.map((item) => (
+                  <div
+                    key={item}
+                    className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm"
+                  >
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#0B2341] text-sm font-bold text-white">
+                      ✓
+                    </span>
+
+                    <span className="font-medium text-slate-700">
+                      {item}
+                    </span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -783,12 +843,13 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
             </p>
 
             <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-              Choose T-Shirt Fabrics Based on the Event Requirement
+              Select Event T-Shirt Fabrics Based on Your Requirement
             </h2>
 
             <p className="mt-5 leading-7 text-slate-600">
               Fabric selection can depend on event duration, climate,
-              comfort, appearance, activity level, budget and intended use.
+              participant activity, comfort, appearance, budget and intended
+              use.
             </p>
           </div>
 
@@ -797,22 +858,22 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
               {
                 title: "Cotton",
                 text:
-                  "Comfort-focused options suitable for general event staff and promotional T-shirts.",
+                  "Comfort-focused options suitable for promotional events, corporate activities and general event apparel.",
               },
               {
                 title: "Poly Cotton",
                 text:
-                  "Suitable for event apparel where durability and easy maintenance are important.",
+                  "Suitable for event teams requiring a balance of comfort, durability and easy maintenance.",
               },
               {
-                title: "Dri-Fit",
+                title: "Performance Fabrics",
                 text:
-                  "Performance-oriented options suitable for outdoor events, sports programs and active crews.",
+                  "Suitable for sports events, marathons, fitness activities and active event teams.",
               },
               {
                 title: "Polo T-Shirts",
                 text:
-                  "A more formal option for corporate events, exhibitions and professional event teams.",
+                  "A professional option for corporate events, hospitality teams, coordinators and event management staff.",
               },
             ].map((item) => (
               <div
@@ -831,43 +892,144 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
           </div>
         </section>
 
+        {/* SPONSOR BRANDING */}
+        <section className="bg-[#0B2341] text-white">
+          <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#E4C65A]">
+                  Event Branding
+                </p>
+
+                <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+                  Event Logos, Sponsor Logos & Campaign Branding
+                </h2>
+
+                <p className="mt-6 leading-8 text-slate-300">
+                  Event apparel can carry the event identity as well as
+                  approved sponsor, partner or company branding.
+                </p>
+
+                <p className="mt-5 leading-8 text-slate-300">
+                  Artwork, logo placement and branding methods can be discussed
+                  according to the selected garment and event requirements.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
+                <h3 className="text-2xl font-bold">
+                  Planning Event T-Shirts?
+                </h3>
+
+                <p className="mt-4 leading-7 text-slate-300">
+                  Share your event name, approximate quantity, T-shirt
+                  requirements, artwork, sponsor logos, preferred sizes and
+                  delivery location with TES Apparels.
+                </p>
+
+                <Link
+                  href="/#contact"
+                  className="mt-7 inline-flex w-full items-center justify-center rounded-lg bg-[#C49A00] px-6 py-3 font-bold text-white transition hover:bg-[#A98200]"
+                >
+                  Request an Event Quote
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* PROCESS */}
+        <section className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+              Event T-Shirt Manufacturing Process
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+              From Event Brief to Finished T-Shirts
+            </h2>
+
+            <p className="mt-5 leading-7 text-slate-600">
+              A structured process helps event companies coordinate apparel
+              requirements and production specifications.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+            {processSteps.map((step) => (
+              <div
+                key={step.number}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              >
+                <span className="text-3xl font-black text-[#C49A00]">
+                  {step.number}
+                </span>
+
+                <h3 className="mt-4 text-lg font-bold text-[#0B2341]">
+                  {step.title}
+                </h3>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  {step.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* WHY TES */}
         <section className="bg-slate-50">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:px-10 lg:py-20">
-            <div className="mx-auto max-w-3xl text-center">
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
-                Manufacturing Process
-              </p>
+            <div className="grid gap-12 lg:grid-cols-2">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#C49A00]">
+                  Why TES Apparels
+                </p>
 
-              <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                From Event Requirement to Finished T-Shirts
-              </h2>
+                <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
+                  Event Apparel Manufacturing Partner in Bangalore
+                </h2>
 
-              <p className="mt-5 leading-7 text-slate-600">
-                A structured process helps event companies coordinate garment
-                production, branding and delivery around their event schedule.
-              </p>
-            </div>
+                <p className="mt-6 leading-8 text-slate-600">
+                  TES Apparels focuses on customized apparel requirements where
+                  consistent specifications, event branding, multiple sizes
+                  and bulk production are important.
+                </p>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-              {processSteps.map((step) => (
-                <div
-                  key={step.number}
-                  className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-                >
-                  <span className="text-3xl font-black text-[#C49A00]">
-                    {step.number}
-                  </span>
+                <p className="mt-5 leading-8 text-slate-600">
+                  Event management companies, agencies, organizers and
+                  production teams can discuss requirements for event staff
+                  T-shirts, promotional apparel, sports event clothing and
+                  other customized event merchandise.
+                </p>
+              </div>
 
-                  <h3 className="mt-4 text-lg font-bold text-[#0B2341]">
-                    {step.title}
-                  </h3>
+              <div className="space-y-4">
+                {[
+                  "Bangalore-based apparel manufacturer",
+                  "Bulk event T-shirt manufacturing",
+                  "Event management company requirements",
+                  "Event crew and staff T-shirts",
+                  "Promotional T-shirts",
+                  "Corporate event apparel",
+                  "Sponsor logo branding",
+                  "Printing and embroidery support",
+                  "PAN India delivery support",
+                ].map((item) => (
+                  <div
+                    key={item}
+                    className="flex items-center gap-4 rounded-xl bg-white p-4 shadow-sm"
+                  >
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#C49A00] font-bold text-white">
+                      ✓
+                    </span>
 
-                  <p className="mt-3 text-sm leading-7 text-slate-600">
-                    {step.text}
-                  </p>
-                </div>
-              ))}
+                    <span className="font-semibold text-slate-700">
+                      {item}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
@@ -881,25 +1043,28 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
               </p>
 
               <h2 className="mt-3 text-3xl font-bold text-[#0B2341] sm:text-4xl">
-                Event T-Shirt Manufacturer Serving Bangalore & Bengaluru
+                Event T-Shirt Manufacturer Serving Event Companies Across
+                Bengaluru
               </h2>
 
               <div className="mt-6 space-y-5 leading-8 text-slate-600">
                 <p>
                   TES Apparels is located in Basaveshwar Nagar, Bengaluru,
-                  Karnataka and supports event management companies and
-                  organizations requiring customized event apparel.
+                  Karnataka. We support event management companies, agencies,
+                  organizers and businesses looking for customized event
+                  apparel.
                 </p>
 
                 <p>
-                  Our location enables us to work with event agencies,
-                  corporate organizations, conference organizers, exhibition
-                  companies and promotional teams across Bangalore.
+                  Our Bangalore location enables us to support event companies
+                  across the city while also serving customers across Karnataka
+                  and other parts of India.
                 </p>
 
                 <p>
-                  We also support customers across Karnataka and other parts of
-                  India through PAN India delivery.
+                  Whether you require event crew T-shirts, staff apparel,
+                  promotional T-shirts, corporate event clothing or sports
+                  event apparel, you can share your requirement with our team.
                 </p>
               </div>
 
@@ -929,7 +1094,9 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
             </div>
 
             <aside className="rounded-2xl bg-[#0B2341] p-8 text-white shadow-xl">
-              <h3 className="text-2xl font-bold">TES Apparels</h3>
+              <h3 className="text-2xl font-bold">
+                TES Apparels
+              </h3>
 
               <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
                 <p>
@@ -963,7 +1130,9 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
                 </p>
 
                 <p>
-                  <strong className="text-white">Business Hours:</strong>
+                  <strong className="text-white">
+                    Business Hours:
+                  </strong>
                   <br />
                   Monday – Saturday
                   <br />
@@ -1057,8 +1226,8 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-              Share your event type, approximate quantity, preferred T-shirt
-              style, sizes, colours, branding requirements and delivery
+              Share your event details, approximate T-shirt quantity, preferred
+              garment, sizes, colours, artwork, sponsor logos and delivery
               location with TES Apparels.
             </p>
 
@@ -1067,7 +1236,7 @@ export default function EventManagementCompanyTShirtManufacturerBangalorePage() 
                 href="/#contact"
                 className="rounded-lg bg-[#C49A00] px-8 py-4 font-bold text-white transition hover:bg-[#A98200]"
               >
-                Request Event T-Shirt Quote
+                Request Bulk Event Quote
               </Link>
 
               <a
