@@ -70,19 +70,19 @@ export default function Contact() {
     switch (name) {
 
       case "fullName":
-        return validateName(value)
-        
-      case "companyName":
-        return validateCompany(value)
-      
-      case "email":
-        return validateEmail(value)
-       
-      case "mobile":
-  return validatePhone(value);
+  return validateName(value) ?? "";
 
-  case "message":
-      return validateMessage(value);
+case "companyName":
+  return validateCompany(value) ?? "";
+
+case "email":
+  return validateEmail(value) ?? "";
+
+case "mobile":
+  return validatePhone(value) ?? "";
+
+case "message":
+  return validateMessage(value) ?? "";
 
       case "city":
         return value.trim().length >= 2
