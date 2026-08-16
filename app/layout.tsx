@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-const siteUrl = "https://www.tesapparels.com";
+const siteUrl = "https://tesapparels.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "TES Apparels | Corporate & Sports Apparel Manufacturer in India",
+    default:
+      "TES Apparels | Corporate & Sports Apparel Manufacturer in India",
     template: "%s | TES Apparels",
   },
 
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
     "Sports Apparel",
     "Customized Apparel",
     "Bulk T-Shirt Manufacturer",
+    "T Shirt Manufacturer",
+    "T Shirt Manufacturer in Bangalore",
+    "T Shirt Manufacturers in Karnataka",
     "Bangalore",
     "India",
   ],
@@ -43,6 +47,12 @@ export const metadata: Metadata = {
   category: "Business",
   applicationName: "TES Apparels",
 
+  /*
+   * CANONICAL URL
+   *
+   * The preferred domain for TES Apparels is:
+   * https://tesapparels.com
+   */
   alternates: {
     canonical: "/",
   },
@@ -77,7 +87,8 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "TES Apparels - Corporate and Sports Apparel Manufacturer",
+        alt:
+          "TES Apparels - Corporate and Sports Apparel Manufacturer",
       },
     ],
   },
