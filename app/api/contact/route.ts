@@ -3,6 +3,10 @@ import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   try {
+    // --------------------------------------------------
+    // Resend API Key
+    // --------------------------------------------------
+
     const apiKey = process.env.RESEND_API_KEY;
 
     if (!apiKey) {
@@ -19,6 +23,10 @@ export async function POST(req: Request) {
 
     const resend = new Resend(apiKey);
 
+    // --------------------------------------------------
+    // Read request body
+    // --------------------------------------------------
+
     const body = await req.json();
 
     const {
@@ -33,7 +41,10 @@ export async function POST(req: Request) {
       message,
     } = body;
 
-    // Validate required fields
+    // --------------------------------------------------
+    // Required field validation
+    // --------------------------------------------------
+
     if (
       !fullName?.trim() ||
       !email?.trim() ||
@@ -53,7 +64,10 @@ export async function POST(req: Request) {
       );
     }
 
+    // --------------------------------------------------
     // Email validation
+    // --------------------------------------------------
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email)) {
@@ -66,11 +80,17 @@ export async function POST(req: Request) {
       );
     }
 
+    // --------------------------------------------------
     // Business email
-    const businessEmail = process.env.CONTACT_EMAIL;
+    // IMPORTANT:
+    // Vercel environment variable:
+    // BUSINESS_EMAIL = chidu2742@gmail.com
+    // --------------------------------------------------
+
+    const businessEmail = process.env.BUSINESS_EMAIL;
 
     if (!businessEmail) {
-      console.error("❌ CONTACT_EMAIL is missing");
+      console.error("❌ BUSINESS_EMAIL is missing");
 
       return NextResponse.json(
         {
@@ -81,7 +101,10 @@ export async function POST(req: Request) {
       );
     }
 
-    // Generate Reference ID
+    // --------------------------------------------------
+    // Generate enquiry reference ID
+    // --------------------------------------------------
+
     const now = new Date();
 
     const referenceId = `TES-${now.getFullYear()}${String(
@@ -91,17 +114,30 @@ export async function POST(req: Request) {
       "0"
     )}-${Math.floor(1000 + Math.random() * 9000)}`;
 
-    // Send email
+    // --------------------------------------------------
+    // Send enquiry email
+    // --------------------------------------------------
+
     const { error } = await resend.emails.send({
       from: "TES Apparels <onboarding@resend.dev>",
 
+      // Enquiries go to:
+      // chidu2742@gmail.com
       to: businessEmail,
 
+      // Replying from Gmail will reply to the customer
       replyTo: email,
 
       subject: `New Enquiry | ${product} | ${referenceId}`,
 
+      // ------------------------------------------------
+      // Plain text email
+      // ------------------------------------------------
+
       text: `
+TES APPARELS
+New Website Enquiry
+
 Reference ID : ${referenceId}
 
 Name         : ${fullName}
@@ -116,7 +152,17 @@ Quantity     : ${quantity}
 Message
 -------
 ${message}
+
+------------------------------------------
+TES Apparels
+Corporate & Sports Apparel Manufacturer
+Bengaluru, India
+------------------------------------------
       `,
+
+      // ------------------------------------------------
+      // HTML email
+      // ------------------------------------------------
 
       html: `
         <div
@@ -124,9 +170,12 @@ ${message}
             font-family: Arial, sans-serif;
             max-width: 700px;
             margin: 0 auto;
-            color: #333;
+            color: #333333;
+            background: #ffffff;
           "
         >
+
+          <!-- Header -->
 
           <div
             style="
@@ -135,6 +184,7 @@ ${message}
               text-align: center;
             "
           >
+
             <h2
               style="
                 color: #ffffff;
@@ -150,18 +200,29 @@ ${message}
                 color: #C49A00;
                 margin: 8px 0 0;
                 font-size: 14px;
+                font-weight: bold;
               "
             >
               New Website Enquiry
             </p>
+
           </div>
+
+          <!-- Main Content -->
 
           <div style="padding: 24px;">
 
-            <p style="font-size: 15px;">
+            <p
+              style="
+                font-size: 15px;
+                line-height: 1.6;
+              "
+            >
               A new enquiry has been received from the
               TES Apparels website.
             </p>
+
+            <!-- Enquiry Details -->
 
             <table
               cellpadding="10"
@@ -169,7 +230,7 @@ ${message}
               style="
                 border-collapse: collapse;
                 width: 100%;
-                border: 1px solid #ddd;
+                border: 1px solid #dddddd;
                 font-size: 14px;
               "
             >
@@ -177,7 +238,7 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                     width: 35%;
                   "
@@ -185,7 +246,7 @@ ${message}
                   <strong>Reference ID</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${referenceId}
                 </td>
               </tr>
@@ -193,14 +254,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Name</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${fullName}
                 </td>
               </tr>
@@ -208,14 +269,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Company</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${companyName || "-"}
                 </td>
               </tr>
@@ -223,14 +284,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Email</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${email}
                 </td>
               </tr>
@@ -238,14 +299,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Mobile</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${mobile}
                 </td>
               </tr>
@@ -253,14 +314,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>City</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${city}
                 </td>
               </tr>
@@ -268,14 +329,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>State</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${state}
                 </td>
               </tr>
@@ -283,14 +344,14 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Product</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${product}
                 </td>
               </tr>
@@ -298,23 +359,26 @@ ${message}
               <tr>
                 <td
                   style="
-                    border: 1px solid #ddd;
+                    border: 1px solid #dddddd;
                     background: #f7f7f7;
                   "
                 >
                   <strong>Estimated Quantity</strong>
                 </td>
 
-                <td style="border: 1px solid #ddd;">
+                <td style="border: 1px solid #dddddd;">
                   ${quantity}
                 </td>
               </tr>
 
             </table>
 
+            <!-- Customer Message -->
+
             <h3
               style="
                 margin-top: 30px;
+                margin-bottom: 12px;
                 color: #0B2341;
               "
             >
@@ -328,20 +392,45 @@ ${message}
                 border-left: 4px solid #C49A00;
                 white-space: pre-wrap;
                 line-height: 1.6;
+                font-size: 14px;
               "
             >
               ${message}
             </div>
 
+            <!-- Reference -->
+
+            <div
+              style="
+                margin-top: 25px;
+                padding: 15px;
+                background: #fff8dc;
+                border-radius: 6px;
+              "
+            >
+
+              <strong style="color: #0B2341;">
+                Enquiry Reference:
+              </strong>
+
+              <span>
+                ${referenceId}
+              </span>
+
+            </div>
+
           </div>
+
+          <!-- Footer -->
 
           <div
             style="
               background: #0B2341;
-              padding: 16px;
+              padding: 18px;
               text-align: center;
             "
           >
+
             <p
               style="
                 color: #ffffff;
@@ -351,11 +440,26 @@ ${message}
             >
               TES Apparels | Corporate & Sports Apparel Manufacturer
             </p>
+
+            <p
+              style="
+                color: #C49A00;
+                margin: 6px 0 0;
+                font-size: 11px;
+              "
+            >
+              Bengaluru, India
+            </p>
+
           </div>
 
         </div>
       `,
     });
+
+    // --------------------------------------------------
+    // Resend error handling
+    // --------------------------------------------------
 
     if (error) {
       console.error("❌ Resend Error:", error);
@@ -368,6 +472,10 @@ ${message}
         { status: 500 }
       );
     }
+
+    // --------------------------------------------------
+    // Success
+    // --------------------------------------------------
 
     return NextResponse.json({
       success: true,
